@@ -11,7 +11,7 @@ from you, for example Moxfield's text export. The reference deck is
 [Thumbless kitten plays with fish](https://moxfield.com/decks/I4JbQfOqskG3emXagxm6aA)
 (Thrasios, Triton Hero / Krark, the Thumbless).
 
-Only Ruby 3.2+ is required. No gems are needed to run it; `rspec` is only for the test suite.
+Only Ruby is required (developed on 4.0.9, see `.ruby-version`; 3.2+ works). No gems are needed to run it; `rspec` is only for the test suite.
 
 ## Quick start
 
