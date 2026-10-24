@@ -1,0 +1,100 @@
+c|1|Krark, the Thumbless
+c|1|Thrasios, Triton Hero
+m|1|Alchemist's Refuge
+m|1|An Offer You Can't Refuse
+m|1|Ancient Tomb
+m|1|Arid Mesa
+m|1|Ashling, Flame Dancer
+m|1|Badgermole Cub
+m|1|Biomancer's Familiar
+m|1|Birds of Paradise
+m|1|Birgi, God of Storytelling // Harnfel, Horn of Bounty
+m|1|Bloodstained Mire
+m|1|Boseiju, Who Endures
+m|1|Brain Freeze
+m|1|Breeding Pool
+m|1|Candelabra of Tawnos
+m|1|Chain of Vapor
+m|1|Chord of Calling
+m|1|City of Brass
+m|1|Command Tower
+m|1|Crop Rotation
+m|1|Deflecting Swat
+m|1|Delighted Halfling
+m|1|Deserted Temple
+m|1|Displacer Kitten
+m|1|Dualcaster Mage
+m|1|Elvish Spirit Guide
+m|1|Emerald Charm
+m|1|Enduring Vitality
+m|1|Essence Flux
+m|1|Eternal Witness
+m|1|Expedition Map
+m|1|Fierce Guardianship
+m|1|Flooded Strand
+m|1|Flusterstorm
+m|1|Formidable Speaker
+m|1|Gaea's Cradle
+m|1|Gamble
+m|1|Gemstone Caverns
+m|1|Gene Pollinator
+m|1|Gitaxian Probe
+m|1|Goblin Anarchomancer
+m|1|Grapeshot
+m|1|Gut Shot
+m|1|Harmonic Prodigy
+m|1|Irma, Part-Time Mutant
+m|1|Jeska's Will
+m|1|Kinnan, Bonder Prodigy
+m|1|Land Grant
+m|1|Lion's Eye Diamond
+m|1|Lotus Petal
+m|1|Mana Vault
+m|1|Manamorphose
+m|1|Mental Misstep
+m|1|Minamo, School at Water's Edge
+m|1|Mindbreak Trap
+m|1|Misty Rainforest
+m|1|Mogg Salvage
+m|1|Molt Tender
+m|1|Mox Amber
+m|1|Mox Diamond
+m|1|Mystic Remora
+m|1|Mystical Tutor
+m|1|Noxious Revival
+m|1|Otawara, Soaring City
+m|1|Pact of Negation
+m|1|Pia, Aether Ascetic
+m|1|Polluted Delta
+m|1|Rhystic Study
+m|1|Rite of Flame
+m|1|Scalding Tarn
+m|1|Seedborn Muse
+m|1|Shang-Chi, Master of Kung Fu
+m|1|Shifting Woodland
+m|1|Snap
+m|1|Sol Ring
+m|1|Spellseeker
+m|1|Springleaf Drum
+m|1|Steam Vents
+m|1|Step Through
+m|1|Stomping Ground
+m|1|Storm-Kiln Artist
+m|1|Submerge
+m|1|Summoner's Pact
+m|1|Taiga
+m|1|Tavern Scoundrel
+m|1|The Unbeatable Squirrel Girl
+m|1|Trinket Mage
+m|1|Tropical Island
+m|1|Twinflame
+m|1|Underworld Breach
+m|1|Urza's Saga
+m|1|Veil of Summer
+m|1|Veyran, Voice of Duality
+m|1|Vibrance
+m|1|Volcanic Island
+m|1|Windswept Heath
+m|1|Wooded Foothills
+m|1|Worldly Tutor
+m|1|Yavimaya, Cradle of Growth

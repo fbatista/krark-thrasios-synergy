@@ -1,0 +1,6 @@
+---
+name: Mystical Tutor
+roles:
+- finds_instant_sorcery
+- puts_card_on_top
+- witness_target

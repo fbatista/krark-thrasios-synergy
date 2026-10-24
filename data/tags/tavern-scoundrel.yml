@@ -1,0 +1,16 @@
+---
+name: Tavern Scoundrel
+roles:
+- breach_payoff
+- coin_flip_payoff
+- copy_worthy_creature
+- creature_ability_mana_cost
+- creature_tap_ability
+- key_piece
+- nonland_mana_source
+- repeatable_mana
+- repeatable_trigger_creature
+- sac_outlet
+- treasure_maker
+- treasure_payoff
+- untap_worthy_permanent

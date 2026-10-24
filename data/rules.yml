@@ -1,0 +1,278 @@
+# Synergy rules. Every card matching selector `a` has synergy with every card matching `b`.
+# A selector is a role, a list of roles (all required), or {all:, any:, none:}.
+# Role names are documented in data/roles.yml. Reasons end up in synergy_pairs.csv.
+
+# --- spells, casting, copying -------------------------------------------------------------
+- reason: copies instants/sorceries
+  a: copies_spells
+  b: instant_sorcery
+- reason: triggers on casting an instant/sorcery
+  a: cast_trigger_inst_sorc
+  b: instant_sorcery
+- reason: triggers on casting any noncreature spell
+  a: cast_trigger_noncreature
+  b: noncreature_spell
+- reason: magecraft also triggers on copies
+  a: magecraft
+  b: copies_spells
+- reason: doubles Wizard/Shaman triggers
+  a: doubles_wizard_shaman_triggers
+  b: wizard_shaman_trigger
+- reason: doubles cast/copy-caused triggers
+  a: doubles_cast_triggers
+  b: { any: [cast_trigger_permanent, copies_spells] }
+- reason: doubles the equipped creature's triggers
+  a: doubles_equipped_triggers
+  b: repeatable_trigger_creature
+- reason: cheap equip on a Wizard
+  a: equips_wizards_cheaply
+  b: wizard
+- reason: trigger doublers stack
+  a: trigger_doubler
+  b: trigger_doubler
+- reason: coin flips -> Treasures
+  a: coin_flipper
+  b: coin_flip_payoff
+- reason: returned spell gets recast -> more cast triggers
+  a: returns_spells_to_hand
+  b: recast_payoff
+- reason: needs/cares about a commander
+  a: commander_matters
+  b: commander
+- reason: cares about legendary creatures
+  a: legendary_matters
+  b: legendary_creature
+- reason: mana for a legendary spell
+  a: legendary_spell_enabler
+  b: legendary_noncreature_spell
+- reason: untaps a legendary permanent
+  a: untaps_legendary
+  b: untap_worthy_legendary
+- reason: "Veil makes your spells uncounterable: Offer still gives Treasures and the spell resolves"
+  a: self_counter_for_treasure
+  b: uncounterable_own_spells
+- reason: spell copies are free targets for Offer
+  a: self_counter_for_treasure
+  b: { any: [storm_payoff, copies_spells] }
+- reason: "counter your own Pact: 2 Treasures, no upkeep payment"
+  a: self_counter_for_treasure
+  b: pact
+- reason: storm count / spell chaining
+  a: storm_payoff
+  b: { any: [mv_le_1, free_alt_cost, net_free_spell, ritual] }
+- reason: each cheap spell feeds a per-spell payoff
+  a: spell_count_payoff
+  b: { any: [mv_le_1, free_alt_cost, net_free_spell, storm_payoff] }
+- reason: red mana doesn't empty from the pool
+  a: keeps_red_mana
+  b: red_mana_producer
+- reason: cast sorceries at instant speed
+  a: grants_flash
+  b: sorcery
+- reason: hasty tokens convoke
+  a: convoke
+  b: hasty_token_maker
+- reason: win more coin flips
+  a: coin_flip_improver
+  b: { any: [coin_flipper, coin_flip_payoff] }
+- reason: better with a Wizard
+  a: wizard_matters
+  b: wizard
+- reason: copy a valuable trigger or activation
+  a: copies_abilities
+  b: { any: [cast_trigger_permanent, mana_sink] }
+- reason: name sticker vowels -> red mana
+  a: sticker_sheet
+  b: uses_stickers
+
+# --- creatures, ETB, copies ---------------------------------------------------------------
+- reason: re-trigger ETB (flicker/bounce)
+  a: etb_creature
+  b: { any: [flicker, bounces_own_creature] }
+- reason: flicker to untap/reset a permanent
+  a: flickers_own_permanents
+  b: flicker_reset_target
+- reason: bounce your own permanent to reset it
+  a: bounces_own_nonland_permanent
+  b: wants_reset
+- reason: Dualcaster copies the flicker spell -> repeatable ETB loop
+  a: flicker_spell
+  b: etb_spell_copier
+- reason: hasty token copies of nonlegendary creatures
+  a: copies_nonlegendary_creatures
+  b: nonlegendary_creature
+- reason: infinite hasty Dualcasters combo
+  a: copies_nonlegendary_creatures
+  b: etb_spell_copier
+- reason: Irma copies a strong creature
+  a: copies_creature_in_play
+  b: copy_worthy_creature
+- reason: extra copies stack the static effect
+  a: stacks_when_copied
+  b: creature_copier
+- reason: creature activated ability costs {2} less
+  a: reduces_creature_abilities
+  b: creature_ability_reducible
+- reason: red/green spell with generic cost -> costs {1} less
+  a: reduces_red_green_spells
+  b: { all: [nonland, red_or_green, generic_in_cost], none: commander }
+- reason: finds an enchantment card
+  a: finds_enchantment
+  b: enchantment
+- reason: use {T} ability the turn the creature arrives
+  a: grants_tap_haste
+  b: creature_tap_ability
+- reason: restricted mana pays for the creature's ability
+  a: pays_creature_abilities
+  b: creature_ability_mana_cost
+- reason: creature tokens feed creature-count payoffs
+  a: token_maker
+  b: creature_count_payoff
+- reason: tokens are sac fodder
+  a: sac_outlet
+  b: { any: [token_maker, hasty_token_maker] }
+- reason: sacrifice a permanent you no longer need
+  a: sac_outlet
+  b: wants_sacrifice
+- reason: scales with / uses creatures
+  a: creature_count_payoff
+  b: creature
+- reason: animated land counts as a creature
+  a: animates_land
+  b: creature_count_payoff
+- reason: sacrifice a token as the cost
+  a: creature_sac_outlet
+  b: { any: [token_maker, hasty_token_maker] }
+- reason: untap a creature to use its {T} ability again
+  a: untaps_creature
+  b: creature_tap_ability
+- reason: finds a creature with power 2 or less
+  a: finds_small_creature
+  b: { all: [creature, power_le_2], none: commander }
+
+# --- mana ---------------------------------------------------------------------------------
+- reason: nonland permanent tapped for mana -> extra mana
+  a: doubles_nonland_mana
+  b: nonland_mana_source
+- reason: mana engine pieces
+  a: doubles_nonland_mana
+  b: creature_mana_enabler
+- reason: creature tapped for mana -> extra {G}
+  a: creature_tap_mana_payoff
+  b: creature_dork
+- reason: mana source feeds a mana sink
+  a: mana_sink
+  b: { any: [repeatable_mana, big_burst_mana] }
+- reason: untap a valuable permanent
+  a: untaps_permanent
+  b: untap_worthy_permanent
+- reason: untap a valuable land
+  a: untaps_land
+  b: untap_worthy_land
+- reason: untap every turn cycle / act on others' turns
+  a: untaps_all_each_turn
+  b: wants_untap_each_turn
+- reason: Treasure/artifact synergy
+  a: treasure_maker
+  b: treasure_payoff
+- reason: artifact count grows Constructs
+  a: construct_maker
+  b: artifact
+- reason: finds a utility land
+  a: finds_utility_land
+  b: utility_land
+- reason: land card in hand to discard
+  a: wants_land_in_hand
+  b: puts_land_in_hand
+- reason: finds a Forest card
+  a: finds_forest
+  b: forest_land
+- reason: sacrifice a spent land as the cost
+  a: sacrifices_land_as_cost
+  b: { any: [fetchland, spent_land] }
+- reason: enters untapped with a Forest
+  a: enters_untapped_with_forest
+  b: { any: [forest_land, makes_lands_forests] }
+- reason: every land is a Forest -> free
+  a: makes_lands_forests
+  b: free_if_opponent_forest
+- reason: control an Island -> free
+  a: free_if_control_island
+  b: island_land
+- reason: control a Mountain -> free
+  a: free_if_control_mountain
+  b: mountain_land
+- reason: control a Forest -> free
+  a: free_if_control_forest
+  b: { any: [forest_land, makes_lands_forests] }
+- reason: extra land entries trigger landfall
+  a: landfall
+  b: { any: [fetchland, puts_land_onto_battlefield] }
+- reason: more lands to play
+  a: extra_land_drop
+  b: puts_land_in_hand
+- reason: enchanted land gets tapped again and again
+  a: land_mana_enhancer
+  b: { any: [untaps_land, untap_worthy_land] }
+- reason: fetchable land type
+  a: fetches_plains
+  b: plains_land
+- reason: fetchable land type
+  a: fetches_island
+  b: island_land
+- reason: fetchable land type
+  a: fetches_swamp
+  b: swamp_land
+- reason: fetchable land type
+  a: fetches_mountain
+  b: mountain_land
+- reason: fetchable land type
+  a: fetches_forest
+  b: forest_land
+
+# --- graveyard, tutors, card flow --------------------------------------------------------
+- reason: cheap card to escape / graveyard fuel
+  a: recasts_from_graveyard
+  b: { any: [mv_le_2, graveyard_filler, breach_payoff] }
+- reason: LED discard/sac synergy
+  a: discards_hand_for_mana
+  b: led_partner
+- reason: returns a one-shot card / recovers a discarded card
+  a: recovers_graveyard_card
+  b: witness_target
+- reason: returns a one-shot card / recovers a discarded card
+  a: recovers_graveyard_card
+  b: { all: key_piece, any: [instant_sorcery, artifact] }
+- reason: copies a permanent in the graveyard / delirium
+  a: copies_graveyard_permanent
+  b: { any: [woodland_gy_target, fetchland, graveyard_filler] }
+- reason: tutor any card
+  a: tutor_any_card
+  b: key_piece
+- reason: recover the random discard
+  a: random_discard
+  b: recovers_discard
+- reason: put a card on top, then draw it
+  a: puts_card_on_top
+  b: draws_top_card
+- reason: finds any instant/sorcery
+  a: finds_instant_sorcery
+  b: instant_sorcery
+- reason: finds an instant/sorcery with MV<=2
+  a: finds_cheap_instant_sorcery
+  b: [instant_sorcery, mv_le_2]
+- reason: finds a creature
+  a: finds_creature
+  b: { all: creature, none: commander }
+- reason: finds a green creature
+  a: finds_green_creature
+  b: { all: [creature, green], none: commander }
+- reason: wizardcycling finds a Wizard
+  a: finds_wizard
+  b: { all: wizard, none: commander }
+- reason: finds an artifact with MV<=1
+  a: finds_cheap_artifact
+  b: [artifact, mv_le_1]
+- reason: chapter III finds a {0}/{1} artifact
+  a: finds_artifact_cost_0_1
+  b: [artifact, mana_cost_0_or_1]

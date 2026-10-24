@@ -1,0 +1,7 @@
+---
+name: Lotus Petal
+roles:
+- nonland_mana_source
+- ritual
+- witness_target
+- woodland_gy_target

@@ -1,0 +1,6 @@
+---
+name: Carpet of Flowers
+roles:
+- repeatable_mana
+notes: Free mana each main phase against blue decks; not tapped, so Kinnan does not
+  double it.

@@ -1,0 +1,177 @@
+# Role registry. Every role used in data/tags/*.yml or data/rules.yml must be listed here.
+# Derived roles (computed by the engine from type line / cost / rules text) are documented
+# at the bottom and must NOT be put in tag files.
+
+# --- spells, casting, copying -------------------------------------------------------------
+copies_spells: copies instant or sorcery spells (Krark, Dualcaster Mage, Narset's Reversal)
+cast_trigger_inst_sorc: has a trigger on casting an instant or sorcery
+magecraft: trigger on casting OR copying an instant or sorcery
+cast_trigger_noncreature: has a trigger on casting any noncreature spell
+cast_trigger_permanent: permanent with any cast trigger (what Veyran doubles)
+wizard_shaman_trigger: Wizard or Shaman with a triggered ability (what Harmonic Prodigy doubles)
+doubles_wizard_shaman_triggers: makes Wizard/Shaman triggers trigger twice
+doubles_cast_triggers: makes triggers caused by casting/copying instants and sorceries trigger twice
+doubles_equipped_triggers: makes the equipped creature's triggers trigger twice
+repeatable_trigger_creature: creature with a trigger worth doubling (Wizard's Staff targets)
+equips_wizards_cheaply: has a cheap equip cost for Wizards
+trigger_doubler: any "triggers an additional time" effect
+coin_flipper: flips coins
+coin_flip_payoff: rewards winning coin flips
+returns_spells_to_hand: can return your own spell to hand to be recast
+recast_payoff: benefits from the same cheap spell being cast again
+commander_matters: free or better if you control a commander
+legendary_matters: cares about legendary creatures you control
+legendary_spell_enabler: makes mana only for legendary spells
+untaps_legendary: untaps a legendary permanent
+untap_worthy_legendary: legendary permanent worth untapping
+self_counter_for_treasure: can counter your own spell for Treasures (An Offer You Can't Refuse)
+uncounterable_own_spells: makes your spells uncounterable
+pact: free spell with an upkeep payment (Pact of Negation, Summoner's Pact)
+storm_payoff: has storm or scales with spells cast this turn
+ritual: one-shot burst of mana
+free_alt_cost: alternative cost that is free (pitch, phyrexian, "without paying")
+net_free_spell: pays for itself (Manamorphose, Snap)
+spell_count_payoff: rewards every spell cast in a turn (mana, cards, exile-and-play)
+keeps_red_mana: red mana doesn't empty between steps
+red_mana_producer: produces red mana in bursts
+grants_flash: lets you cast sorceries at instant speed
+convoke: creatures can help cast it
+coin_flip_improver: flips extra coins (Krark's Thumb)
+wizard_matters: better if you control a Wizard
+copies_abilities: copies activated or triggered abilities
+sticker_sheet: Unfinity sticker sheet
+uses_stickers: puts a name sticker on itself (_____ Goblin)
+
+# --- creatures, ETB, copies ---------------------------------------------------------------
+etb_creature: creature with an enters-the-battlefield effect worth repeating
+flicker: exiles and returns your own permanent
+flickers_own_permanents: flickers permanents repeatedly (Displacer Kitten)
+flicker_reset_target: nonland permanent that gains from being flickered (untap, reset counters)
+flicker_spell: instant that flickers a creature
+etb_spell_copier: creature whose ETB copies a spell (Dualcaster Mage)
+bounces_own_creature: can return your own creature to hand to replay it
+bounces_own_nonland_permanent: can cheaply return your own nonland permanent to hand
+wants_reset: permanent that benefits from being returned to hand (Mystic Remora)
+copies_nonlegendary_creatures: makes token copies of your nonlegendary creatures
+hasty_token_maker: makes hasty creature tokens
+copies_creature_in_play: becomes a copy of another creature you control (Irma)
+copy_worthy_creature: creature whose text is worth copying
+creature_copier: copies creatures (Twinflame, Irma)
+stacks_when_copied: static effect that stacks with a second copy
+reduces_creature_abilities: reduces activation costs of your creatures' abilities
+creature_ability_reducible: creature activated ability with generic mana that can be reduced
+creature_ability_mana_cost: creature activated ability with a mana cost
+grants_tap_haste: lets creatures use {T} abilities the turn they arrive
+creature_tap_ability: creature with a {T} activated ability
+pays_creature_abilities: makes mana that can only pay for creature abilities
+reduces_red_green_spells: red and green spells cost less
+finds_enchantment: tutors an enchantment card
+token_maker: creates creature tokens repeatedly
+sac_outlet: sacrifices your permanents as a cost
+wants_sacrifice: permanent you are happy to sacrifice
+animates_land: turns a land into a creature
+creature_count_payoff: scales with the number of creatures you control
+creature_sac_outlet: sacrifices a creature as an additional cost
+untaps_creature: untaps target creature
+finds_small_creature: tutors a creature with power 2 or less
+
+# --- mana ---------------------------------------------------------------------------------
+nonland_mana_source: nonland permanent that taps or creates Treasures for mana (Kinnan doubles it)
+doubles_nonland_mana: adds mana when a nonland permanent is tapped for mana
+creature_mana_enabler: turns creatures into mana sources
+creature_dork: creature that taps for mana (or taps a creature for mana)
+creature_tap_mana_payoff: adds mana when a creature is tapped for mana
+repeatable_mana: produces mana every turn (feeds a mana sink)
+big_burst_mana: large one-shot mana
+mana_sink: repeatable ability that converts spare mana into value
+untaps_permanent: untaps target permanent
+untap_worthy_permanent: permanent worth untapping
+untaps_land: untaps lands
+untap_worthy_land: land worth untapping
+untaps_all_each_turn: untaps everything on each other player's untap step
+wants_untap_each_turn: benefits from untapping on every player's turn
+treasure_maker: creates Treasure tokens for you
+treasure_payoff: benefits from extra artifacts / Treasures (sac fodder, construct size)
+construct_maker: makes Constructs that grow with artifacts (Urza's Saga)
+utility_land: land worth tutoring for
+puts_land_in_hand: puts a land card into your hand
+wants_land_in_hand: wants a land card in hand to discard (Mox Diamond)
+finds_utility_land: tutors lands
+finds_forest: tutors a Forest card
+sacrifices_land_as_cost: sacrifices a land as an additional cost
+spent_land: land that will be sacrificed anyway
+enters_untapped_with_forest: enters untapped if you control a Forest
+makes_lands_forests: every land is a Forest
+free_if_opponent_forest: free if an opponent controls a Forest
+free_if_control_island: free if you control an Island
+free_if_control_mountain: free if you control a Mountain
+free_if_control_forest: free if you control a Forest
+landfall: triggers whenever a land enters under your control
+puts_land_onto_battlefield: puts a land onto the battlefield outside the normal land drop
+extra_land_drop: lets you play additional lands
+land_mana_enhancer: enchanted land makes extra mana when tapped
+
+# --- graveyard, tutors, card flow --------------------------------------------------------
+recasts_from_graveyard: lets you cast cards from your graveyard (Underworld Breach)
+breach_payoff: card that Underworld Breach loops want
+graveyard_filler: puts cards in your graveyard (discard, mill, sacrifice)
+discards_hand_for_mana: Lion's Eye Diamond
+led_partner: works with discarding your hand for mana
+recovers_graveyard_card: returns a card from the graveyard to hand (Eternal Witness)
+witness_target: one-shot card worth returning to hand
+key_piece: engine or combo piece worth tutoring for
+copies_graveyard_permanent: becomes a copy of a permanent card in your graveyard
+woodland_gy_target: permanent card worth copying from the graveyard
+tutor_any_card: unrestricted tutor
+random_discard: discards at random (Gamble)
+recovers_discard: gets a discarded card back or uses it from the graveyard
+puts_card_on_top: puts a chosen card on top of the library
+draws_top_card: draws or looks at the top card right away
+finds_instant_sorcery: tutors any instant or sorcery
+finds_cheap_instant_sorcery: tutors an instant or sorcery with mana value 2 or less
+finds_creature: tutors a creature
+finds_green_creature: tutors a green creature
+finds_wizard: tutors a Wizard
+finds_cheap_artifact: tutors an artifact with mana value 1 or less
+finds_artifact_cost_0_1: tutors an artifact with mana cost {0} or {1}
+
+# --- derived roles (documentation only; computed by lib/synergy/card.rb) ------------------
+land: { description: type line has Land, derived: true }
+nonland: { description: not a land, derived: true }
+creature: { description: type line has Creature, derived: true }
+noncreature_spell: { description: nonland and not a creature, derived: true }
+instant: { description: Instant, derived: true }
+sorcery: { description: Sorcery, derived: true }
+instant_sorcery: { description: Instant or Sorcery, derived: true }
+artifact: { description: nonland Artifact (either face), derived: true }
+enchantment: { description: Enchantment (incl. Urza's Saga), derived: true }
+legendary: { description: Legendary, derived: true }
+legendary_creature: { description: Legendary Creature, derived: true }
+nonlegendary_creature: { description: creature that is not legendary, derived: true }
+legendary_noncreature_spell: { description: legendary nonland, noncreature (Mox Amber), derived: true }
+commander: { description: in the command zone, derived: true }
+wizard: { description: creature type Wizard, derived: true }
+shaman: { description: creature type Shaman, derived: true }
+plains_land: { description: land with the Plains type, derived: true }
+island_land: { description: land with the Island type, derived: true }
+swamp_land: { description: land with the Swamp type, derived: true }
+mountain_land: { description: land with the Mountain type, derived: true }
+forest_land: { description: land with the Forest type, derived: true }
+fetchland: { description: sacrifices itself to search for a typed land, derived: true }
+fetches_plains: { description: fetchland that finds Plains, derived: true }
+fetches_island: { description: fetchland that finds Island, derived: true }
+fetches_swamp: { description: fetchland that finds Swamp, derived: true }
+fetches_mountain: { description: fetchland that finds Mountain, derived: true }
+fetches_forest: { description: fetchland that finds Forest, derived: true }
+mv_le_1: { description: nonland with mana value 1 or less, derived: true }
+mv_le_2: { description: nonland with mana value 2 or less, derived: true }
+mana_cost_0_or_1: { description: "mana cost is exactly {0} or {1}", derived: true }
+generic_in_cost: { description: mana cost has a generic (or X) component, derived: true }
+white: { description: color, derived: true }
+blue: { description: color, derived: true }
+black: { description: color, derived: true }
+red: { description: color, derived: true }
+green: { description: color, derived: true }
+red_or_green: { description: red or green, derived: true }
+power_le_2: { description: creature with printed power 2 or less, derived: true }
+sticker: { description: Unfinity sticker sheet (not a spell), derived: true }

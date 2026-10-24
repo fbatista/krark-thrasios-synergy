@@ -1,0 +1,12 @@
+---
+name: Vivi Ornitier
+roles:
+- cast_trigger_noncreature
+- cast_trigger_permanent
+- copy_worthy_creature
+- recast_payoff
+- red_mana_producer
+- repeatable_mana
+- repeatable_trigger_creature
+notes: Grows with every noncreature spell and taps for that much {U}/{R} once a turn.
+  Wizard.

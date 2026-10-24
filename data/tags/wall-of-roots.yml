@@ -1,0 +1,6 @@
+---
+name: Wall of Roots
+roles:
+- repeatable_mana
+notes: Mana without tapping (works the turn it enters), once per turn, at instant
+  speed.

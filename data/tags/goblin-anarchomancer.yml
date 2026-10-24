@@ -1,0 +1,6 @@
+---
+name: Goblin Anarchomancer
+roles:
+- copy_worthy_creature
+- reduces_red_green_spells
+- stacks_when_copied

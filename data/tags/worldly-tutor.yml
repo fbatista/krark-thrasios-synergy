@@ -1,0 +1,6 @@
+---
+name: Worldly Tutor
+roles:
+- finds_creature
+- puts_card_on_top
+- witness_target

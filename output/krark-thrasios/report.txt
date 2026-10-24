@@ -1,0 +1,4 @@
+cards: 100   synergy pairs: 1147   density: 0.232
+zero-synergy cards: City of Brass, Command Tower, Gemstone Caverns
+lowest:  City of Brass (0), Command Tower (0), Gemstone Caverns (0), Rhystic Study (3), Yavimaya, Cradle of Growth (5), Arid Mesa (6), Bloodstained Mire (6), Flooded Strand (6), Polluted Delta (6), Windswept Heath (6)
+highest: Displacer Kitten (57), Birgi, God of Storytelling // Harnfel, Horn of Bounty (56), Underworld Breach (54), Grapeshot (53), Ashling, Flame Dancer (52), Brain Freeze (52), Flusterstorm (51), Formidable Speaker (51), Veyran, Voice of Duality (49), Krark, the Thumbless (48)

@@ -1,0 +1,9 @@
+---
+name: Llanowar Elves
+roles:
+- creature_dork
+- creature_tap_ability
+- nonland_mana_source
+- repeatable_mana
+- untap_worthy_permanent
+notes: Plain one-mana dork.

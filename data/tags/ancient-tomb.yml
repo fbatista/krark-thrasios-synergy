@@ -1,0 +1,8 @@
+---
+name: Ancient Tomb
+roles:
+- key_piece
+- repeatable_mana
+- untap_worthy_land
+- untap_worthy_permanent
+- utility_land

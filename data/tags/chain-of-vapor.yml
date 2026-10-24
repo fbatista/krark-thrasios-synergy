@@ -1,0 +1,5 @@
+---
+name: Chain of Vapor
+roles:
+- bounces_own_creature
+- bounces_own_nonland_permanent

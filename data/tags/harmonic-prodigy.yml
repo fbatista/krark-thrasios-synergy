@@ -1,0 +1,8 @@
+---
+name: Harmonic Prodigy
+roles:
+- cast_trigger_permanent
+- copy_worthy_creature
+- doubles_wizard_shaman_triggers
+- repeatable_trigger_creature
+- trigger_doubler

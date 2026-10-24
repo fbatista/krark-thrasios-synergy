@@ -1,0 +1,6 @@
+---
+name: Neoform
+roles:
+- creature_sac_outlet
+- finds_creature
+notes: Sacrifice a creature to find one with MV exactly +1, onto the battlefield.

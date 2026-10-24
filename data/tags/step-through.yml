@@ -1,0 +1,5 @@
+---
+name: Step Through
+roles:
+- bounces_own_creature
+- finds_wizard

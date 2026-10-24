@@ -1,0 +1,7 @@
+---
+name: Imperial Recruiter
+roles:
+- etb_creature
+- finds_small_creature
+notes: ETB tutor for creatures with power 2 or less, which covers most of the deck's
+  engines.

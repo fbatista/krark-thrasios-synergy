@@ -1,0 +1,12 @@
+---
+name: Krark, the Thumbless
+roles:
+- breach_payoff
+- cast_trigger_inst_sorc
+- cast_trigger_permanent
+- coin_flipper
+- copies_spells
+- copy_worthy_creature
+- repeatable_trigger_creature
+- returns_spells_to_hand
+- wizard_shaman_trigger

@@ -1,0 +1,105 @@
+card,status,synergies_old,synergies_new,delta
+Alchemist's Refuge,kept,16,17,1
+An Offer You Can't Refuse,kept,20,19,-1
+Ancient Tomb,kept,11,13,2
+Arid Mesa,kept,6,6,0
+"Ashling, Flame Dancer",kept,54,52,-2
+Badgermole Cub,kept,24,25,1
+Biomancer's Familiar,kept,13,14,1
+Birds of Paradise,kept,19,21,2
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",kept,58,56,-2
+Bloodstained Mire,kept,6,6,0
+"Boseiju, Who Endures",kept,10,13,3
+Brain Freeze,kept,55,52,-3
+Breeding Pool,kept,9,9,0
+Candelabra of Tawnos,kept,20,21,1
+Chain of Vapor,kept,19,20,1
+Chord of Calling,kept,32,33,1
+City of Brass,kept,0,0,0
+Command Tower,kept,0,0,0
+Crop Rotation,kept,33,32,-1
+Deflecting Swat,kept,14,13,-1
+Delighted Halfling,kept,25,27,2
+Deserted Temple,kept,12,13,1
+Displacer Kitten,kept,57,57,0
+Dualcaster Mage,kept,45,43,-2
+Elvish Spirit Guide,kept,13,13,0
+Emerald Charm,kept,32,32,0
+Enduring Vitality,kept,34,36,2
+Essence Flux,kept,18,19,1
+Eternal Witness,kept,39,38,-1
+Expedition Map,kept,19,19,0
+Fierce Guardianship,kept,13,12,-1
+Flooded Strand,kept,6,6,0
+Flusterstorm,kept,54,51,-3
+Formidable Speaker,kept,49,51,2
+Gaea's Cradle,kept,37,39,2
+Gamble,kept,34,33,-1
+Gemstone Caverns,kept,0,0,0
+Gene Pollinator,kept,39,41,2
+Gitaxian Probe,kept,17,16,-1
+Goblin Anarchomancer,kept,28,32,4
+Grapeshot,kept,56,53,-3
+Gut Shot,kept,14,13,-1
+Harmonic Prodigy,kept,21,20,-1
+"Irma, Part-Time Mutant",kept,27,27,0
+Jeska's Will,kept,19,19,0
+"Kinnan, Bonder Prodigy",kept,37,37,0
+"Krark, the Thumbless",kept,50,48,-2
+Land Grant,kept,21,20,-1
+Lion's Eye Diamond,kept,15,16,1
+Lotus Petal,kept,11,11,0
+Mana Vault,kept,15,16,1
+Manamorphose,kept,18,17,-1
+Mental Misstep,kept,14,13,-1
+"Minamo, School at Water's Edge",kept,10,11,1
+Mindbreak Trap,kept,12,11,-1
+Misty Rainforest,kept,8,8,0
+Mogg Salvage,kept,17,16,-1
+Molt Tender,kept,21,23,2
+Mox Amber,kept,20,22,2
+Mox Diamond,kept,17,19,2
+Mystic Remora,kept,10,11,1
+Mystical Tutor,kept,42,41,-1
+Narset's Reversal,removed,40,,
+Noxious Revival,kept,19,18,-1
+"Otawara, Soaring City",kept,16,19,3
+Pact of Negation,kept,16,15,-1
+"Pia, Aether Ascetic",added,,24,
+Polluted Delta,kept,6,6,0
+"Ragavan, Nimble Pilferer",removed,19,,
+Rhystic Study,kept,2,3,1
+Rite of Flame,kept,18,18,0
+Scalding Tarn,kept,8,8,0
+Seedborn Muse,kept,28,30,2
+"Shang-Chi, Master of Kung Fu",added,,24,
+Shifting Woodland,kept,26,27,1
+Snap,kept,24,25,1
+Sol Ring,kept,15,16,1
+Spellseeker,kept,35,33,-2
+Springleaf Drum,kept,34,36,2
+Steam Vents,kept,9,9,0
+Step Through,kept,15,16,1
+Stomping Ground,kept,9,9,0
+Storm-Kiln Artist,kept,49,48,-1
+Submerge,kept,17,16,-1
+Summoner's Pact,kept,29,31,2
+Taiga,kept,9,9,0
+Tavern Scoundrel,kept,22,23,1
+The Unbeatable Squirrel Girl,added,,38,
+"Thrasios, Triton Hero",kept,35,35,0
+Tinder Wall,removed,17,,
+Trinket Mage,kept,24,23,-1
+Tropical Island,kept,9,9,0
+Twinflame,kept,29,28,-1
+Underworld Breach,kept,56,54,-2
+Urza's Saga,kept,23,24,1
+Veil of Summer,kept,15,14,-1
+"Veyran, Voice of Duality",kept,51,49,-2
+Vibrance,added,,20,
+Volcanic Island,kept,9,9,0
+Windswept Heath,kept,6,6,0
+Wizard's Staff,removed,18,,
+Wooded Foothills,kept,8,8,0
+Worldly Tutor,kept,36,37,1
+"Yavimaya, Cradle of Growth",kept,4,5,1

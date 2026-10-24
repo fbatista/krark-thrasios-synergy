@@ -1,0 +1,14 @@
+---
+name: Ashling, Flame Dancer
+roles:
+- cast_trigger_inst_sorc
+- cast_trigger_permanent
+- copy_worthy_creature
+- draws_top_card
+- graveyard_filler
+- keeps_red_mana
+- key_piece
+- magecraft
+- repeatable_mana
+- repeatable_trigger_creature
+- wizard_shaman_trigger

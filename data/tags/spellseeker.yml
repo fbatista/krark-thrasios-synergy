@@ -1,0 +1,6 @@
+---
+name: Spellseeker
+roles:
+- etb_creature
+- finds_cheap_instant_sorcery
+- wizard_shaman_trigger

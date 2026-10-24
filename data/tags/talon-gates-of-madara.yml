@@ -1,0 +1,5 @@
+---
+name: Talon Gates of Madara
+roles:
+- puts_land_onto_battlefield
+notes: Can put itself onto the battlefield from hand at instant speed.

@@ -1,0 +1,6 @@
+---
+name: Submerge
+roles:
+- free_alt_cost
+- free_if_control_island
+- free_if_opponent_forest

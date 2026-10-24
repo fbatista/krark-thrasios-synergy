@@ -1,0 +1,7 @@
+---
+name: Roaming Throne
+roles:
+- doubles_wizard_shaman_triggers
+- trigger_doubler
+notes: Name Wizard (Krark, Dualcaster, Spellseeker, Trinket Mage, Veyran) or Shaman
+  (Ashling, Eternal Witness, Storm-Kiln) and their triggers double.

@@ -1,0 +1,101 @@
+card,type_line,mana_cost,anti_stack,anti_permanent,draw,mana,tutor,recursion,untap,copy,storm,free_cast,trigger_doubler,mana_sink,land,creature,instant_sorcery,legendary
+"Krark, the Thumbless",Legendary Creature — Goblin Wizard,{1}{R},0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1
+"Thrasios, Triton Hero",Legendary Creature — Merfolk Wizard,{G}{U},0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1
+Alchemist's Refuge,Land,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+An Offer You Can't Refuse,Instant,{U},1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+Ancient Tomb,Land,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Arid Mesa,Land,,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"Ashling, Flame Dancer",Legendary Creature — Elemental Shaman,{2}{R}{R},0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1
+Badgermole Cub,Creature — Badger Mole,{1}{G},0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Biomancer's Familiar,Creature — Mutant,{G}{U},0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Birds of Paradise,Creature — Bird,{G},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Legendary Creature — God // Legendary Artifact,{2}{R},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1
+Bloodstained Mire,Land,,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"Boseiju, Who Endures",Legendary Land,,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1
+Brain Freeze,Instant,{1}{U},0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0
+Breeding Pool,Land — Forest Island,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Candelabra of Tawnos,Artifact,{1},0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Chain of Vapor,Instant,{U},0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+Chord of Calling,Instant,{X}{G}{G}{G},0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+City of Brass,Land,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Command Tower,Land,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Crop Rotation,Instant,{G},0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+Deflecting Swat,Instant,{2}{R},1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+Delighted Halfling,Creature — Halfling Citizen,{G},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Deserted Temple,Land,,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0
+Displacer Kitten,Creature — Cat Beast,{3}{U},0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Dualcaster Mage,Creature — Human Wizard,{1}{R}{R},0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+Elvish Spirit Guide,Creature — Elf Spirit,{2}{G},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Emerald Charm,Instant,{G},0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+Enduring Vitality,Enchantment Creature — Elk Glimmer,{1}{G}{G},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Essence Flux,Instant,{U},0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Eternal Witness,Creature — Human Shaman,{1}{G}{G},0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+Expedition Map,Artifact,{1},0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Fierce Guardianship,Instant,{2}{U},1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+Flooded Strand,Land,,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Flusterstorm,Instant,{U},1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0
+Formidable Speaker,Creature — Elf Druid,{2}{G},0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0
+Gaea's Cradle,Legendary Land,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1
+Gamble,Sorcery,{R},0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+Gemstone Caverns,Legendary Land,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1
+Gene Pollinator,Artifact Creature — Robot Insect,{G},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Gitaxian Probe,Sorcery,{U/P},0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0
+Goblin Anarchomancer,Creature — Goblin Shaman,{R}{G},0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Grapeshot,Sorcery,{1}{R},0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0
+Gut Shot,Instant,{R/P},0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+Harmonic Prodigy,Creature — Human Wizard,{1}{R},0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+"Irma, Part-Time Mutant",Legendary Creature — Human Mutant Shapeshifter,{2}{U},0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1
+Jeska's Will,Sorcery,{2}{R},0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+"Kinnan, Bonder Prodigy",Legendary Creature — Human Druid,{G}{U},0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1
+Land Grant,Sorcery,{1}{G},0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0
+Lion's Eye Diamond,Artifact,{0},0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Lotus Petal,Artifact,{0},0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Mana Vault,Artifact,{1},0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Manamorphose,Instant,{1}{R/G},0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+Mental Misstep,Instant,{U/P},1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+"Minamo, School at Water's Edge",Legendary Land,,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1
+Mindbreak Trap,Instant — Trap,{2}{U}{U},1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+Misty Rainforest,Land,,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Mogg Salvage,Instant,{2}{R},0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+Molt Tender,Creature — Insect Druid,{G},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Mox Amber,Legendary Artifact,{0},0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1
+Mox Diamond,Artifact,{0},0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Mystic Remora,Enchantment,{U},0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Mystical Tutor,Instant,{U},0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+Narset's Reversal,Instant,{U}{U},1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+Noxious Revival,Instant,{G/P},0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0
+"Otawara, Soaring City",Legendary Land,,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1
+Pact of Negation,Instant,{0},1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+Polluted Delta,Land,,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"Ragavan, Nimble Pilferer",Legendary Creature — Monkey Pirate,{R},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1
+Rhystic Study,Enchantment,{2}{U},0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rite of Flame,Sorcery,{R},0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+Scalding Tarn,Land,,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Seedborn Muse,Creature — Spirit,{3}{G}{G},0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+Shifting Woodland,Land,,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0,0
+Snap,Instant,{1}{U},0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+Sol Ring,Artifact,{1},0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Spellseeker,Creature — Human Wizard,{2}{U},0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
+Springleaf Drum,Artifact,{1},0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Steam Vents,Land — Island Mountain,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Step Through,Sorcery,{3}{U}{U},0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+Stomping Ground,Land — Mountain Forest,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Storm-Kiln Artist,Creature — Dwarf Shaman,{3}{R},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Submerge,Instant,{4}{U},0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0
+Summoner's Pact,Instant,{0},0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0
+Taiga,Land — Mountain Forest,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Tavern Scoundrel,Creature — Human Rogue,{1}{R},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Tinder Wall,Creature — Plant Wall,{G},0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Trinket Mage,Creature — Human Wizard,{2}{U},0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
+Tropical Island,Land — Forest Island,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Twinflame,Sorcery,{1}{R},0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+Underworld Breach,Enchantment,{1}{R},0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Urza's Saga,Enchantment Land — Urza's Saga,,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+Veil of Summer,Instant,{G},0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Veyran, Voice of Duality",Legendary Creature — Efreet Wizard,{1}{U}{R},0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1
+Volcanic Island,Land — Island Mountain,,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Windswept Heath,Land,,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Wizard's Staff,Artifact — Equipment,{1}{U},0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Wooded Foothills,Land,,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Worldly Tutor,Instant,{G},0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+"Yavimaya, Cradle of Growth",Legendary Land,,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1

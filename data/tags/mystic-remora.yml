@@ -1,0 +1,8 @@
+---
+name: Mystic Remora
+roles:
+- flicker_reset_target
+- key_piece
+- wants_reset
+- wants_sacrifice
+- witness_target

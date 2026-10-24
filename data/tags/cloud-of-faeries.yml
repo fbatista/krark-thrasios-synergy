@@ -1,0 +1,7 @@
+---
+name: Cloud of Faeries
+roles:
+- etb_creature
+- untaps_land
+notes: 'ETB untaps two lands: with Displacer Kitten and Gaea''s Cradle/Ancient Tomb
+  it nets mana every flicker.'

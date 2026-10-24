@@ -1,0 +1,9 @@
+---
+name: Spinerock Tyrant
+roles:
+- cast_trigger_inst_sorc
+- cast_trigger_permanent
+- copies_spells
+- copy_worthy_creature
+- repeatable_trigger_creature
+notes: Copies every single-target instant/sorcery you cast.

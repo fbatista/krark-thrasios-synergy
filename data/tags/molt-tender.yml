@@ -1,0 +1,10 @@
+---
+name: Molt Tender
+roles:
+- creature_dork
+- creature_tap_ability
+- graveyard_filler
+- nonland_mana_source
+- repeatable_mana
+- untap_worthy_permanent
+- witness_target

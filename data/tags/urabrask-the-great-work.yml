@@ -1,0 +1,14 @@
+---
+name: Urabrask // The Great Work
+roles:
+- cast_trigger_inst_sorc
+- cast_trigger_permanent
+- copy_worthy_creature
+- recast_payoff
+- recasts_from_graveyard
+- red_mana_producer
+- repeatable_mana
+- repeatable_trigger_creature
+- treasure_maker
+notes: 'Front: {R} + 1 damage per instant/sorcery. Back: three Treasures, then cast
+  instants/sorceries from any graveyard for a turn.'

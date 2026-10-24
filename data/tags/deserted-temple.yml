@@ -1,0 +1,7 @@
+---
+name: Deserted Temple
+roles:
+- untap_worthy_land
+- untap_worthy_permanent
+- untaps_land
+- utility_land

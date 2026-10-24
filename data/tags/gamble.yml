@@ -1,0 +1,8 @@
+---
+name: Gamble
+roles:
+- graveyard_filler
+- led_partner
+- random_discard
+- tutor_any_card
+- witness_target

@@ -1,0 +1,7 @@
+---
+name: Pia, Aether Ascetic
+roles:
+- etb_creature
+- finds_enchantment
+- graveyard_filler
+- witness_target

@@ -1,0 +1,7 @@
+---
+name: Crimson Wisps
+roles:
+- draws_top_card
+- grants_tap_haste
+notes: 'One-mana cantrip that gives haste: lets a fresh dork or Tavern Scoundrel tap
+  at once.'

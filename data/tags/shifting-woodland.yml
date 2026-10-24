@@ -1,0 +1,6 @@
+---
+name: Shifting Woodland
+roles:
+- copies_graveyard_permanent
+- enters_untapped_with_forest
+- utility_land

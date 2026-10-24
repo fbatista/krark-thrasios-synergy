@@ -1,0 +1,6 @@
+---
+name: Expedition Map
+roles:
+- finds_utility_land
+- puts_land_in_hand
+- witness_target

@@ -1,0 +1,9 @@
+---
+name: The Vision and Scarlet Witch
+roles:
+- cast_trigger_permanent
+- red_mana_producer
+- repeatable_mana
+- repeatable_trigger_creature
+- spell_count_payoff
+notes: Adds {R} per spell cast, like Birgi on an artifact creature.

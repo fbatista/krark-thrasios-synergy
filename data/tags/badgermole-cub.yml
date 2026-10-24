@@ -1,0 +1,10 @@
+---
+name: Badgermole Cub
+roles:
+- animates_land
+- copy_worthy_creature
+- creature_mana_enabler
+- creature_tap_mana_payoff
+- etb_creature
+- repeatable_mana
+- repeatable_trigger_creature

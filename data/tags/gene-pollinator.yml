@@ -1,0 +1,9 @@
+---
+name: Gene Pollinator
+roles:
+- creature_count_payoff
+- creature_dork
+- creature_tap_ability
+- nonland_mana_source
+- repeatable_mana
+- untap_worthy_permanent

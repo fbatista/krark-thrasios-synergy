@@ -1,0 +1,8 @@
+---
+name: Dualcaster Mage
+roles:
+- copies_spells
+- etb_creature
+- etb_spell_copier
+- key_piece
+- wizard_shaman_trigger

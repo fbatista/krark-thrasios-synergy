@@ -1,0 +1,9 @@
+---
+name: _____ Goblin
+roles:
+- big_burst_mana
+- etb_creature
+- red_mana_producer
+- uses_stickers
+notes: 'ETB: add {R} per unique vowel on the name sticker (up to six). Flicker or
+  copy it for more.'

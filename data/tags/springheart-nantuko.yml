@@ -1,0 +1,9 @@
+---
+name: Springheart Nantuko
+roles:
+- copies_creature_in_play
+- creature_copier
+- landfall
+- token_maker
+notes: Bestow it on an engine creature; every land entering makes a token copy for
+  {1}{G}.

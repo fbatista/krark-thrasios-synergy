@@ -1,0 +1,6 @@
+---
+name: Trinket Mage
+roles:
+- etb_creature
+- finds_cheap_artifact
+- wizard_shaman_trigger

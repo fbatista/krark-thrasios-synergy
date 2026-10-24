@@ -1,0 +1,7 @@
+---
+name: Return the Favor
+roles:
+- copies_abilities
+- copies_spells
+notes: 'Spree: copy a spell OR a triggered/activated ability (Krark''s flip, Thrasios),
+  and/or redirect a spell.'

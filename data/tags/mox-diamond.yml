@@ -1,0 +1,9 @@
+---
+name: Mox Diamond
+roles:
+- graveyard_filler
+- nonland_mana_source
+- repeatable_mana
+- untap_worthy_permanent
+- wants_land_in_hand
+- witness_target

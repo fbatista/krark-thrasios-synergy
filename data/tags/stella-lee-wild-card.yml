@@ -1,0 +1,10 @@
+---
+name: Stella Lee, Wild Card
+roles:
+- copies_spells
+- copy_worthy_creature
+- creature_tap_ability
+- spell_count_payoff
+- untap_worthy_permanent
+notes: Second spell each turn impulse-draws; {T} copies a spell after three spells
+  (untap her to do it again).

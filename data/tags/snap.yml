@@ -1,0 +1,6 @@
+---
+name: Snap
+roles:
+- bounces_own_creature
+- net_free_spell
+- untaps_land

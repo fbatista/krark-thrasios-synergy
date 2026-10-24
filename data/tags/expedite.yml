@@ -1,0 +1,6 @@
+---
+name: Expedite
+roles:
+- draws_top_card
+- grants_tap_haste
+notes: Same job as Crimson Wisps.

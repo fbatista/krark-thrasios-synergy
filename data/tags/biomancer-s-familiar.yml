@@ -1,0 +1,6 @@
+---
+name: Biomancer's Familiar
+roles:
+- copy_worthy_creature
+- reduces_creature_abilities
+- stacks_when_copied

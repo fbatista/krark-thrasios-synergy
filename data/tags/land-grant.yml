@@ -1,0 +1,6 @@
+---
+name: Land Grant
+roles:
+- finds_forest
+- free_alt_cost
+- puts_land_in_hand

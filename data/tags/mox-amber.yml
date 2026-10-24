@@ -1,0 +1,9 @@
+---
+name: Mox Amber
+roles:
+- flicker_reset_target
+- legendary_matters
+- nonland_mana_source
+- repeatable_mana
+- untap_worthy_legendary
+- untap_worthy_permanent

@@ -1,0 +1,7 @@
+---
+name: Summoner's Pact
+roles:
+- finds_green_creature
+- free_alt_cost
+- pact
+- witness_target

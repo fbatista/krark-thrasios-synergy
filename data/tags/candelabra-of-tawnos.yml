@@ -1,0 +1,8 @@
+---
+name: Candelabra of Tawnos
+roles:
+- flicker_reset_target
+- key_piece
+- repeatable_mana
+- untap_worthy_permanent
+- untaps_land

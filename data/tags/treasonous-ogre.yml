@@ -1,0 +1,7 @@
+---
+name: Treasonous Ogre
+roles:
+- big_burst_mana
+- red_mana_producer
+- repeatable_mana
+notes: 'Pay 3 life: add {R}, as much as your life total allows.'

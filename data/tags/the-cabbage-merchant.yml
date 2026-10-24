@@ -1,0 +1,8 @@
+---
+name: The Cabbage Merchant
+roles:
+- nonland_mana_source
+- repeatable_mana
+- treasure_maker
+notes: Food tokens from opponents' noncreature spells; two Foods tap for a mana (Kinnan
+  doubles it) and they are artifacts for Urza's Saga.

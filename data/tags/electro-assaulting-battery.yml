@@ -1,0 +1,13 @@
+---
+name: Electro, Assaulting Battery
+roles:
+- cast_trigger_inst_sorc
+- cast_trigger_permanent
+- copy_worthy_creature
+- keeps_red_mana
+- recast_payoff
+- red_mana_producer
+- repeatable_mana
+- repeatable_trigger_creature
+notes: Adds {R} per instant/sorcery and keeps red mana between phases, like Birgi
+  + Ashling on one body.

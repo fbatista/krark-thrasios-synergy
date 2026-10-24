@@ -1,0 +1,10 @@
+---
+name: Delighted Halfling
+roles:
+- creature_dork
+- creature_tap_ability
+- legendary_matters
+- legendary_spell_enabler
+- nonland_mana_source
+- repeatable_mana
+- untap_worthy_permanent

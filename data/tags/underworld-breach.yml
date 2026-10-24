@@ -1,0 +1,8 @@
+---
+name: Underworld Breach
+roles:
+- key_piece
+- recasts_from_graveyard
+- recovers_discard
+- wants_sacrifice
+- witness_target

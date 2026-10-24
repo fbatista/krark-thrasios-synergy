@@ -1,0 +1,10 @@
+name: Thrasios, Triton Hero
+roles:
+- breach_payoff
+- copy_worthy_creature
+- creature_ability_mana_cost
+- creature_ability_reducible
+- draws_top_card
+- mana_sink
+- puts_land_onto_battlefield
+- wants_untap_each_turn

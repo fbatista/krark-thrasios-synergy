@@ -1,0 +1,12 @@
+---
+name: Enduring Vitality
+roles:
+- copy_worthy_creature
+- creature_count_payoff
+- creature_dork
+- creature_mana_enabler
+- creature_tap_ability
+- key_piece
+- nonland_mana_source
+- repeatable_mana
+- wants_untap_each_turn

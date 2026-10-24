@@ -1,0 +1,12 @@
+---
+name: Veyran, Voice of Duality
+roles:
+- cast_trigger_inst_sorc
+- cast_trigger_permanent
+- copy_worthy_creature
+- doubles_cast_triggers
+- key_piece
+- magecraft
+- repeatable_trigger_creature
+- trigger_doubler
+- wizard_shaman_trigger

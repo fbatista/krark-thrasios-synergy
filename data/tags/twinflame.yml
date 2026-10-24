@@ -1,0 +1,8 @@
+---
+name: Twinflame
+roles:
+- copies_nonlegendary_creatures
+- creature_copier
+- hasty_token_maker
+- key_piece
+- witness_target

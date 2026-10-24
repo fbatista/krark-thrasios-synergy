@@ -1,0 +1,7 @@
+---
+name: Wizard's Staff
+roles:
+- cast_trigger_permanent
+- doubles_equipped_triggers
+- equips_wizards_cheaply
+- trigger_doubler

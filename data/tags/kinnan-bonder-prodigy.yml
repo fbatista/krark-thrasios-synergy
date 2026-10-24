@@ -1,0 +1,12 @@
+---
+name: Kinnan, Bonder Prodigy
+roles:
+- copy_worthy_creature
+- creature_ability_mana_cost
+- creature_ability_reducible
+- doubles_nonland_mana
+- key_piece
+- mana_sink
+- repeatable_mana
+- repeatable_trigger_creature
+- wants_untap_each_turn

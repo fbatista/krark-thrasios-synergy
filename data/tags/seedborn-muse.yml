@@ -1,0 +1,8 @@
+---
+name: Seedborn Muse
+roles:
+- copy_worthy_creature
+- key_piece
+- repeatable_mana
+- untaps_all_each_turn
+- untaps_permanent

@@ -1,0 +1,8 @@
+---
+name: Goldspan Dragon
+roles:
+- nonland_mana_source
+- treasure_maker
+- treasure_payoff
+notes: Treasures tap for two; makes a Treasure when targeted by your own Twinflame/Essence
+  Flux too.

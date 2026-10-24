@@ -1,0 +1,51 @@
+# Columns of attributes.csv. A card gets 1 when any listed test matches:
+#   oracle:    regex on the rules text (case-insensitive, ^ matches line starts)
+#   mana_cost: regex on the mana cost
+#   roles:     any of these roles (derived or curated)
+- name: anti_stack
+  description: counters/exiles target spell, or changes targets / returns a spell
+  oracle: 'counter target|exile any number of target spells|choose new targets for target spell|copy target instant or sorcery spell, then return it'
+- name: anti_permanent
+  description: targeted removal of a creature, land, artifact, enchantment, battle or planeswalker (destroy, bounce, tuck, damage to any target)
+  oracle: 'destroy target|return target (nonland permanent|creature|artifact)|return two target creatures|put target creature on top|deals \d damage to any target'
+- name: draw
+  description: draws cards (conditional draw and looting count; impulse "exile and play" does not)
+  oracle: 'draw a card|draw cards'
+- name: mana
+  description: adds mana or creates Treasures for you
+  oracle: '\badd (\{|one mana|two mana|three mana|x mana)|create (a|two) treasure token|creatures you control have "\{T\}: add|\{T\}: Add|Add one mana'
+- name: tutor
+  description: searches your library
+  oracle: 'search your library'
+- name: recursion
+  description: uses cards from a graveyard
+  oracle: 'from your graveyard to your hand|from a graveyard on top|has escape|card in your graveyard'
+- name: untap
+  description: untaps other permanents
+  oracle: 'untap (target|all|up to|x target|another target)'
+  roles: [untaps_all_each_turn]
+- name: copy
+  description: copies spells or permanents
+  oracle: "copy (that|this) spell|copy target|create a token that's a copy|becomes a copy|copy it for each"
+- name: storm
+  description: has the storm keyword
+  oracle: '\bstorm\b'
+- name: free_cast
+  description: castable for {0} (zero cost, phyrexian mana, or a free alternative cost)
+  oracle: "without paying its mana cost|rather than pay (this spell's|its) mana cost|pay \\{0\\} rather than"
+  mana_cost: '\A\{0\}\z|/P\}'
+- name: trigger_doubler
+  description: makes triggered abilities trigger an additional time
+  oracle: 'triggers an additional time'
+- name: mana_sink
+  description: repeatable activated ability with a generic mana cost
+  oracle: '^\{\d+\}(\{[WUBRG]\})*: '
+  roles: [mana_sink]
+- name: land
+  roles: [land]
+- name: creature
+  roles: [creature]
+- name: instant_sorcery
+  roles: [instant_sorcery]
+- name: legendary
+  roles: [legendary]

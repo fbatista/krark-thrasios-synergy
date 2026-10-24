@@ -1,0 +1,9 @@
+---
+name: Springleaf Drum
+roles:
+- creature_count_payoff
+- creature_dork
+- flicker_reset_target
+- nonland_mana_source
+- repeatable_mana
+- untap_worthy_permanent

@@ -1,0 +1,7 @@
+---
+name: Manamorphose
+roles:
+- draws_top_card
+- net_free_spell
+- ritual
+- witness_target

@@ -1,0 +1,6 @@
+---
+name: Irma, Part-Time Mutant
+roles:
+- copies_creature_in_play
+- creature_copier
+- repeatable_trigger_creature

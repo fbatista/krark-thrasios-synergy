@@ -1,0 +1,16 @@
+---
+name: Storm-Kiln Artist
+roles:
+- breach_payoff
+- cast_trigger_inst_sorc
+- cast_trigger_permanent
+- copy_worthy_creature
+- key_piece
+- magecraft
+- nonland_mana_source
+- recast_payoff
+- repeatable_mana
+- repeatable_trigger_creature
+- treasure_maker
+- treasure_payoff
+- wizard_shaman_trigger

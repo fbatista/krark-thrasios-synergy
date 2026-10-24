@@ -1,0 +1,6 @@
+---
+name: Mockingbird
+roles:
+- copies_creature_in_play
+- creature_copier
+notes: Enters as a copy of a creature with MV <= mana spent; X is flexible.

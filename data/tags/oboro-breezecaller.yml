@@ -1,0 +1,9 @@
+---
+name: Oboro Breezecaller
+roles:
+- creature_ability_mana_cost
+- creature_ability_reducible
+- puts_land_in_hand
+- untaps_land
+notes: 'Bounce a land to untap another: resets Urza''s Saga, untaps Cradle/Tomb, feeds
+  Mox Diamond a land. Wizard.'

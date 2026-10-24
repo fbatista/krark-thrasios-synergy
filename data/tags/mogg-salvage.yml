@@ -1,0 +1,5 @@
+---
+name: Mogg Salvage
+roles:
+- free_alt_cost
+- free_if_control_mountain

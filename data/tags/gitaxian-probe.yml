@@ -1,0 +1,5 @@
+---
+name: Gitaxian Probe
+roles:
+- draws_top_card
+- free_alt_cost

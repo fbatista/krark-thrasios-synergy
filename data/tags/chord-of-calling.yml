@@ -1,0 +1,8 @@
+---
+name: Chord of Calling
+roles:
+- convoke
+- creature_count_payoff
+- finds_creature
+- key_piece
+- witness_target

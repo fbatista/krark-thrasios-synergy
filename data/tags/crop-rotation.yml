@@ -1,0 +1,7 @@
+name: Crop Rotation
+roles:
+- finds_utility_land
+- graveyard_filler
+- puts_land_onto_battlefield
+- sacrifices_land_as_cost
+- witness_target

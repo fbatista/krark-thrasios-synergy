@@ -1,0 +1,11 @@
+---
+name: Displacer Kitten
+roles:
+- cast_trigger_noncreature
+- cast_trigger_permanent
+- copy_worthy_creature
+- flicker
+- flickers_own_permanents
+- key_piece
+- recast_payoff
+- repeatable_trigger_creature

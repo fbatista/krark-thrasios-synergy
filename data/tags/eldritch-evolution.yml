@@ -1,0 +1,7 @@
+---
+name: Eldritch Evolution
+roles:
+- creature_sac_outlet
+- finds_creature
+notes: Sacrifice a token or a spent dork to find a creature with MV <= sacrificed
+  MV + 2.

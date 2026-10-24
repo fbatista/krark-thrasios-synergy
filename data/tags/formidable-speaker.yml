@@ -1,0 +1,10 @@
+---
+name: Formidable Speaker
+roles:
+- creature_ability_mana_cost
+- creature_tap_ability
+- etb_creature
+- finds_creature
+- graveyard_filler
+- untap_worthy_permanent
+- untaps_permanent

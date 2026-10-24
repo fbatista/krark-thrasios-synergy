@@ -1,0 +1,1449 @@
+[
+  {
+    "board": "commanders",
+    "name": "Krark, the Thumbless",
+    "type_line": "Legendary Creature — Goblin Wizard",
+    "oracle_text": "Whenever you cast an instant or sorcery spell, flip a coin. If you lose the flip, return that spell to its owner's hand. If you win the flip, copy that spell, and you may choose new targets for the copy.\nPartner (You can have two commanders if both have partner.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "commanders",
+    "name": "Thrasios, Triton Hero",
+    "type_line": "Legendary Creature — Merfolk Wizard",
+    "oracle_text": "{4}: Scry 1, then reveal the top card of your library. If it's a land card, put it onto the battlefield tapped. Otherwise, draw a card.\nPartner (You can have two commanders if both have partner.)",
+    "mana_cost": "{G}{U}",
+    "cmc": 2.0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "faces": [],
+    "power": "1",
+    "toughness": "3",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Alchemist's Refuge",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{G}{U}, {T}: You may cast spells this turn as though they had flash.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "An Offer You Can't Refuse",
+    "type_line": "Instant",
+    "oracle_text": "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "mana_cost": "{U}",
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Ancient Tomb",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Arid Mesa",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Ashling, Flame Dancer",
+    "type_line": "Legendary Creature — Elemental Shaman",
+    "oracle_text": "You don't lose unspent red mana as steps and phases end.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, discard a card, then draw a card. If this is the second time this ability has resolved this turn, Ashling deals 2 damage to each opponent and each creature they control. If it's the third time, add {R}{R}{R}{R}.",
+    "mana_cost": "{2}{R}{R}",
+    "cmc": 4.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": "4",
+    "toughness": "4",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Badgermole Cub",
+    "type_line": "Creature — Badger Mole",
+    "oracle_text": "When this creature enters, earthbend 1. (Target land you control becomes a 0/0 creature with haste that's still a land. Put a +1/+1 counter on it. When it dies or is exiled, return it to the battlefield tapped.)\nWhenever you tap a creature for mana, add an additional {G}.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Biomancer's Familiar",
+    "type_line": "Creature — Mutant",
+    "oracle_text": "Activated abilities of creatures you control cost {2} less to activate. This effect can't reduce the mana in that cost to less than one mana.\n{T}: The next time target creature adapts this turn, it adapts as though it had no +1/+1 counters on it.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2.0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Birds of Paradise",
+    "type_line": "Creature — Bird",
+    "oracle_text": "Flying\n{T}: Add one mana of any color.",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "0",
+    "toughness": "1",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "type_line": "Legendary Creature — God // Legendary Artifact",
+    "oracle_text": null,
+    "mana_cost": "{2}{R}",
+    "cmc": 3.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [
+      {
+        "name": "Birgi, God of Storytelling",
+        "type_line": "Legendary Creature — God",
+        "oracle_text": "Whenever you cast a spell, add {R}. Until end of turn, you don't lose this mana as steps and phases end.\nCreatures you control can boast twice during each of your turns rather than once.",
+        "mana_cost": "{2}{R}"
+      },
+      {
+        "name": "Harnfel, Horn of Bounty",
+        "type_line": "Legendary Artifact",
+        "oracle_text": "Discard a card: Exile the top two cards of your library. You may play those cards this turn.",
+        "mana_cost": "{4}{R}"
+      }
+    ],
+    "power": "3",
+    "toughness": "3",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Bloodstained Mire",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Boseiju, Who Endures",
+    "type_line": "Legendary Land",
+    "oracle_text": "{T}: Add {G}.\nChannel — {1}{G}, Discard this card: Destroy target artifact, enchantment, or nonbasic land an opponent controls. That player may search their library for a land card with a basic land type, put it onto the battlefield, then shuffle. This ability costs {1} less to activate for each legendary creature you control.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Brain Freeze",
+    "type_line": "Instant",
+    "oracle_text": "Target player mills three cards.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+    "mana_cost": "{1}{U}",
+    "cmc": 2.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Breeding Pool",
+    "type_line": "Land — Forest Island",
+    "oracle_text": "({T}: Add {G} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Candelabra of Tawnos",
+    "type_line": "Artifact",
+    "oracle_text": "{X}, {T}: Untap X target lands.",
+    "mana_cost": "{1}",
+    "cmc": 1.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Chain of Vapor",
+    "type_line": "Instant",
+    "oracle_text": "Return target nonland permanent to its owner's hand. Then that permanent's controller may sacrifice a land of their choice. If the player does, they may copy this spell and may choose a new target for that copy.",
+    "mana_cost": "{U}",
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Chord of Calling",
+    "type_line": "Instant",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nSearch your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.",
+    "mana_cost": "{X}{G}{G}{G}",
+    "cmc": 3.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "City of Brass",
+    "type_line": "Land",
+    "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Command Tower",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Crop Rotation",
+    "type_line": "Instant",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice a land.\nSearch your library for a land card, put that card onto the battlefield, then shuffle.",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Deflecting Swat",
+    "type_line": "Instant",
+    "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Delighted Halfling",
+    "type_line": "Creature — Halfling Citizen",
+    "oracle_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a legendary spell, and that spell can't be countered.",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "1",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Deserted Temple",
+    "type_line": "Land",
+    "oracle_text": "{T}: Add {C}.\n{1}, {T}: Untap target land.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Displacer Kitten",
+    "type_line": "Creature — Cat Beast",
+    "oracle_text": "Avoidance — Whenever you cast a noncreature spell, exile up to one target nonland permanent you control, then return that card to the battlefield under its owner's control.",
+    "mana_cost": "{3}{U}",
+    "cmc": 4.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Dualcaster Mage",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Flash\nWhen this creature enters, copy target instant or sorcery spell. You may choose new targets for the copy.",
+    "mana_cost": "{1}{R}{R}",
+    "cmc": 3.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Elvish Spirit Guide",
+    "type_line": "Creature — Elf Spirit",
+    "oracle_text": "Exile this card from your hand: Add {G}.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Emerald Charm",
+    "type_line": "Instant",
+    "oracle_text": "Choose one —\n• Untap target permanent.\n• Destroy target non-Aura enchantment.\n• Target creature loses flying until end of turn.",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Enduring Vitality",
+    "type_line": "Enchantment Creature — Elk Glimmer",
+    "oracle_text": "Vigilance\nCreatures you control have \"{T}: Add one mana of any color.\"\nWhen Enduring Vitality dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)",
+    "mana_cost": "{1}{G}{G}",
+    "cmc": 3.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "3",
+    "toughness": "3",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Essence Flux",
+    "type_line": "Instant",
+    "oracle_text": "Exile target creature you control, then return that card to the battlefield under its owner's control. If it's a Spirit, put a +1/+1 counter on it.",
+    "mana_cost": "{U}",
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Eternal Witness",
+    "type_line": "Creature — Human Shaman",
+    "oracle_text": "When this creature enters, you may return target card from your graveyard to your hand.",
+    "mana_cost": "{1}{G}{G}",
+    "cmc": 3.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "1",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Expedition Map",
+    "type_line": "Artifact",
+    "oracle_text": "{2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
+    "mana_cost": "{1}",
+    "cmc": 1.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Fierce Guardianship",
+    "type_line": "Instant",
+    "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Flooded Strand",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Flusterstorm",
+    "type_line": "Instant",
+    "oracle_text": "Counter target instant or sorcery spell unless its controller pays {1}.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+    "mana_cost": "{U}",
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Formidable Speaker",
+    "type_line": "Creature — Elf Druid",
+    "oracle_text": "When this creature enters, you may discard a card. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle.\n{1}, {T}: Untap another target permanent.",
+    "mana_cost": "{2}{G}",
+    "cmc": 3.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "4",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Gaea's Cradle",
+    "type_line": "Legendary Land",
+    "oracle_text": "{T}: Add {G} for each creature you control.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Gamble",
+    "type_line": "Sorcery",
+    "oracle_text": "Search your library for a card, put that card into your hand, discard a card at random, then shuffle.",
+    "mana_cost": "{R}",
+    "cmc": 1.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Gemstone Caverns",
+    "type_line": "Legendary Land",
+    "oracle_text": "If this card is in your opening hand and you're not the starting player, you may begin the game with Gemstone Caverns on the battlefield with a luck counter on it. If you do, exile a card from your hand.\n{T}: Add {C}. If Gemstone Caverns has a luck counter on it, instead add one mana of any color.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Gene Pollinator",
+    "type_line": "Artifact Creature — Robot Insect",
+    "oracle_text": "{T}, Tap an untapped permanent you control: Add one mana of any color.",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "1",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Gitaxian Probe",
+    "type_line": "Sorcery",
+    "oracle_text": "({U/P} can be paid with either {U} or 2 life.)\nLook at target player's hand.\nDraw a card.",
+    "mana_cost": "{U/P}",
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Goblin Anarchomancer",
+    "type_line": "Creature — Goblin Shaman",
+    "oracle_text": "Each spell you cast that's red or green costs {1} less to cast.",
+    "mana_cost": "{R}{G}",
+    "cmc": 2.0,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Grapeshot",
+    "type_line": "Sorcery",
+    "oracle_text": "Grapeshot deals 1 damage to any target.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+    "mana_cost": "{1}{R}",
+    "cmc": 2.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Gut Shot",
+    "type_line": "Instant",
+    "oracle_text": "({R/P} can be paid with either {R} or 2 life.)\nGut Shot deals 1 damage to any target.",
+    "mana_cost": "{R/P}",
+    "cmc": 1.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Harmonic Prodigy",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": "1",
+    "toughness": "3",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Irma, Part-Time Mutant",
+    "type_line": "Legendary Creature — Human Mutant Shapeshifter",
+    "oracle_text": "At the beginning of combat on your turn, Irma becomes a copy of up to one other target creature you control, except her name is Irma, Part-Time Mutant and she has this ability. Then put a +1/+1 counter on her.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": "1",
+    "toughness": "1",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Jeska's Will",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Add {R} for each card in target opponent's hand.\n• Exile the top three cards of your library. You may play them this turn.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Kinnan, Bonder Prodigy",
+    "type_line": "Legendary Creature — Human Druid",
+    "oracle_text": "Whenever you tap a nonland permanent for mana, add one mana of any type that permanent produced.\n{5}{G}{U}: Look at the top five cards of your library. You may put a non-Human creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
+    "mana_cost": "{G}{U}",
+    "cmc": 2.0,
+    "colors": [
+      "G",
+      "U"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Land Grant",
+    "type_line": "Sorcery",
+    "oracle_text": "If you have no land cards in hand, you may reveal your hand rather than pay this spell's mana cost.\nSearch your library for a Forest card, reveal that card, put it into your hand, then shuffle.",
+    "mana_cost": "{1}{G}",
+    "cmc": 2.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Lion's Eye Diamond",
+    "type_line": "Artifact",
+    "oracle_text": "Discard your hand, Sacrifice this artifact: Add three mana of any one color. Activate only as an instant.",
+    "mana_cost": "{0}",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Lotus Petal",
+    "type_line": "Artifact",
+    "oracle_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+    "mana_cost": "{0}",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Mana Vault",
+    "type_line": "Artifact",
+    "oracle_text": "This artifact doesn't untap during your untap step.\nAt the beginning of your upkeep, you may pay {4}. If you do, untap this artifact.\nAt the beginning of your draw step, if this artifact is tapped, it deals 1 damage to you.\n{T}: Add {C}{C}{C}.",
+    "mana_cost": "{1}",
+    "cmc": 1.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Manamorphose",
+    "type_line": "Instant",
+    "oracle_text": "Add two mana in any combination of colors.\nDraw a card.",
+    "mana_cost": "{1}{R/G}",
+    "cmc": 2.0,
+    "colors": [
+      "G",
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Mental Misstep",
+    "type_line": "Instant",
+    "oracle_text": "({U/P} can be paid with either {U} or 2 life.)\nCounter target spell with mana value 1.",
+    "mana_cost": "{U/P}",
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Minamo, School at Water's Edge",
+    "type_line": "Legendary Land",
+    "oracle_text": "{T}: Add {U}.\n{U}, {T}: Untap target legendary permanent.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Mindbreak Trap",
+    "type_line": "Instant — Trap",
+    "oracle_text": "If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.\nExile any number of target spells.",
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Misty Rainforest",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Mogg Salvage",
+    "type_line": "Instant",
+    "oracle_text": "If an opponent controls an Island and you control a Mountain, you may cast this spell without paying its mana cost.\nDestroy target artifact.",
+    "mana_cost": "{2}{R}",
+    "cmc": 3.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Molt Tender",
+    "type_line": "Creature — Insect Druid",
+    "oracle_text": "{T}: Mill a card. (Put the top card of your library into your graveyard.)\n{T}, Exile a card from your graveyard: Add one mana of any color.",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "1",
+    "toughness": "1",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Mox Amber",
+    "type_line": "Legendary Artifact",
+    "oracle_text": "{T}: Add one mana of any color among legendary creatures and planeswalkers you control.",
+    "mana_cost": "{0}",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Mox Diamond",
+    "type_line": "Artifact",
+    "oracle_text": "If this artifact would enter, you may discard a land card instead. If you do, put this artifact onto the battlefield. If you don't, put it into its owner's graveyard.\n{T}: Add one mana of any color.",
+    "mana_cost": "{0}",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Mystic Remora",
+    "type_line": "Enchantment",
+    "oracle_text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.",
+    "mana_cost": "{U}",
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Mystical Tutor",
+    "type_line": "Instant",
+    "oracle_text": "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.",
+    "mana_cost": "{U}",
+    "cmc": 1.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Narset's Reversal",
+    "type_line": "Instant",
+    "oracle_text": "Copy target instant or sorcery spell, then return it to its owner's hand. You may choose new targets for the copy.",
+    "mana_cost": "{U}{U}",
+    "cmc": 2.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Noxious Revival",
+    "type_line": "Instant",
+    "oracle_text": "({G/P} can be paid with either {G} or 2 life.)\nPut target card from a graveyard on top of its owner's library.",
+    "mana_cost": "{G/P}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Otawara, Soaring City",
+    "type_line": "Legendary Land",
+    "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Pact of Negation",
+    "type_line": "Instant",
+    "oracle_text": "Counter target spell.\nAt the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.",
+    "mana_cost": "{0}",
+    "cmc": 0.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Polluted Delta",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Ragavan, Nimble Pilferer",
+    "type_line": "Legendary Creature — Monkey Pirate",
+    "oracle_text": "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+    "mana_cost": "{R}",
+    "cmc": 1.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "1",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Rhystic Study",
+    "type_line": "Enchantment",
+    "oracle_text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Rite of Flame",
+    "type_line": "Sorcery",
+    "oracle_text": "Add {R}{R}, then add {R} for each card named Rite of Flame in each graveyard.",
+    "mana_cost": "{R}",
+    "cmc": 1.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Scalding Tarn",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Seedborn Muse",
+    "type_line": "Creature — Spirit",
+    "oracle_text": "Untap all permanents you control during each other player's untap step.",
+    "mana_cost": "{3}{G}{G}",
+    "cmc": 5.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "4",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Shifting Woodland",
+    "type_line": "Land",
+    "oracle_text": "This land enters tapped unless you control a Forest.\n{T}: Add {G}.\nDelirium — {2}{G}{G}: This land becomes a copy of target permanent card in your graveyard until end of turn. Activate only if there are four or more card types among cards in your graveyard.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Snap",
+    "type_line": "Instant",
+    "oracle_text": "Return target creature to its owner's hand. Untap up to two lands.",
+    "mana_cost": "{1}{U}",
+    "cmc": 2.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Sol Ring",
+    "type_line": "Artifact",
+    "oracle_text": "{T}: Add {C}{C}.",
+    "mana_cost": "{1}",
+    "cmc": 1.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Spellseeker",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "When this creature enters, you may search your library for an instant or sorcery card with mana value 2 or less, reveal it, put it into your hand, then shuffle.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": "1",
+    "toughness": "1",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Springleaf Drum",
+    "type_line": "Artifact",
+    "oracle_text": "{T}, Tap an untapped creature you control: Add one mana of any color.",
+    "mana_cost": "{1}",
+    "cmc": 1.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Steam Vents",
+    "type_line": "Land — Island Mountain",
+    "oracle_text": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Step Through",
+    "type_line": "Sorcery",
+    "oracle_text": "Return two target creatures to their owners' hands.\nWizardcycling {2} ({2}, Discard this card: Search your library for a Wizard card, reveal it, put it into your hand, then shuffle.)",
+    "mana_cost": "{3}{U}{U}",
+    "cmc": 5.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Stomping Ground",
+    "type_line": "Land — Mountain Forest",
+    "oracle_text": "({T}: Add {R} or {G}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Storm-Kiln Artist",
+    "type_line": "Creature — Dwarf Shaman",
+    "oracle_text": "This creature gets +1/+0 for each artifact you control.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "mana_cost": "{3}{R}",
+    "cmc": 4.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Submerge",
+    "type_line": "Instant",
+    "oracle_text": "If an opponent controls a Forest and you control an Island, you may cast this spell without paying its mana cost.\nPut target creature on top of its owner's library.",
+    "mana_cost": "{4}{U}",
+    "cmc": 5.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Summoner's Pact",
+    "type_line": "Instant",
+    "oracle_text": "Search your library for a green creature card, reveal it, put it into your hand, then shuffle.\nAt the beginning of your next upkeep, pay {2}{G}{G}. If you don't, you lose the game.",
+    "mana_cost": "{0}",
+    "cmc": 0.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Taiga",
+    "type_line": "Land — Mountain Forest",
+    "oracle_text": "({T}: Add {R} or {G}.)",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Tavern Scoundrel",
+    "type_line": "Creature — Human Rogue",
+    "oracle_text": "Whenever you win a coin flip, create two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")\n{1}, {T}, Sacrifice another permanent: Flip a coin.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": "1",
+    "toughness": "3",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Tinder Wall",
+    "type_line": "Creature — Plant Wall",
+    "oracle_text": "Defender (This creature can't attack.)\nSacrifice this creature: Add {R}{R}.\n{R}, Sacrifice this creature: It deals 2 damage to target creature it's blocking.",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": "0",
+    "toughness": "3",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Trinket Mage",
+    "type_line": "Creature — Human Wizard",
+    "oracle_text": "When this creature enters, you may search your library for an artifact card with mana value 1 or less, reveal that card, put it into your hand, then shuffle.",
+    "mana_cost": "{2}{U}",
+    "cmc": 3.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Tropical Island",
+    "type_line": "Land — Forest Island",
+    "oracle_text": "({T}: Add {G} or {U}.)",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Twinflame",
+    "type_line": "Sorcery",
+    "oracle_text": "Strive — This spell costs {2}{R} more to cast for each target beyond the first.\nChoose any number of target creatures you control. For each of them, create a token that's a copy of that creature, except it has haste. Exile those tokens at the beginning of the next end step.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Underworld Breach",
+    "type_line": "Enchantment",
+    "oracle_text": "Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)\nAt the beginning of the end step, sacrifice this enchantment.",
+    "mana_cost": "{1}{R}",
+    "cmc": 2.0,
+    "colors": [
+      "R"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Urza's Saga",
+    "type_line": "Enchantment Land — Urza's Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — This Saga gains \"{T}: Add {C}.\"\nII — This Saga gains \"{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This token gets +1/+1 for each artifact you control.'\"\nIII — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Veil of Summer",
+    "type_line": "Instant",
+    "oracle_text": "Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn. You and permanents you control gain hexproof from blue and from black until end of turn. (You and they can't be the targets of blue or black spells or abilities your opponents control.)",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Veyran, Voice of Duality",
+    "type_line": "Legendary Creature — Efreet Wizard",
+    "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Veyran gets +1/+1 until end of turn.\nIf you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+    "mana_cost": "{1}{U}{R}",
+    "cmc": 3.0,
+    "colors": [
+      "R",
+      "U"
+    ],
+    "faces": [],
+    "power": "2",
+    "toughness": "2",
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Volcanic Island",
+    "type_line": "Land — Island Mountain",
+    "oracle_text": "({T}: Add {U} or {R}.)",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Windswept Heath",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Wizard's Staff",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Equipped creature has prowess. (Whenever its controller casts a noncreature spell, that creature gets +1/+1 until end of turn.)\nIf a triggered ability of equipped creature triggers, that ability triggers an additional time.\nEquip Wizard {1}\nEquip {3}",
+    "mana_cost": "{1}{U}",
+    "cmc": 2.0,
+    "colors": [
+      "U"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Wooded Foothills",
+    "type_line": "Land",
+    "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Worldly Tutor",
+    "type_line": "Instant",
+    "oracle_text": "Search your library for a creature card, reveal it, then shuffle and put the card on top.",
+    "mana_cost": "{G}",
+    "cmc": 1.0,
+    "colors": [
+      "G"
+    ],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  },
+  {
+    "board": "mainboard",
+    "name": "Yavimaya, Cradle of Growth",
+    "type_line": "Legendary Land",
+    "oracle_text": "Each land is a Forest in addition to its other land types.",
+    "mana_cost": "",
+    "cmc": 0.0,
+    "colors": [],
+    "faces": [],
+    "power": null,
+    "toughness": null,
+    "source": "mtgjson 5.3.0+20261023"
+  }
+]

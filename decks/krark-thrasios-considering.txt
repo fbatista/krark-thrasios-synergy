@@ -1,0 +1,57 @@
+# "Considering" (maybeboard) list of https://moxfield.com/decks/I4JbQfOqskG3emXagxm6aA as of 2026-10-10.
+# Not a deck: a pool of candidate cards, kept so they are tagged and their card data is on hand.
+m|1|Ancestral Hot Dog Minotaur
+m|1|Carpet of Flowers
+m|1|Cloud of Faeries
+m|1|Crimson Wisps
+m|1|Deep-Fried Plague Myr
+m|1|Eldrazi Guacamole Tightrope
+m|1|Eldritch Evolution
+m|1|Electro, Assaulting Battery
+m|1|Endurance
+m|1|Expedite
+m|1|Flame of Anor
+m|1|Forbidden Orchard
+m|1|Frantic Search
+m|1|Goldspan Dragon
+m|1|Hexing Squelcher
+m|1|Hidden Strings
+m|1|Imperial Recruiter
+m|1|Krark's Thumb
+m|1|Legolas's Quick Reflexes
+m|1|Llanowar Elves
+m|1|Misunderstood Trapeze Elf
+m|1|Mockingbird
+m|1|Narrow-Minded Baloney Fireworks
+m|1|Narset's Reversal
+m|1|Neoform
+m|1|Oboro Breezecaller
+m|1|Phyrexian Midway Bamboozle
+m|1|Playable Delusionary Hydra
+m|1|Pyroblast
+m|1|Ragavan, Nimble Pilferer
+m|1|Relic of Legends
+m|1|Return the Favor
+m|1|Reverent Silence
+m|1|Roaming Throne
+m|1|Song of Creation
+m|1|Spinerock Tyrant
+m|1|Springheart Nantuko
+m|1|Stella Lee, Wild Card
+m|1|Swan Song
+m|1|Talon Gates of Madara
+m|1|The Cabbage Merchant
+m|1|The Vision and Scarlet Witch
+m|1|Timeless Witness
+m|1|Tinder Wall
+m|1|Treasonous Ogre
+m|1|Unassuming Gelatinous Serpent
+m|1|Unglued Pea-Brained Dinosaur
+m|1|Unsanctioned Ancient Juggler
+m|1|Urabrask // The Great Work
+m|1|Verdant Catacombs
+m|1|Vivi Ornitier
+m|1|Wall of Roots
+m|1|Wild Growth
+m|1|Wizard's Staff
+m|1|_____ Goblin

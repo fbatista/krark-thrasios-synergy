@@ -1,0 +1,8 @@
+---
+name: Frantic Search
+roles:
+- draws_top_card
+- graveyard_filler
+- net_free_spell
+- untaps_land
+notes: Free with three lands, nets mana with Cradle/Tomb, discards fuel Breach.

@@ -1,0 +1,9 @@
+---
+name: The Unbeatable Squirrel Girl
+roles:
+- copy_worthy_creature
+- creature_ability_mana_cost
+- creature_ability_reducible
+- etb_creature
+- mana_sink
+- token_maker

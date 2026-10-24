@@ -1,0 +1,9 @@
+---
+name: Timeless Witness
+roles:
+- etb_creature
+- key_piece
+- recovers_discard
+- recovers_graveyard_card
+- wizard_shaman_trigger
+notes: Eternal Witness with eternalize; Shaman, so Harmonic Prodigy doubles the ETB.
