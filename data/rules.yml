@@ -1,5 +1,7 @@
 # Synergy rules. Every card matching selector `a` has synergy with every card matching `b`.
 # A selector is a role, a list of roles (all required), or {all:, any:, none:}.
+# `finder: true` marks a tutor rule: `a` can fetch `b` from the library (used by the narrow penalty).
+# `synergy: false` keeps a rule out of the matrix (finder-only knowledge).
 # Role names are documented in data/roles.yml. Reasons end up in synergy_pairs.csv.
 
 # --- spells, casting, copying -------------------------------------------------------------
@@ -117,6 +119,7 @@
   a: reduces_red_green_spells
   b: { all: [nonland, red_or_green, generic_in_cost], none: commander }
 - reason: finds an enchantment card
+  finder: true
   a: finds_enchantment
   b: enchantment
 - reason: use {T} ability the turn the creature arrives
@@ -147,6 +150,7 @@
   a: untaps_creature
   b: creature_tap_ability
 - reason: finds a creature with power 2 or less
+  finder: true
   a: finds_small_creature
   b: { all: [creature, power_le_2], none: commander }
 
@@ -179,12 +183,14 @@
   a: construct_maker
   b: artifact
 - reason: finds a utility land
+  finder: true
   a: finds_utility_land
   b: utility_land
 - reason: land card in hand to discard
   a: wants_land_in_hand
   b: puts_land_in_hand
 - reason: finds a Forest card
+  finder: true
   a: finds_forest
   b: forest_land
 - reason: sacrifice a spent land as the cost
@@ -211,22 +217,36 @@
 - reason: more lands to play
   a: extra_land_drop
   b: puts_land_in_hand
-- reason: enchanted land gets tapped again and again
+- reason: untap the enchanted land for the bonus mana again
   a: land_mana_enhancer
-  b: { any: [untaps_land, untap_worthy_land] }
+  b: untaps_land
+- reason: put the Aura on a land that makes a lot of mana or gets untapped
+  a: enchants_any_land
+  b: untap_worthy_land
+- reason: needs a Forest to enchant
+  a: enchants_forest
+  b: { any: [forest_land, makes_lands_forests] }
+- reason: tap creatures to untap a basic land (best with an Aura that adds mana on it)
+  a: untaps_basic_land
+  b: { any: [basic_land, land_mana_enhancer] }
 - reason: fetchable land type
+  finder: true
   a: fetches_plains
   b: plains_land
 - reason: fetchable land type
+  finder: true
   a: fetches_island
   b: island_land
 - reason: fetchable land type
+  finder: true
   a: fetches_swamp
   b: swamp_land
 - reason: fetchable land type
+  finder: true
   a: fetches_mountain
   b: mountain_land
 - reason: fetchable land type
+  finder: true
   a: fetches_forest
   b: forest_land
 
@@ -247,6 +267,7 @@
   a: copies_graveyard_permanent
   b: { any: [woodland_gy_target, fetchland, graveyard_filler] }
 - reason: tutor any card
+  finder: true
   a: tutor_any_card
   b: key_piece
 - reason: recover the random discard
@@ -256,23 +277,43 @@
   a: puts_card_on_top
   b: draws_top_card
 - reason: finds any instant/sorcery
+  finder: true
   a: finds_instant_sorcery
   b: instant_sorcery
 - reason: finds an instant/sorcery with MV<=2
+  finder: true
   a: finds_cheap_instant_sorcery
   b: [instant_sorcery, mv_le_2]
 - reason: finds a creature
+  finder: true
   a: finds_creature
   b: { all: creature, none: commander }
 - reason: finds a green creature
+  finder: true
   a: finds_green_creature
   b: { all: [creature, green], none: commander }
 - reason: wizardcycling finds a Wizard
+  finder: true
   a: finds_wizard
   b: { all: wizard, none: commander }
 - reason: finds an artifact with MV<=1
+  finder: true
   a: finds_cheap_artifact
   b: [artifact, mv_le_1]
 - reason: chapter III finds a {0}/{1} artifact
+  finder: true
   a: finds_artifact_cost_0_1
   b: [artifact, mana_cost_0_or_1]
+
+# --- finder-only rules: who can fetch what, without adding a link to the matrix ----------
+# Used by the narrow penalty (data/tags/*.yml `narrow:` blocks).
+- reason: can find any land
+  finder: true
+  synergy: false
+  a: finds_utility_land
+  b: land
+- reason: can find any card
+  finder: true
+  synergy: false
+  a: tutor_any_card
+  b: { any: [land, nonland] }

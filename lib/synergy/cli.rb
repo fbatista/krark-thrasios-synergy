@@ -11,14 +11,16 @@ module Synergy
 
         fetch   DECK            pull the deck's cards from MTGJSON into DECK.cards.json
         lint    DECK            check every card has a tag file and every role exists
-        build   DECK            write synergy_matrix.csv, synergy_pairs.csv, attributes.csv, report.txt
-        score   DECK...         build each deck in memory and print its synergy score
+        build   DECK            write synergy_matrix.csv, synergy_pairs.csv, attributes.csv, narrow.csv, report.txt
+        score   DECK...         build each deck in memory and print its synergy score (raw and narrow-adjusted)
+        narrow  DECK            show the narrow cards: multiplier, what they need, what gives it to them
         compare OLD NEW         compare two deck lists (built in memory), output folders or synergy_matrix.csv files
         roles   DECK CARD...    show the derived + curated roles of cards (what the rules see)
         stub    DECK            create empty tag files for untagged cards
 
       DECK is a deck list file, e.g. decks/krark-thrasios.txt (see README for formats).
-      Options: --out DIR (build/compare), --force (fetch), --cache DIR (fetch)
+      Options: --out DIR (build/compare), --force (fetch), --cache DIR (fetch),
+               --cards-seen N, --finder-weight X (narrow penalty assumptions, defaults in data/settings.yml)
     TXT
 
     def initialize(argv, out: $stdout, err: $stderr)
@@ -37,6 +39,7 @@ module Synergy
       when "build" then build(*@argv)
       when "compare" then compare(*@argv)
       when "score" then score(*@argv)
+      when "narrow" then narrow(*@argv)
       when "roles" then roles(*@argv)
       when "stub" then stub(*@argv)
       when nil, "help", "-h", "--help" then @out.puts USAGE
@@ -57,7 +60,14 @@ module Synergy
         o.on("--out DIR") { |v| @opts[:out] = v }
         o.on("--force") { @opts[:force] = true }
         o.on("--cache DIR") { |v| @opts[:cache] = v }
+        o.on("--cards-seen N", Integer) { |v| @opts[:cards_seen] = v }
+        o.on("--finder-weight X", Float) { |v| @opts[:finder_weight] = v }
       end
+    end
+
+    def settings
+      @settings ||= Settings.load(File.join(DATA_DIR, "settings.yml"),
+                                  "cards_seen" => @opts[:cards_seen], "finder_weight" => @opts[:finder_weight])
     end
 
     def cards_path(deck_path) = deck_path.sub(/\.\w+\z/, "") + ".cards.json"
@@ -115,10 +125,11 @@ module Synergy
 
       out = @opts[:out] || File.join(ROOT, "output", deck.name)
       FileUtils.mkdir_p(out)
-      engine = Engine.new(cards: cards, tag_store: tags, rules: rules)
+      engine = Engine.new(cards: cards, tag_store: tags, rules: rules, settings: settings)
       Matrix.write_matrix(engine, File.join(out, "synergy_matrix.csv"))
       Matrix.write_pairs(engine, File.join(out, "synergy_pairs.csv"))
       Attributes.load.write(engine, File.join(out, "attributes.csv"))
+      Matrix.write_narrow(engine, File.join(out, "narrow.csv"))
       File.write(File.join(out, "report.txt"), engine.report + "\n")
       @out.puts engine.report
       @out.puts "written to #{out}/"
@@ -129,7 +140,7 @@ module Synergy
       errors, = tags.lint(cards, rules: rules)
       raise Error, "lint failed for #{deck_path}, run: bin/synergy lint #{deck_path}" unless errors.empty?
 
-      [deck, Engine.new(cards: cards, tag_store: tags, rules: rules)]
+      [deck, Engine.new(cards: cards, tag_store: tags, rules: rules, settings: settings)]
     end
 
     # A deck list is built in memory; a folder or CSV is read as a saved matrix.
@@ -149,8 +160,22 @@ module Synergy
 
       sides = deck_paths.map { |p| side_for(p) }
       width = sides.map { |s| s.label.to_s.size }.max
-      @out.puts format("%-#{width}s  %5s  %5s  %s", "deck", "cards", "score", "avg/card")
-      sides.each { |s| @out.puts format("%-#{width}s  %5d  %5d  %.1f", s.label, s.names.size, s.score, s.average) }
+      @out.puts format("%-#{width}s  %5s  %5s  %9s  %s", "deck", "cards", "score", "effective", "avg/card")
+      sides.each { |s| @out.puts format("%-#{width}s  %5d  %5d  %9.1f  %.1f", s.label, s.names.size, s.score, s.effective_score, s.average) }
+    end
+
+    def narrow(deck_path = nil)
+      _deck, engine = engine_for(deck_path)
+      @out.puts "assumptions: #{settings}"
+      results = engine.narrow.results
+      return @out.puts("no narrow cards in this deck") if results.empty?
+
+      results.each do |r|
+        @out.puts format("x%.2f  %s  (%d pairs -> %.1f effective)", r.multiplier, r.card.name, engine.degree(r.card), engine.effective_degree(r.card))
+        @out.puts format("       access %.2f, chance %.2f, floor %.2f", r.access_probability, r.chance, r.floor)
+        @out.puts "       needs: #{r.access.map { |n, s| "#{n} (#{s.round(2)})" }.join(', ')}" unless r.access.empty?
+        @out.puts "       #{r.spec.note}" if r.spec.note
+      end
     end
 
     def compare(old_path = nil, new_path = nil)
@@ -166,14 +191,14 @@ module Synergy
 
     def roles(deck_path = nil, *names)
       _deck, cards, tags, rules = load(deck_path)
-      engine = Engine.new(cards: cards, tag_store: tags, rules: rules)
+      engine = Engine.new(cards: cards, tag_store: tags, rules: rules, settings: settings)
       names = cards.map(&:name) if names.empty?
       names.each do |n|
         card = cards.find { |c| c.name.casecmp?(n) } or raise Error, "#{n.inspect} is not in the deck"
         @out.puts "#{card.name}  (#{card.type_line}, #{card.mana_cost})"
         @out.puts "  derived: #{card.derived_roles.sort.join(', ')}"
         @out.puts "  curated: #{tags.roles_for(card.name).sort.join(', ')}"
-        @out.puts "  synergies: #{engine.degree(card)}"
+        @out.puts format("  synergies: %d  (narrow multiplier x%.2f, effective %.1f)", engine.degree(card), engine.multiplier(card), engine.effective_degree(card))
       end
     end
 

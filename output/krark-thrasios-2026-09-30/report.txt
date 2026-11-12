@@ -1,4 +1,8 @@
 cards: 100   synergy pairs: 1135   density: 0.229
+effective score (narrow-adjusted): 1128.0
 zero-synergy cards: City of Brass, Command Tower, Gemstone Caverns
 lowest:  City of Brass (0), Command Tower (0), Gemstone Caverns (0), Rhystic Study (2), Yavimaya, Cradle of Growth (4), Arid Mesa (6), Bloodstained Mire (6), Flooded Strand (6), Polluted Delta (6), Windswept Heath (6)
 highest: Birgi, God of Storytelling // Harnfel, Horn of Bounty (58), Displacer Kitten (57), Grapeshot (56), Underworld Breach (56), Brain Freeze (55), Ashling, Flame Dancer (54), Flusterstorm (54), Veyran, Voice of Duality (51), Krark, the Thumbless (50), Formidable Speaker (49)
+narrow:  x0.44  Gemstone Caverns  (0 pairs -> 0.0 effective)
+narrow:  x0.37  Lion's Eye Diamond  (15 pairs -> 8.0 effective)
+narrow:  x1.00  Mox Amber  (20 pairs -> 20.0 effective)

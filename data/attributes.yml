@@ -13,7 +13,7 @@
   oracle: 'draw a card|draw cards'
 - name: mana
   description: adds mana or creates Treasures for you
-  oracle: '\badd (\{|one mana|two mana|three mana|x mana)|create (a|two) treasure token|creatures you control have "\{T\}: add|\{T\}: Add|Add one mana'
+  oracle: '\badd (\{|one mana|two mana|three mana|x mana)|\badds? an additional (\{|one mana)|create (a|two) treasure token|creatures you control have "\{T\}: add|\{T\}: Add|Add one mana'
 - name: tutor
   description: searches your library
   oracle: 'search your library'

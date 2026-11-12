@@ -5,6 +5,7 @@ A small Ruby tool that turns a Commander deck list into:
 - `synergy_matrix.csv`: a card x card matrix, `1` where two cards have synergy, `0` otherwise, diagonal empty
 - `synergy_pairs.csv`: every synergistic pair with the reason(s) it was linked
 - `attributes.csv`: one row per card with attribute flags (anti_stack, anti_permanent, draw, mana, tutor, ...)
+- `narrow.csv`: the cards that need specific things to function, with their "narrow penalty" multiplier
 
 Card data (types, mana cost, rules text) comes from [MTGJSON](https://mtgjson.com). The deck list comes
 from you, for example Moxfield's text export. The reference deck is
@@ -24,8 +25,9 @@ bin/synergy compare decks/krark-thrasios-2026-09-30.txt decks/krark-thrasios.txt
 ## Comparing two versions of a deck
 
 `compare` builds both lists in memory and reports the **synergy score** of each (the number of
-synergistic pairs, which is the sum of the matrix divided by two), the average per card, the cards
-that went in and out with their synergy counts, and every kept card whose count changed:
+synergistic pairs, which is the sum of the matrix divided by two), the **effective score** (the same
+sum with narrow cards discounted, see "Narrow cards"), the average per card, the cards that went in
+and out with their synergy counts, and every kept card whose count changed:
 
 ```
 krark-thrasios-2026-09-30 -> krark-thrasios
@@ -137,6 +139,56 @@ bin/synergy roles decks/krark-thrasios.txt "Shang-Chi, Master of Kung Fu"
 Cells are binary, so a game-winning combo and a mild convenience both read as `1`. The pairs file is
 where the nuance lives.
 
+## Narrow cards
+
+Some cards only do something when a specific piece is around. Earthcraft links to every creature, but
+only if you also have the deck's one basic land. Lion's Eye Diamond needs Underworld Breach. Gemstone
+Caverns needs to be in the opening hand of a player who is not going first. Counting their links at
+face value overrates them, so each card can carry a **narrow multiplier** between 0 and 1: given that
+you have the card, how likely is it to work? Ordinary cards are 1.
+
+It is declared in the card's tag file:
+
+```yaml
+name: Lion's Eye Diamond
+roles: [...]
+narrow:
+  needs:                                  # alternatives, any one turns the card on
+  - match: recasts_from_graveyard         # selector, same syntax as rules.yml
+    strength: 1.0                         # Underworld Breach: fully on
+  - match: { any: [cast_trigger_noncreature, spell_count_payoff] }
+    strength: 0.5                         # Displacer Kitten / Birgi: "to a degree"
+  note: why
+```
+
+Other keys: `conditions` (`in_opening_hand`, `not_first_player`), `chance` (a fixed extra factor for
+anything the model can't express) and `floor` (the value the card keeps when nothing lines up).
+
+How the number is computed, with the assumptions in `data/settings.yml`:
+
+- Every other card of the library is seen with probability `q = (cards_seen - 1) / (library - 1)`,
+  about 11% with the default of 12 cards seen. Commanders are always available.
+- A card matching a need counts with that need's strength. A card that can **tutor** for it counts with
+  strength x `finder_weight` (0.75). Tutors are known from the rules marked `finder: true`, so fetchlands
+  and Land Grant raise Earthcraft's odds without being listed anywhere.
+- `access = 1 - product of (1 - strength x q)` over all those cards.
+- `in_opening_hand` is `opening_hand / cards_seen` (given that you saw the card at all, was it in the
+  opening seven?); `not_first_player` is `(players - 1) / players`.
+- `multiplier = floor + (1 - floor) x chance x conditions x access`
+
+The matrix stays binary. The multiplier feeds an **effective score**: each pair is weighted by the
+multipliers of its two cards, except that a card is not penalised on the link to its own enabler
+(Earthcraft and the basic Forest count in full). `score`, `compare` and `report.txt` show the effective
+score next to the raw pair count, `synergy_pairs.csv` has a `weight` column, and:
+
+```bash
+bin/synergy narrow decks/my-deck.txt                   # multiplier, what each card needs, what provides it
+bin/synergy score decks/my-deck.txt --cards-seen 15    # try other assumptions
+```
+
+A card with no links (Gemstone Caverns) gets a multiplier too, but it cannot move a score that only
+counts links.
+
 ## Attribute columns
 
 Defined in `data/attributes.yml`. Each column is a regex on the rules text, a regex on the mana cost,
@@ -161,12 +213,13 @@ and/or a list of roles.
 ## Repository layout
 
 ```
-bin/synergy              CLI: fetch | lint | build | score | compare | roles | stub
+bin/synergy              CLI: fetch | lint | build | score | compare | narrow | roles | stub
 lib/synergy/             engine (card, deck, card_db, tag_store, selector, rule, engine, matrix, attributes, comparison, cli)
 data/roles.yml           role registry (documentation + lint)
 data/rules.yml           the synergy rules
 data/attributes.yml      attribute columns
-data/tags/*.yml          one file per card: curated roles
+data/settings.yml        assumptions behind the narrow penalty (cards seen, finder weight, players)
+data/tags/*.yml          one file per card: curated roles, plus an optional `narrow:` block
 decks/*.txt              deck lists; decks/*.cards.json is the MTGJSON data for each (committed, so no download needed)
                          krark-thrasios-considering.txt is the deck's Moxfield "Considering" list: tagged, not a deck
 output/<deck>/           generated CSVs and report.txt

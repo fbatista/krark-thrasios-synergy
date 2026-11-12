@@ -11,12 +11,14 @@ module Synergy
   class Error < StandardError; end
 end
 
+require_relative "synergy/settings"
 require_relative "synergy/card"
 require_relative "synergy/deck"
 require_relative "synergy/card_db"
 require_relative "synergy/tag_store"
 require_relative "synergy/selector"
 require_relative "synergy/rule"
+require_relative "synergy/narrow"
 require_relative "synergy/engine"
 require_relative "synergy/matrix"
 require_relative "synergy/attributes"

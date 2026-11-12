@@ -1,0 +1,7 @@
+---
+name: Chrome Mox
+roles:
+- nonland_mana_source
+- repeatable_mana
+- untap_worthy_permanent
+notes: Zero-mana rock that imprints a coloured card from hand.

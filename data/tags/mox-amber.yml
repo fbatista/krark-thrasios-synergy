@@ -1,4 +1,3 @@
----
 name: Mox Amber
 roles:
 - flicker_reset_target
@@ -7,3 +6,8 @@ roles:
 - repeatable_mana
 - untap_worthy_legendary
 - untap_worthy_permanent
+narrow:
+  needs:
+  - match: legendary_creature
+    strength: 1.0
+  note: Makes no mana without a legendary creature or planeswalker. Commanders are always available.

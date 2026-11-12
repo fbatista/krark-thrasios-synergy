@@ -1,0 +1,105 @@
+card,status,synergies_old,synergies_new,delta,effective_old,effective_new,multiplier_old,multiplier_new
+Alchemist's Refuge,kept,17,17,0,17.0,17.0,1.0,1.0
+Ancient Tomb,kept,13,13,0,13.0,13.0,1.0,1.0
+Arid Mesa,kept,6,6,0,6.0,6.0,1.0,1.0
+"Ashling, Flame Dancer",kept,51,52,1,51.0,51.6,1.0,1.0
+Badgermole Cub,kept,25,26,1,25.0,25.6,1.0,1.0
+Biomancer's Familiar,kept,14,15,1,14.0,14.6,1.0,1.0
+Birds of Paradise,kept,21,22,1,21.0,21.6,1.0,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",kept,56,56,0,56.0,55.4,1.0,1.0
+Bloodstained Mire,removed,6,,,6.0,,1.0,
+"Boseiju, Who Endures",kept,13,13,0,13.0,13.0,1.0,1.0
+Brain Freeze,kept,52,51,-1,51.4,50.8,1.0,1.0
+Breeding Pool,kept,9,11,2,9.0,11.0,1.0,1.0
+Candelabra of Tawnos,kept,21,22,1,21.0,21.8,1.0,1.0
+Chain of Vapor,kept,20,20,0,20.0,20.0,1.0,1.0
+Chord of Calling,kept,33,33,0,33.0,33.0,1.0,1.0
+Chrome Mox,removed,14,,,14.0,,1.0,
+City of Brass,kept,0,0,0,0.0,0.0,1.0,1.0
+Command Tower,kept,0,0,0,0.0,0.0,1.0,1.0
+Crop Rotation,kept,32,32,0,32.0,32.0,1.0,1.0
+Deflecting Swat,kept,13,13,0,13.0,13.0,1.0,1.0
+Delighted Halfling,kept,27,28,1,27.0,27.6,1.0,1.0
+Deserted Temple,kept,13,14,1,13.0,13.8,1.0,1.0
+Displacer Kitten,kept,57,57,0,57.0,56.4,1.0,1.0
+Dualcaster Mage,kept,42,43,1,42.0,42.6,1.0,1.0
+Earthcraft,added,,34,,,21.6,,0.602
+Elvish Spirit Guide,kept,13,14,1,13.0,13.6,1.0,1.0
+Emerald Charm,kept,33,32,-1,33.0,32.0,1.0,1.0
+Enduring Vitality,kept,36,37,1,36.0,36.6,1.0,1.0
+Essence Flux,kept,19,19,0,19.0,19.0,1.0,1.0
+Eternal Witness,kept,38,38,0,37.4,37.6,1.0,1.0
+Expedition Map,kept,19,19,0,19.0,19.0,1.0,1.0
+Fierce Guardianship,kept,12,12,0,12.0,12.0,1.0,1.0
+Flooded Strand,kept,6,6,0,6.0,6.0,1.0,1.0
+Flusterstorm,kept,51,50,-1,50.4,49.8,1.0,1.0
+Formidable Speaker,kept,52,52,0,52.0,51.6,1.0,1.0
+Gaea's Cradle,kept,39,39,0,39.0,39.0,1.0,1.0
+Gamble,kept,33,33,0,33.0,33.0,1.0,1.0
+Gemstone Caverns,removed,0,,,0.0,,0.438,
+Gene Pollinator,kept,41,42,1,41.0,41.6,1.0,1.0
+Gitaxian Probe,kept,16,16,0,16.0,16.0,1.0,1.0
+Goblin Anarchomancer,kept,32,33,1,32.0,32.6,1.0,1.0
+Grapeshot,kept,53,52,-1,52.4,51.8,1.0,1.0
+Gut Shot,kept,13,13,0,13.0,13.0,1.0,1.0
+Harmonic Prodigy,kept,20,21,1,20.0,20.6,1.0,1.0
+"Irma, Part-Time Mutant",kept,27,28,1,27.0,27.6,1.0,1.0
+Jeska's Will,kept,19,18,-1,18.4,18.0,1.0,1.0
+"Kinnan, Bonder Prodigy",kept,37,36,-1,36.4,35.6,1.0,1.0
+"Krark, the Thumbless",kept,47,48,1,47.0,47.6,1.0,1.0
+Land Grant,kept,20,21,1,20.0,21.0,1.0,1.0
+Lion's Eye Diamond,removed,16,,,9.0,,0.42,
+Lotus Petal,kept,11,11,0,11.0,11.0,1.0,1.0
+Mana Vault,kept,16,16,0,16.0,16.0,1.0,1.0
+Manamorphose,kept,17,17,0,17.0,17.0,1.0,1.0
+Mental Misstep,kept,13,13,0,13.0,13.0,1.0,1.0
+"Minamo, School at Water's Edge",kept,11,11,0,11.0,11.0,1.0,1.0
+Mindbreak Trap,kept,11,11,0,11.0,11.0,1.0,1.0
+Misty Rainforest,kept,8,9,1,8.0,9.0,1.0,1.0
+Mogg Salvage,kept,16,16,0,16.0,16.0,1.0,1.0
+Molt Tender,kept,23,24,1,23.0,23.6,1.0,1.0
+Mox Amber,kept,22,22,0,22.0,22.0,1.0,1.0
+Mox Diamond,kept,19,19,0,19.0,19.0,1.0,1.0
+Mystic Remora,kept,11,11,0,11.0,11.0,1.0,1.0
+Mystical Tutor,kept,40,40,0,40.0,40.0,1.0,1.0
+Noxious Revival,kept,18,17,-1,17.4,17.0,1.0,1.0
+"Otawara, Soaring City",kept,19,19,0,19.0,19.0,1.0,1.0
+Pact of Negation,kept,14,14,0,14.0,14.0,1.0,1.0
+"Pia, Aether Ascetic",kept,24,26,2,24.0,25.4,1.0,1.0
+Polluted Delta,kept,6,6,0,6.0,6.0,1.0,1.0
+Rhystic Study,kept,3,3,0,3.0,3.0,1.0,1.0
+Rite of Flame,kept,18,18,0,18.0,18.0,1.0,1.0
+Scalding Tarn,kept,8,8,0,8.0,8.0,1.0,1.0
+Seedborn Muse,kept,31,31,0,31.0,30.6,1.0,1.0
+"Shang-Chi, Master of Kung Fu",kept,24,25,1,24.0,24.6,1.0,1.0
+Shifting Woodland,kept,27,27,0,26.4,27.0,1.0,1.0
+Snap,kept,25,26,1,25.0,25.8,1.0,1.0
+Snow-Covered Forest,added,,8,,,8.0,,1.0
+Sol Ring,kept,16,16,0,16.0,16.0,1.0,1.0
+Spellseeker,kept,32,33,1,32.0,32.6,1.0,1.0
+Springleaf Drum,kept,36,36,0,36.0,36.0,1.0,1.0
+Steam Vents,kept,9,8,-1,9.0,8.0,1.0,1.0
+Step Through,kept,16,16,0,16.0,16.0,1.0,1.0
+Stomping Ground,kept,9,10,1,9.0,10.0,1.0,1.0
+Storm-Kiln Artist,kept,47,48,1,47.0,47.6,1.0,1.0
+Submerge,kept,16,16,0,16.0,16.0,1.0,1.0
+Summoner's Pact,kept,30,30,0,30.0,30.0,1.0,1.0
+Taiga,kept,9,10,1,9.0,10.0,1.0,1.0
+Tavern Scoundrel,kept,22,23,1,22.0,22.6,1.0,1.0
+The Unbeatable Squirrel Girl,kept,39,38,-1,38.4,37.6,1.0,1.0
+"Thrasios, Triton Hero",kept,36,35,-1,35.4,34.6,1.0,1.0
+Trinket Mage,kept,24,23,-1,23.4,22.6,1.0,1.0
+Tropical Island,kept,9,11,2,9.0,11.0,1.0,1.0
+Twinflame,kept,28,28,0,28.0,28.0,1.0,1.0
+Underworld Breach,kept,54,54,0,54.0,53.4,1.0,1.0
+Urza's Saga,kept,24,22,-2,23.4,22.0,1.0,1.0
+Utopia Sprawl,added,,17,,,15.0,,0.847
+Veil of Summer,kept,13,13,0,13.0,13.0,1.0,1.0
+Verdant Catacombs,added,,7,,,7.0,,1.0
+"Veyran, Voice of Duality",kept,48,49,1,48.0,48.6,1.0,1.0
+Vibrance,kept,20,21,1,20.0,21.0,1.0,1.0
+Volcanic Island,kept,9,8,-1,9.0,8.0,1.0,1.0
+Windswept Heath,kept,6,7,1,6.0,7.0,1.0,1.0
+Wooded Foothills,kept,8,9,1,8.0,9.0,1.0,1.0
+Worldly Tutor,kept,37,37,0,37.0,37.0,1.0,1.0
+"Yavimaya, Cradle of Growth",kept,5,6,1,5.0,6.0,1.0,1.0

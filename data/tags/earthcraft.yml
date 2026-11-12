@@ -1,0 +1,14 @@
+name: Earthcraft
+roles:
+- creature_count_payoff
+- key_piece
+- untaps_basic_land
+notes: 'Tap an untapped creature (summoning-sick ones too): untap target basic land. Every creature and
+  token becomes mana through the one basic; with Utopia Sprawl on it and Squirrel Girl making tokens it
+  goes infinite.'
+narrow:
+  needs:
+  - match: basic_land
+    strength: 1.0
+  note: Does nothing without a basic land to untap. Fetchlands and land tutors that can find the basic
+    count.

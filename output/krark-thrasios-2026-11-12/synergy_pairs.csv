@@ -1,0 +1,1169 @@
+card_a,card_b,reasons,weight
+Alchemist's Refuge,Candelabra of Tawnos,untap a valuable land,1.0
+Alchemist's Refuge,Crop Rotation,finds a utility land,1.0
+Alchemist's Refuge,Deserted Temple,untap a valuable land,1.0
+Alchemist's Refuge,Emerald Charm,untap a valuable permanent,1.0
+Alchemist's Refuge,Expedition Map,finds a utility land,1.0
+Alchemist's Refuge,Formidable Speaker,untap a valuable permanent,1.0
+Alchemist's Refuge,Gamble,cast sorceries at instant speed; tutor any card,1.0
+Alchemist's Refuge,Gitaxian Probe,cast sorceries at instant speed,1.0
+Alchemist's Refuge,Grapeshot,cast sorceries at instant speed,1.0
+Alchemist's Refuge,Jeska's Will,cast sorceries at instant speed,1.0
+Alchemist's Refuge,Land Grant,cast sorceries at instant speed,1.0
+Alchemist's Refuge,Rite of Flame,cast sorceries at instant speed,1.0
+Alchemist's Refuge,Seedborn Muse,untap a valuable permanent; untap every turn cycle / act on others' turns,1.0
+Alchemist's Refuge,Snap,untap a valuable land,1.0
+Alchemist's Refuge,Step Through,cast sorceries at instant speed,1.0
+Alchemist's Refuge,Twinflame,cast sorceries at instant speed,1.0
+Alchemist's Refuge,Vibrance,finds a utility land,1.0
+Ancient Tomb,Candelabra of Tawnos,untap a valuable land,1.0
+Ancient Tomb,Crop Rotation,finds a utility land,1.0
+Ancient Tomb,Deserted Temple,untap a valuable land,1.0
+Ancient Tomb,Emerald Charm,untap a valuable permanent,1.0
+Ancient Tomb,Expedition Map,finds a utility land,1.0
+Ancient Tomb,Formidable Speaker,untap a valuable permanent,1.0
+Ancient Tomb,Gamble,tutor any card,1.0
+Ancient Tomb,"Kinnan, Bonder Prodigy",mana source feeds a mana sink,1.0
+Ancient Tomb,Seedborn Muse,untap a valuable permanent,1.0
+Ancient Tomb,Snap,untap a valuable land,1.0
+Ancient Tomb,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Ancient Tomb,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Ancient Tomb,Vibrance,finds a utility land,1.0
+Arid Mesa,Crop Rotation,sacrifice a spent land as the cost,1.0
+Arid Mesa,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Arid Mesa,Steam Vents,fetchable land type,1.0
+Arid Mesa,Stomping Ground,fetchable land type,1.0
+Arid Mesa,Taiga,fetchable land type,1.0
+Arid Mesa,Volcanic Island,fetchable land type,1.0
+"Ashling, Flame Dancer","Birgi, God of Storytelling // Harnfel, Horn of Bounty",red mana doesn't empty from the pool,1.0
+"Ashling, Flame Dancer","Boseiju, Who Endures",cares about legendary creatures,1.0
+"Ashling, Flame Dancer",Brain Freeze,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Chain of Vapor,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Chord of Calling,finds a creature; scales with / uses creatures; triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Crop Rotation,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Deflecting Swat,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Delighted Halfling,cares about legendary creatures,1.0
+"Ashling, Flame Dancer",Dualcaster Mage,magecraft also triggers on copies,1.0
+"Ashling, Flame Dancer",Earthcraft,scales with / uses creatures,0.602
+"Ashling, Flame Dancer",Emerald Charm,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Enduring Vitality,scales with / uses creatures,1.0
+"Ashling, Flame Dancer",Essence Flux,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Fierce Guardianship,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Flusterstorm,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Formidable Speaker,finds a creature,1.0
+"Ashling, Flame Dancer",Gaea's Cradle,scales with / uses creatures,1.0
+"Ashling, Flame Dancer",Gamble,triggers on casting an instant/sorcery; tutor any card,1.0
+"Ashling, Flame Dancer",Gene Pollinator,scales with / uses creatures,1.0
+"Ashling, Flame Dancer",Gitaxian Probe,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less,1.0
+"Ashling, Flame Dancer",Grapeshot,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Gut Shot,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Harmonic Prodigy,doubles Wizard/Shaman triggers,1.0
+"Ashling, Flame Dancer","Irma, Part-Time Mutant",Irma copies a strong creature,1.0
+"Ashling, Flame Dancer",Jeska's Will,red mana doesn't empty from the pool; triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer","Kinnan, Bonder Prodigy",mana source feeds a mana sink,1.0
+"Ashling, Flame Dancer","Krark, the Thumbless",magecraft also triggers on copies,1.0
+"Ashling, Flame Dancer",Land Grant,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Manamorphose,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Mental Misstep,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Mindbreak Trap,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Mogg Salvage,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Mox Amber,cares about legendary creatures,1.0
+"Ashling, Flame Dancer",Mystical Tutor,"put a card on top, then draw it; triggers on casting an instant/sorcery",1.0
+"Ashling, Flame Dancer",Noxious Revival,"put a card on top, then draw it; triggers on casting an instant/sorcery",1.0
+"Ashling, Flame Dancer","Otawara, Soaring City",cares about legendary creatures,1.0
+"Ashling, Flame Dancer",Pact of Negation,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Rite of Flame,red mana doesn't empty from the pool; triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+"Ashling, Flame Dancer",Snap,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Springleaf Drum,scales with / uses creatures,1.0
+"Ashling, Flame Dancer",Step Through,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Submerge,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Summoner's Pact,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+"Ashling, Flame Dancer","Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+"Ashling, Flame Dancer",Twinflame,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer",Underworld Breach,cheap card to escape / graveyard fuel,1.0
+"Ashling, Flame Dancer",Veil of Summer,triggers on casting an instant/sorcery,1.0
+"Ashling, Flame Dancer","Veyran, Voice of Duality",doubles cast/copy-caused triggers,1.0
+"Ashling, Flame Dancer",Worldly Tutor,"finds a creature; put a card on top, then draw it; triggers on casting an instant/sorcery",1.0
+Badgermole Cub,Birds of Paradise,creature tapped for mana -> extra {G},1.0
+Badgermole Cub,Chain of Vapor,re-trigger ETB (flicker/bounce),1.0
+Badgermole Cub,Chord of Calling,animated land counts as a creature; finds a creature; scales with / uses creatures,1.0
+Badgermole Cub,Delighted Halfling,creature tapped for mana -> extra {G},1.0
+Badgermole Cub,Displacer Kitten,re-trigger ETB (flicker/bounce),1.0
+Badgermole Cub,Earthcraft,animated land counts as a creature; scales with / uses creatures,0.602
+Badgermole Cub,Enduring Vitality,animated land counts as a creature; creature tapped for mana -> extra {G}; scales with / uses creatures,1.0
+Badgermole Cub,Essence Flux,re-trigger ETB (flicker/bounce),1.0
+Badgermole Cub,Formidable Speaker,finds a creature,1.0
+Badgermole Cub,Gaea's Cradle,animated land counts as a creature; scales with / uses creatures,1.0
+Badgermole Cub,Gene Pollinator,animated land counts as a creature; creature tapped for mana -> extra {G}; scales with / uses creatures,1.0
+Badgermole Cub,Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less,1.0
+Badgermole Cub,"Irma, Part-Time Mutant",Irma copies a strong creature,1.0
+Badgermole Cub,"Kinnan, Bonder Prodigy",mana engine pieces; mana source feeds a mana sink,1.0
+Badgermole Cub,Molt Tender,creature tapped for mana -> extra {G},1.0
+Badgermole Cub,"Otawara, Soaring City",re-trigger ETB (flicker/bounce),1.0
+Badgermole Cub,"Shang-Chi, Master of Kung Fu",creature tapped for mana -> extra {G},1.0
+Badgermole Cub,Snap,re-trigger ETB (flicker/bounce),1.0
+Badgermole Cub,Springleaf Drum,animated land counts as a creature; creature tapped for mana -> extra {G}; scales with / uses creatures,1.0
+Badgermole Cub,Step Through,re-trigger ETB (flicker/bounce),1.0
+Badgermole Cub,Summoner's Pact,finds a green creature,1.0
+Badgermole Cub,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Badgermole Cub,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Badgermole Cub,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Badgermole Cub,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Badgermole Cub,Worldly Tutor,finds a creature,1.0
+Biomancer's Familiar,Chord of Calling,finds a creature; scales with / uses creatures,1.0
+Biomancer's Familiar,Earthcraft,scales with / uses creatures,0.602
+Biomancer's Familiar,Enduring Vitality,scales with / uses creatures,1.0
+Biomancer's Familiar,Formidable Speaker,finds a creature,1.0
+Biomancer's Familiar,Gaea's Cradle,scales with / uses creatures,1.0
+Biomancer's Familiar,Gene Pollinator,scales with / uses creatures,1.0
+Biomancer's Familiar,"Irma, Part-Time Mutant",Irma copies a strong creature; extra copies stack the static effect,1.0
+Biomancer's Familiar,"Kinnan, Bonder Prodigy",creature activated ability costs {2} less,1.0
+Biomancer's Familiar,Springleaf Drum,scales with / uses creatures,1.0
+Biomancer's Familiar,Summoner's Pact,finds a green creature,1.0
+Biomancer's Familiar,The Unbeatable Squirrel Girl,creature activated ability costs {2} less,1.0
+Biomancer's Familiar,"Thrasios, Triton Hero",creature activated ability costs {2} less,1.0
+Biomancer's Familiar,Twinflame,extra copies stack the static effect; hasty token copies of nonlegendary creatures,1.0
+Biomancer's Familiar,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Biomancer's Familiar,Worldly Tutor,finds a creature,1.0
+Birds of Paradise,"Birgi, God of Storytelling // Harnfel, Horn of Bounty",each cheap spell feeds a per-spell payoff,1.0
+Birds of Paradise,Brain Freeze,storm count / spell chaining,1.0
+Birds of Paradise,Chord of Calling,finds a creature; scales with / uses creatures,1.0
+Birds of Paradise,Earthcraft,scales with / uses creatures,0.602
+Birds of Paradise,Emerald Charm,untap a valuable permanent,1.0
+Birds of Paradise,Enduring Vitality,scales with / uses creatures,1.0
+Birds of Paradise,Flusterstorm,storm count / spell chaining,1.0
+Birds of Paradise,Formidable Speaker,finds a creature; untap a valuable permanent,1.0
+Birds of Paradise,Gaea's Cradle,scales with / uses creatures,1.0
+Birds of Paradise,Gene Pollinator,scales with / uses creatures,1.0
+Birds of Paradise,Grapeshot,storm count / spell chaining,1.0
+Birds of Paradise,"Kinnan, Bonder Prodigy",mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+Birds of Paradise,Seedborn Muse,untap a valuable permanent,1.0
+Birds of Paradise,"Shang-Chi, Master of Kung Fu",use {T} ability the turn the creature arrives,1.0
+Birds of Paradise,Springleaf Drum,scales with / uses creatures,1.0
+Birds of Paradise,Summoner's Pact,finds a green creature,1.0
+Birds of Paradise,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Birds of Paradise,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Birds of Paradise,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Birds of Paradise,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Birds of Paradise,Worldly Tutor,finds a creature,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty","Boseiju, Who Endures",cares about legendary creatures,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Brain Freeze,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Candelabra of Tawnos,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Chain of Vapor,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Chord of Calling,finds a creature; scales with / uses creatures,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Crop Rotation,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Deflecting Swat,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Delighted Halfling,cares about legendary creatures; each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Earthcraft,scales with / uses creatures,0.602
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Emerald Charm,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Enduring Vitality,scales with / uses creatures,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Essence Flux,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Expedition Map,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Fierce Guardianship,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Flusterstorm,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Formidable Speaker,finds a creature,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Gaea's Cradle,scales with / uses creatures,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Gamble,each cheap spell feeds a per-spell payoff; tutor any card,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Gene Pollinator,each cheap spell feeds a per-spell payoff; scales with / uses creatures,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Gitaxian Probe,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Grapeshot,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Gut Shot,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty","Irma, Part-Time Mutant",Irma copies a strong creature,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty","Kinnan, Bonder Prodigy",mana source feeds a mana sink,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty","Krark, the Thumbless",returned spell gets recast -> more cast triggers,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Land Grant,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Lotus Petal,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Mana Vault,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Manamorphose,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Mental Misstep,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Mindbreak Trap,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Mogg Salvage,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Molt Tender,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Mox Amber,cares about legendary creatures; each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Mox Diamond,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Mystic Remora,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Mystical Tutor,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Noxious Revival,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty","Otawara, Soaring City",cares about legendary creatures,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Pact of Negation,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Rite of Flame,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Snap,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Sol Ring,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Springleaf Drum,each cheap spell feeds a per-spell payoff; scales with / uses creatures,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Submerge,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Summoner's Pact,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty","Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Underworld Breach,cheap card to escape / graveyard fuel,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Utopia Sprawl,each cheap spell feeds a per-spell payoff,0.847
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Veil of Summer,each cheap spell feeds a per-spell payoff,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty","Veyran, Voice of Duality",doubles cast/copy-caused triggers,1.0
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",Worldly Tutor,each cheap spell feeds a per-spell payoff; finds a creature,1.0
+"Boseiju, Who Endures",Crop Rotation,finds a utility land,1.0
+"Boseiju, Who Endures",Expedition Map,finds a utility land,1.0
+"Boseiju, Who Endures","Irma, Part-Time Mutant",cares about legendary creatures,1.0
+"Boseiju, Who Endures","Kinnan, Bonder Prodigy",cares about legendary creatures,1.0
+"Boseiju, Who Endures","Krark, the Thumbless",cares about legendary creatures,1.0
+"Boseiju, Who Endures","Pia, Aether Ascetic",cares about legendary creatures,1.0
+"Boseiju, Who Endures","Shang-Chi, Master of Kung Fu",cares about legendary creatures,1.0
+"Boseiju, Who Endures",The Unbeatable Squirrel Girl,cares about legendary creatures,1.0
+"Boseiju, Who Endures","Thrasios, Triton Hero",cares about legendary creatures,1.0
+"Boseiju, Who Endures","Veyran, Voice of Duality",cares about legendary creatures,1.0
+"Boseiju, Who Endures",Vibrance,finds a utility land,1.0
+Brain Freeze,Candelabra of Tawnos,storm count / spell chaining,1.0
+Brain Freeze,Chain of Vapor,storm count / spell chaining,1.0
+Brain Freeze,Crop Rotation,storm count / spell chaining,1.0
+Brain Freeze,Deflecting Swat,storm count / spell chaining,1.0
+Brain Freeze,Delighted Halfling,storm count / spell chaining,1.0
+Brain Freeze,Displacer Kitten,triggers on casting any noncreature spell,1.0
+Brain Freeze,Dualcaster Mage,copies instants/sorceries,1.0
+Brain Freeze,Elvish Spirit Guide,storm count / spell chaining,1.0
+Brain Freeze,Emerald Charm,storm count / spell chaining,1.0
+Brain Freeze,Essence Flux,storm count / spell chaining,1.0
+Brain Freeze,Eternal Witness,returns a one-shot card / recovers a discarded card,1.0
+Brain Freeze,Expedition Map,storm count / spell chaining,1.0
+Brain Freeze,Fierce Guardianship,storm count / spell chaining,1.0
+Brain Freeze,Flusterstorm,storm count / spell chaining,1.0
+Brain Freeze,Gamble,storm count / spell chaining; tutor any card,1.0
+Brain Freeze,Gene Pollinator,storm count / spell chaining,1.0
+Brain Freeze,Gitaxian Probe,storm count / spell chaining,1.0
+Brain Freeze,Gut Shot,storm count / spell chaining,1.0
+Brain Freeze,Jeska's Will,storm count / spell chaining,1.0
+Brain Freeze,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Brain Freeze,Land Grant,storm count / spell chaining,1.0
+Brain Freeze,Lotus Petal,storm count / spell chaining,1.0
+Brain Freeze,Mana Vault,storm count / spell chaining,1.0
+Brain Freeze,Manamorphose,storm count / spell chaining,1.0
+Brain Freeze,Mental Misstep,storm count / spell chaining,1.0
+Brain Freeze,Mindbreak Trap,storm count / spell chaining,1.0
+Brain Freeze,Mogg Salvage,storm count / spell chaining,1.0
+Brain Freeze,Molt Tender,storm count / spell chaining,1.0
+Brain Freeze,Mox Amber,storm count / spell chaining,1.0
+Brain Freeze,Mox Diamond,storm count / spell chaining,1.0
+Brain Freeze,Mystic Remora,storm count / spell chaining,1.0
+Brain Freeze,Mystical Tutor,finds any instant/sorcery; storm count / spell chaining,1.0
+Brain Freeze,Noxious Revival,storm count / spell chaining,1.0
+Brain Freeze,Pact of Negation,storm count / spell chaining,1.0
+Brain Freeze,Rite of Flame,storm count / spell chaining,1.0
+Brain Freeze,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Brain Freeze,Snap,storm count / spell chaining,1.0
+Brain Freeze,Sol Ring,storm count / spell chaining,1.0
+Brain Freeze,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Brain Freeze,Springleaf Drum,storm count / spell chaining,1.0
+Brain Freeze,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Brain Freeze,Submerge,storm count / spell chaining,1.0
+Brain Freeze,Summoner's Pact,storm count / spell chaining,1.0
+Brain Freeze,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Brain Freeze,Utopia Sprawl,storm count / spell chaining,0.847
+Brain Freeze,Veil of Summer,storm count / spell chaining,1.0
+Brain Freeze,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Brain Freeze,Worldly Tutor,storm count / spell chaining,1.0
+Breeding Pool,Flooded Strand,fetchable land type,1.0
+Breeding Pool,Land Grant,finds a Forest card,1.0
+Breeding Pool,Misty Rainforest,fetchable land type,1.0
+Breeding Pool,Polluted Delta,fetchable land type,1.0
+Breeding Pool,Scalding Tarn,fetchable land type,1.0
+Breeding Pool,Shifting Woodland,enters untapped with a Forest,1.0
+Breeding Pool,Submerge,control an Island -> free,1.0
+Breeding Pool,Utopia Sprawl,needs a Forest to enchant,1.0
+Breeding Pool,Verdant Catacombs,fetchable land type,1.0
+Breeding Pool,Windswept Heath,fetchable land type,1.0
+Breeding Pool,Wooded Foothills,fetchable land type,1.0
+Candelabra of Tawnos,Deserted Temple,untap a valuable land,1.0
+Candelabra of Tawnos,Displacer Kitten,flicker to untap/reset a permanent; triggers on casting any noncreature spell,1.0
+Candelabra of Tawnos,Emerald Charm,untap a valuable permanent,1.0
+Candelabra of Tawnos,Eternal Witness,returns a one-shot card / recovers a discarded card,1.0
+Candelabra of Tawnos,Flusterstorm,storm count / spell chaining,1.0
+Candelabra of Tawnos,Formidable Speaker,untap a valuable permanent,1.0
+Candelabra of Tawnos,Gaea's Cradle,untap a valuable land,1.0
+Candelabra of Tawnos,Gamble,tutor any card,1.0
+Candelabra of Tawnos,Grapeshot,storm count / spell chaining,1.0
+Candelabra of Tawnos,"Kinnan, Bonder Prodigy",mana source feeds a mana sink,1.0
+Candelabra of Tawnos,"Minamo, School at Water's Edge",untap a valuable land,1.0
+Candelabra of Tawnos,Seedborn Muse,untap a valuable permanent,1.0
+Candelabra of Tawnos,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Candelabra of Tawnos,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Candelabra of Tawnos,Trinket Mage,finds an artifact with MV<=1,1.0
+Candelabra of Tawnos,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Candelabra of Tawnos,Urza's Saga,artifact count grows Constructs; chapter III finds a {0}/{1} artifact; untap a valuable land,1.0
+Candelabra of Tawnos,Utopia Sprawl,untap the enchanted land for the bonus mana again,0.847
+Chain of Vapor,Displacer Kitten,triggers on casting any noncreature spell,1.0
+Chain of Vapor,Dualcaster Mage,copies instants/sorceries; re-trigger ETB (flicker/bounce),1.0
+Chain of Vapor,Eternal Witness,re-trigger ETB (flicker/bounce),1.0
+Chain of Vapor,Flusterstorm,storm count / spell chaining,1.0
+Chain of Vapor,Formidable Speaker,re-trigger ETB (flicker/bounce),1.0
+Chain of Vapor,Grapeshot,storm count / spell chaining,1.0
+Chain of Vapor,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Chain of Vapor,Mystic Remora,bounce your own permanent to reset it,1.0
+Chain of Vapor,Mystical Tutor,finds any instant/sorcery,1.0
+Chain of Vapor,"Pia, Aether Ascetic",re-trigger ETB (flicker/bounce),1.0
+Chain of Vapor,Spellseeker,finds an instant/sorcery with MV<=2; re-trigger ETB (flicker/bounce),1.0
+Chain of Vapor,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Chain of Vapor,The Unbeatable Squirrel Girl,re-trigger ETB (flicker/bounce),1.0
+Chain of Vapor,Trinket Mage,re-trigger ETB (flicker/bounce),1.0
+Chain of Vapor,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Chain of Vapor,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Chord of Calling,Delighted Halfling,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Displacer Kitten,finds a creature; scales with / uses creatures; triggers on casting any noncreature spell,1.0
+Chord of Calling,Dualcaster Mage,copies instants/sorceries; finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Elvish Spirit Guide,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Enduring Vitality,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Eternal Witness,finds a creature; returns a one-shot card / recovers a discarded card; scales with / uses creatures,1.0
+Chord of Calling,Formidable Speaker,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Gamble,tutor any card,1.0
+Chord of Calling,Gene Pollinator,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Goblin Anarchomancer,finds a creature; red/green spell with generic cost -> costs {1} less; scales with / uses creatures,1.0
+Chord of Calling,Harmonic Prodigy,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,"Irma, Part-Time Mutant",finds a creature; scales with / uses creatures,1.0
+Chord of Calling,"Kinnan, Bonder Prodigy",finds a creature; scales with / uses creatures,1.0
+Chord of Calling,"Krark, the Thumbless",copies instants/sorceries; scales with / uses creatures; triggers on casting an instant/sorcery,1.0
+Chord of Calling,Molt Tender,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Mystical Tutor,finds any instant/sorcery,1.0
+Chord of Calling,"Pia, Aether Ascetic",finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Seedborn Muse,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,"Shang-Chi, Master of Kung Fu",finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Spellseeker,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Storm-Kiln Artist,finds a creature; scales with / uses creatures; triggers on casting an instant/sorcery,1.0
+Chord of Calling,Tavern Scoundrel,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,The Unbeatable Squirrel Girl,creature tokens feed creature-count payoffs; finds a creature; scales with / uses creatures,1.0
+Chord of Calling,"Thrasios, Triton Hero",scales with / uses creatures,1.0
+Chord of Calling,Trinket Mage,finds a creature; scales with / uses creatures,1.0
+Chord of Calling,Twinflame,hasty tokens convoke,1.0
+Chord of Calling,"Veyran, Voice of Duality",finds a creature; scales with / uses creatures; triggers on casting an instant/sorcery,1.0
+Chord of Calling,Vibrance,finds a creature; scales with / uses creatures,1.0
+Crop Rotation,Deserted Temple,finds a utility land,1.0
+Crop Rotation,Displacer Kitten,triggers on casting any noncreature spell,1.0
+Crop Rotation,Dualcaster Mage,copies instants/sorceries,1.0
+Crop Rotation,Eternal Witness,returns a one-shot card / recovers a discarded card,1.0
+Crop Rotation,Flooded Strand,sacrifice a spent land as the cost,1.0
+Crop Rotation,Flusterstorm,storm count / spell chaining,1.0
+Crop Rotation,Gaea's Cradle,finds a utility land,1.0
+Crop Rotation,Grapeshot,storm count / spell chaining,1.0
+Crop Rotation,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Crop Rotation,"Minamo, School at Water's Edge",finds a utility land,1.0
+Crop Rotation,Misty Rainforest,sacrifice a spent land as the cost,1.0
+Crop Rotation,Mystical Tutor,finds any instant/sorcery,1.0
+Crop Rotation,"Otawara, Soaring City",finds a utility land,1.0
+Crop Rotation,Polluted Delta,sacrifice a spent land as the cost,1.0
+Crop Rotation,Scalding Tarn,sacrifice a spent land as the cost,1.0
+Crop Rotation,Shifting Woodland,copies a permanent in the graveyard / delirium; finds a utility land,1.0
+Crop Rotation,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Crop Rotation,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Crop Rotation,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Crop Rotation,Urza's Saga,finds a utility land; sacrifice a spent land as the cost,1.0
+Crop Rotation,Verdant Catacombs,sacrifice a spent land as the cost,1.0
+Crop Rotation,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Crop Rotation,Windswept Heath,sacrifice a spent land as the cost,1.0
+Crop Rotation,Wooded Foothills,sacrifice a spent land as the cost,1.0
+Crop Rotation,"Yavimaya, Cradle of Growth",finds a utility land,1.0
+Deflecting Swat,Displacer Kitten,triggers on casting any noncreature spell,1.0
+Deflecting Swat,Dualcaster Mage,copies instants/sorceries,1.0
+Deflecting Swat,Flusterstorm,storm count / spell chaining,1.0
+Deflecting Swat,Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less,1.0
+Deflecting Swat,Grapeshot,storm count / spell chaining,1.0
+Deflecting Swat,"Krark, the Thumbless",copies instants/sorceries; needs/cares about a commander; triggers on casting an instant/sorcery,1.0
+Deflecting Swat,Mystical Tutor,finds any instant/sorcery,1.0
+Deflecting Swat,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Deflecting Swat,"Thrasios, Triton Hero",needs/cares about a commander,1.0
+Deflecting Swat,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Delighted Halfling,Earthcraft,scales with / uses creatures,0.602
+Delighted Halfling,Emerald Charm,untap a valuable permanent,1.0
+Delighted Halfling,Enduring Vitality,scales with / uses creatures,1.0
+Delighted Halfling,Flusterstorm,storm count / spell chaining,1.0
+Delighted Halfling,Formidable Speaker,finds a creature; untap a valuable permanent,1.0
+Delighted Halfling,Gaea's Cradle,scales with / uses creatures,1.0
+Delighted Halfling,Gene Pollinator,scales with / uses creatures,1.0
+Delighted Halfling,Grapeshot,storm count / spell chaining,1.0
+Delighted Halfling,"Irma, Part-Time Mutant",cares about legendary creatures,1.0
+Delighted Halfling,"Kinnan, Bonder Prodigy",cares about legendary creatures; mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+Delighted Halfling,"Krark, the Thumbless",cares about legendary creatures,1.0
+Delighted Halfling,Mox Amber,mana for a legendary spell,1.0
+Delighted Halfling,"Pia, Aether Ascetic",cares about legendary creatures,1.0
+Delighted Halfling,Seedborn Muse,untap a valuable permanent,1.0
+Delighted Halfling,"Shang-Chi, Master of Kung Fu",cares about legendary creatures; use {T} ability the turn the creature arrives,1.0
+Delighted Halfling,Springleaf Drum,scales with / uses creatures,1.0
+Delighted Halfling,Summoner's Pact,finds a green creature,1.0
+Delighted Halfling,The Unbeatable Squirrel Girl,cares about legendary creatures; mana source feeds a mana sink,1.0
+Delighted Halfling,"Thrasios, Triton Hero",cares about legendary creatures; mana source feeds a mana sink,1.0
+Delighted Halfling,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Delighted Halfling,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Delighted Halfling,"Veyran, Voice of Duality",cares about legendary creatures,1.0
+Delighted Halfling,Worldly Tutor,finds a creature,1.0
+Deserted Temple,Emerald Charm,untap a valuable permanent,1.0
+Deserted Temple,Expedition Map,finds a utility land,1.0
+Deserted Temple,Formidable Speaker,untap a valuable permanent,1.0
+Deserted Temple,Gaea's Cradle,untap a valuable land,1.0
+Deserted Temple,"Minamo, School at Water's Edge",untap a valuable land,1.0
+Deserted Temple,Seedborn Muse,untap a valuable permanent,1.0
+Deserted Temple,Snap,untap a valuable land,1.0
+Deserted Temple,Urza's Saga,untap a valuable land,1.0
+Deserted Temple,Utopia Sprawl,untap the enchanted land for the bonus mana again,0.847
+Deserted Temple,Vibrance,finds a utility land,1.0
+Displacer Kitten,Dualcaster Mage,re-trigger ETB (flicker/bounce),1.0
+Displacer Kitten,Earthcraft,scales with / uses creatures; triggers on casting any noncreature spell,0.602
+Displacer Kitten,Emerald Charm,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Enduring Vitality,scales with / uses creatures,1.0
+Displacer Kitten,Essence Flux,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Eternal Witness,re-trigger ETB (flicker/bounce),1.0
+Displacer Kitten,Expedition Map,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Fierce Guardianship,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Flusterstorm,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Formidable Speaker,finds a creature; re-trigger ETB (flicker/bounce),1.0
+Displacer Kitten,Gaea's Cradle,scales with / uses creatures,1.0
+Displacer Kitten,Gamble,triggers on casting any noncreature spell; tutor any card,1.0
+Displacer Kitten,Gene Pollinator,scales with / uses creatures,1.0
+Displacer Kitten,Gitaxian Probe,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Grapeshot,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Gut Shot,triggers on casting any noncreature spell,1.0
+Displacer Kitten,"Irma, Part-Time Mutant",Irma copies a strong creature,1.0
+Displacer Kitten,Jeska's Will,triggers on casting any noncreature spell,1.0
+Displacer Kitten,"Krark, the Thumbless",returned spell gets recast -> more cast triggers,1.0
+Displacer Kitten,Land Grant,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Lotus Petal,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Mana Vault,flicker to untap/reset a permanent; triggers on casting any noncreature spell,1.0
+Displacer Kitten,Manamorphose,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Mental Misstep,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Mindbreak Trap,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Mogg Salvage,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Mox Amber,flicker to untap/reset a permanent; triggers on casting any noncreature spell,1.0
+Displacer Kitten,Mox Diamond,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Mystic Remora,flicker to untap/reset a permanent; triggers on casting any noncreature spell,1.0
+Displacer Kitten,Mystical Tutor,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Noxious Revival,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Pact of Negation,triggers on casting any noncreature spell,1.0
+Displacer Kitten,"Pia, Aether Ascetic",re-trigger ETB (flicker/bounce),1.0
+Displacer Kitten,Rhystic Study,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Rite of Flame,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Snap,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Sol Ring,flicker to untap/reset a permanent; triggers on casting any noncreature spell,1.0
+Displacer Kitten,Spellseeker,re-trigger ETB (flicker/bounce),1.0
+Displacer Kitten,Springleaf Drum,flicker to untap/reset a permanent; scales with / uses creatures; triggers on casting any noncreature spell,1.0
+Displacer Kitten,Step Through,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Submerge,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Summoner's Pact,triggers on casting any noncreature spell,1.0
+Displacer Kitten,The Unbeatable Squirrel Girl,re-trigger ETB (flicker/bounce),1.0
+Displacer Kitten,Trinket Mage,re-trigger ETB (flicker/bounce),1.0
+Displacer Kitten,Twinflame,hasty token copies of nonlegendary creatures; triggers on casting any noncreature spell,1.0
+Displacer Kitten,Underworld Breach,triggers on casting any noncreature spell,1.0
+Displacer Kitten,Utopia Sprawl,triggers on casting any noncreature spell,0.847
+Displacer Kitten,Veil of Summer,triggers on casting any noncreature spell,1.0
+Displacer Kitten,"Veyran, Voice of Duality",doubles cast/copy-caused triggers,1.0
+Displacer Kitten,Worldly Tutor,finds a creature; triggers on casting any noncreature spell,1.0
+Dualcaster Mage,Earthcraft,scales with / uses creatures,0.602
+Dualcaster Mage,Emerald Charm,copies instants/sorceries,1.0
+Dualcaster Mage,Enduring Vitality,scales with / uses creatures,1.0
+Dualcaster Mage,Essence Flux,Dualcaster copies the flicker spell -> repeatable ETB loop; copies instants/sorceries; re-trigger ETB (flicker/bounce),1.0
+Dualcaster Mage,Fierce Guardianship,copies instants/sorceries,1.0
+Dualcaster Mage,Flusterstorm,copies instants/sorceries,1.0
+Dualcaster Mage,Formidable Speaker,finds a creature,1.0
+Dualcaster Mage,Gaea's Cradle,scales with / uses creatures,1.0
+Dualcaster Mage,Gamble,copies instants/sorceries; tutor any card,1.0
+Dualcaster Mage,Gene Pollinator,scales with / uses creatures,1.0
+Dualcaster Mage,Gitaxian Probe,copies instants/sorceries,1.0
+Dualcaster Mage,Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less,1.0
+Dualcaster Mage,Grapeshot,copies instants/sorceries,1.0
+Dualcaster Mage,Gut Shot,copies instants/sorceries,1.0
+Dualcaster Mage,Harmonic Prodigy,doubles Wizard/Shaman triggers,1.0
+Dualcaster Mage,Jeska's Will,copies instants/sorceries,1.0
+Dualcaster Mage,Land Grant,copies instants/sorceries,1.0
+Dualcaster Mage,Manamorphose,copies instants/sorceries,1.0
+Dualcaster Mage,Mental Misstep,copies instants/sorceries,1.0
+Dualcaster Mage,Mindbreak Trap,copies instants/sorceries,1.0
+Dualcaster Mage,Mogg Salvage,copies instants/sorceries,1.0
+Dualcaster Mage,Mystical Tutor,copies instants/sorceries,1.0
+Dualcaster Mage,Noxious Revival,copies instants/sorceries,1.0
+Dualcaster Mage,"Otawara, Soaring City",re-trigger ETB (flicker/bounce),1.0
+Dualcaster Mage,Pact of Negation,copies instants/sorceries,1.0
+Dualcaster Mage,Rite of Flame,copies instants/sorceries,1.0
+Dualcaster Mage,Snap,copies instants/sorceries; re-trigger ETB (flicker/bounce),1.0
+Dualcaster Mage,Springleaf Drum,scales with / uses creatures,1.0
+Dualcaster Mage,Step Through,copies instants/sorceries; re-trigger ETB (flicker/bounce); wizardcycling finds a Wizard,1.0
+Dualcaster Mage,Storm-Kiln Artist,magecraft also triggers on copies,1.0
+Dualcaster Mage,Submerge,copies instants/sorceries,1.0
+Dualcaster Mage,Summoner's Pact,copies instants/sorceries,1.0
+Dualcaster Mage,Twinflame,copies instants/sorceries; hasty token copies of nonlegendary creatures; infinite hasty Dualcasters combo,1.0
+Dualcaster Mage,Veil of Summer,copies instants/sorceries,1.0
+Dualcaster Mage,"Veyran, Voice of Duality",doubles cast/copy-caused triggers; magecraft also triggers on copies,1.0
+Dualcaster Mage,Worldly Tutor,copies instants/sorceries; finds a creature,1.0
+Earthcraft,Elvish Spirit Guide,scales with / uses creatures,0.602
+Earthcraft,Enduring Vitality,scales with / uses creatures,0.602
+Earthcraft,Eternal Witness,scales with / uses creatures,0.602
+Earthcraft,Formidable Speaker,scales with / uses creatures,0.602
+Earthcraft,Gamble,tutor any card,1.0
+Earthcraft,Gene Pollinator,scales with / uses creatures,0.602
+Earthcraft,Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less; scales with / uses creatures,0.602
+Earthcraft,Harmonic Prodigy,scales with / uses creatures,0.602
+Earthcraft,"Irma, Part-Time Mutant",scales with / uses creatures,0.602
+Earthcraft,"Kinnan, Bonder Prodigy",scales with / uses creatures,0.602
+Earthcraft,"Krark, the Thumbless",scales with / uses creatures,0.602
+Earthcraft,Molt Tender,scales with / uses creatures,0.602
+Earthcraft,"Pia, Aether Ascetic",finds an enchantment card; scales with / uses creatures,0.602
+Earthcraft,Seedborn Muse,scales with / uses creatures,0.602
+Earthcraft,"Shang-Chi, Master of Kung Fu",scales with / uses creatures,0.602
+Earthcraft,Snow-Covered Forest,tap creatures to untap a basic land (best with an Aura that adds mana on it),1.0
+Earthcraft,Spellseeker,scales with / uses creatures,0.602
+Earthcraft,Storm-Kiln Artist,scales with / uses creatures,0.602
+Earthcraft,Tavern Scoundrel,scales with / uses creatures,0.602
+Earthcraft,The Unbeatable Squirrel Girl,creature tokens feed creature-count payoffs; scales with / uses creatures,0.602
+Earthcraft,"Thrasios, Triton Hero",scales with / uses creatures,0.602
+Earthcraft,Trinket Mage,scales with / uses creatures,0.602
+Earthcraft,Underworld Breach,cheap card to escape / graveyard fuel,0.602
+Earthcraft,Utopia Sprawl,tap creatures to untap a basic land (best with an Aura that adds mana on it),0.51
+Earthcraft,"Veyran, Voice of Duality",scales with / uses creatures,0.602
+Earthcraft,Vibrance,scales with / uses creatures,1.0
+Elvish Spirit Guide,Enduring Vitality,scales with / uses creatures,1.0
+Elvish Spirit Guide,Flusterstorm,storm count / spell chaining,1.0
+Elvish Spirit Guide,Formidable Speaker,finds a creature,1.0
+Elvish Spirit Guide,Gaea's Cradle,scales with / uses creatures,1.0
+Elvish Spirit Guide,Gene Pollinator,scales with / uses creatures,1.0
+Elvish Spirit Guide,Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less,1.0
+Elvish Spirit Guide,Grapeshot,storm count / spell chaining,1.0
+Elvish Spirit Guide,Springleaf Drum,scales with / uses creatures,1.0
+Elvish Spirit Guide,Summoner's Pact,finds a green creature,1.0
+Elvish Spirit Guide,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Elvish Spirit Guide,Worldly Tutor,finds a creature,1.0
+Emerald Charm,Flusterstorm,storm count / spell chaining,1.0
+Emerald Charm,Formidable Speaker,untap a valuable permanent,1.0
+Emerald Charm,Gaea's Cradle,untap a valuable permanent,1.0
+Emerald Charm,Gene Pollinator,untap a valuable permanent,1.0
+Emerald Charm,Grapeshot,storm count / spell chaining,1.0
+Emerald Charm,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Emerald Charm,Mana Vault,untap a valuable permanent,1.0
+Emerald Charm,"Minamo, School at Water's Edge",untap a valuable permanent,1.0
+Emerald Charm,Molt Tender,untap a valuable permanent,1.0
+Emerald Charm,Mox Amber,untap a valuable permanent,1.0
+Emerald Charm,Mox Diamond,untap a valuable permanent,1.0
+Emerald Charm,Mystical Tutor,finds any instant/sorcery,1.0
+Emerald Charm,"Shang-Chi, Master of Kung Fu",untap a valuable permanent,1.0
+Emerald Charm,Sol Ring,untap a valuable permanent,1.0
+Emerald Charm,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Emerald Charm,Springleaf Drum,untap a valuable permanent,1.0
+Emerald Charm,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Emerald Charm,Tavern Scoundrel,untap a valuable permanent,1.0
+Emerald Charm,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Emerald Charm,Urza's Saga,untap a valuable permanent,1.0
+Emerald Charm,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Enduring Vitality,Eternal Witness,scales with / uses creatures,1.0
+Enduring Vitality,Formidable Speaker,finds a creature; scales with / uses creatures,1.0
+Enduring Vitality,Gaea's Cradle,scales with / uses creatures,1.0
+Enduring Vitality,Gamble,tutor any card,1.0
+Enduring Vitality,Gene Pollinator,scales with / uses creatures,1.0
+Enduring Vitality,Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less; scales with / uses creatures,1.0
+Enduring Vitality,Harmonic Prodigy,scales with / uses creatures,1.0
+Enduring Vitality,"Irma, Part-Time Mutant",Irma copies a strong creature; scales with / uses creatures,1.0
+Enduring Vitality,"Kinnan, Bonder Prodigy",mana engine pieces; mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana; scales with / uses creatures,1.0
+Enduring Vitality,"Krark, the Thumbless",scales with / uses creatures,1.0
+Enduring Vitality,Molt Tender,scales with / uses creatures,1.0
+Enduring Vitality,"Pia, Aether Ascetic",finds an enchantment card; scales with / uses creatures,1.0
+Enduring Vitality,Seedborn Muse,scales with / uses creatures; untap every turn cycle / act on others' turns,1.0
+Enduring Vitality,"Shang-Chi, Master of Kung Fu",scales with / uses creatures; use {T} ability the turn the creature arrives,1.0
+Enduring Vitality,Spellseeker,scales with / uses creatures,1.0
+Enduring Vitality,Springleaf Drum,scales with / uses creatures,1.0
+Enduring Vitality,Storm-Kiln Artist,scales with / uses creatures,1.0
+Enduring Vitality,Summoner's Pact,finds a green creature,1.0
+Enduring Vitality,Tavern Scoundrel,scales with / uses creatures,1.0
+Enduring Vitality,The Unbeatable Squirrel Girl,creature tokens feed creature-count payoffs; mana source feeds a mana sink; scales with / uses creatures,1.0
+Enduring Vitality,"Thrasios, Triton Hero",mana source feeds a mana sink; scales with / uses creatures,1.0
+Enduring Vitality,Trinket Mage,scales with / uses creatures,1.0
+Enduring Vitality,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Enduring Vitality,"Veyran, Voice of Duality",scales with / uses creatures,1.0
+Enduring Vitality,Vibrance,scales with / uses creatures,1.0
+Enduring Vitality,Worldly Tutor,finds a creature,1.0
+Essence Flux,Eternal Witness,re-trigger ETB (flicker/bounce),1.0
+Essence Flux,Flusterstorm,storm count / spell chaining,1.0
+Essence Flux,Formidable Speaker,re-trigger ETB (flicker/bounce),1.0
+Essence Flux,Grapeshot,storm count / spell chaining,1.0
+Essence Flux,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Essence Flux,Mystical Tutor,finds any instant/sorcery,1.0
+Essence Flux,"Pia, Aether Ascetic",re-trigger ETB (flicker/bounce),1.0
+Essence Flux,Spellseeker,finds an instant/sorcery with MV<=2; re-trigger ETB (flicker/bounce),1.0
+Essence Flux,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Essence Flux,The Unbeatable Squirrel Girl,re-trigger ETB (flicker/bounce),1.0
+Essence Flux,Trinket Mage,re-trigger ETB (flicker/bounce),1.0
+Essence Flux,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Essence Flux,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Eternal Witness,Expedition Map,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Formidable Speaker,finds a creature,1.0
+Eternal Witness,Gaea's Cradle,scales with / uses creatures,1.0
+Eternal Witness,Gamble,recover the random discard; returns a one-shot card / recovers a discarded card; tutor any card,1.0
+Eternal Witness,Gene Pollinator,scales with / uses creatures,1.0
+Eternal Witness,Goblin Anarchomancer,red/green spell with generic cost -> costs {1} less,1.0
+Eternal Witness,Grapeshot,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Harmonic Prodigy,doubles Wizard/Shaman triggers,1.0
+Eternal Witness,Jeska's Will,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Lotus Petal,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Mana Vault,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Manamorphose,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Molt Tender,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Mox Diamond,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Mystic Remora,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Mystical Tutor,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,"Otawara, Soaring City",re-trigger ETB (flicker/bounce),1.0
+Eternal Witness,Pact of Negation,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,"Pia, Aether Ascetic",returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Rite of Flame,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Snap,re-trigger ETB (flicker/bounce),1.0
+Eternal Witness,Sol Ring,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Springleaf Drum,scales with / uses creatures,1.0
+Eternal Witness,Step Through,re-trigger ETB (flicker/bounce),1.0
+Eternal Witness,Summoner's Pact,finds a green creature; returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Twinflame,hasty token copies of nonlegendary creatures; returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Underworld Breach,cheap card to escape / graveyard fuel; returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Urza's Saga,returns a one-shot card / recovers a discarded card,1.0
+Eternal Witness,Worldly Tutor,finds a creature; returns a one-shot card / recovers a discarded card,1.0
+Expedition Map,Flusterstorm,storm count / spell chaining,1.0
+Expedition Map,Gaea's Cradle,finds a utility land,1.0
+Expedition Map,Grapeshot,storm count / spell chaining,1.0
+Expedition Map,"Minamo, School at Water's Edge",finds a utility land,1.0
+Expedition Map,Mox Diamond,land card in hand to discard,1.0
+Expedition Map,"Otawara, Soaring City",finds a utility land,1.0
+Expedition Map,Shifting Woodland,finds a utility land,1.0
+Expedition Map,Trinket Mage,finds an artifact with MV<=1,1.0
+Expedition Map,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Expedition Map,Urza's Saga,artifact count grows Constructs; chapter III finds a {0}/{1} artifact; finds a utility land,1.0
+Expedition Map,"Yavimaya, Cradle of Growth",finds a utility land,1.0
+Fierce Guardianship,Flusterstorm,storm count / spell chaining,1.0
+Fierce Guardianship,Grapeshot,storm count / spell chaining,1.0
+Fierce Guardianship,"Krark, the Thumbless",copies instants/sorceries; needs/cares about a commander; triggers on casting an instant/sorcery,1.0
+Fierce Guardianship,Mystical Tutor,finds any instant/sorcery,1.0
+Fierce Guardianship,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Fierce Guardianship,"Thrasios, Triton Hero",needs/cares about a commander,1.0
+Fierce Guardianship,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Flooded Strand,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Flooded Strand,Steam Vents,fetchable land type,1.0
+Flooded Strand,Tropical Island,fetchable land type,1.0
+Flooded Strand,Volcanic Island,fetchable land type,1.0
+Flusterstorm,Gamble,storm count / spell chaining,1.0
+Flusterstorm,Gene Pollinator,storm count / spell chaining,1.0
+Flusterstorm,Gitaxian Probe,storm count / spell chaining,1.0
+Flusterstorm,Grapeshot,storm count / spell chaining,1.0
+Flusterstorm,Gut Shot,storm count / spell chaining,1.0
+Flusterstorm,Jeska's Will,storm count / spell chaining,1.0
+Flusterstorm,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Flusterstorm,Land Grant,storm count / spell chaining,1.0
+Flusterstorm,Lotus Petal,storm count / spell chaining,1.0
+Flusterstorm,Mana Vault,storm count / spell chaining,1.0
+Flusterstorm,Manamorphose,storm count / spell chaining,1.0
+Flusterstorm,Mental Misstep,storm count / spell chaining,1.0
+Flusterstorm,Mindbreak Trap,storm count / spell chaining,1.0
+Flusterstorm,Mogg Salvage,storm count / spell chaining,1.0
+Flusterstorm,Molt Tender,storm count / spell chaining,1.0
+Flusterstorm,Mox Amber,storm count / spell chaining,1.0
+Flusterstorm,Mox Diamond,storm count / spell chaining,1.0
+Flusterstorm,Mystic Remora,storm count / spell chaining,1.0
+Flusterstorm,Mystical Tutor,finds any instant/sorcery; storm count / spell chaining,1.0
+Flusterstorm,Noxious Revival,storm count / spell chaining,1.0
+Flusterstorm,Pact of Negation,storm count / spell chaining,1.0
+Flusterstorm,Rite of Flame,storm count / spell chaining,1.0
+Flusterstorm,Snap,storm count / spell chaining,1.0
+Flusterstorm,Sol Ring,storm count / spell chaining,1.0
+Flusterstorm,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Flusterstorm,Springleaf Drum,storm count / spell chaining,1.0
+Flusterstorm,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Flusterstorm,Submerge,storm count / spell chaining,1.0
+Flusterstorm,Summoner's Pact,storm count / spell chaining,1.0
+Flusterstorm,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Flusterstorm,Utopia Sprawl,storm count / spell chaining,0.847
+Flusterstorm,Veil of Summer,storm count / spell chaining,1.0
+Flusterstorm,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Flusterstorm,Worldly Tutor,storm count / spell chaining,1.0
+Formidable Speaker,Gaea's Cradle,scales with / uses creatures; untap a valuable permanent,1.0
+Formidable Speaker,Gene Pollinator,finds a creature; scales with / uses creatures; untap a valuable permanent,1.0
+Formidable Speaker,Goblin Anarchomancer,finds a creature; red/green spell with generic cost -> costs {1} less,1.0
+Formidable Speaker,Harmonic Prodigy,finds a creature,1.0
+Formidable Speaker,"Irma, Part-Time Mutant",finds a creature,1.0
+Formidable Speaker,"Kinnan, Bonder Prodigy",finds a creature,1.0
+Formidable Speaker,Mana Vault,untap a valuable permanent,1.0
+Formidable Speaker,"Minamo, School at Water's Edge",untap a valuable permanent,1.0
+Formidable Speaker,Molt Tender,finds a creature; untap a valuable permanent,1.0
+Formidable Speaker,Mox Amber,untap a valuable permanent,1.0
+Formidable Speaker,Mox Diamond,untap a valuable permanent,1.0
+Formidable Speaker,"Otawara, Soaring City",re-trigger ETB (flicker/bounce),1.0
+Formidable Speaker,"Pia, Aether Ascetic",finds a creature,1.0
+Formidable Speaker,Seedborn Muse,finds a creature; untap a valuable permanent,1.0
+Formidable Speaker,"Shang-Chi, Master of Kung Fu",finds a creature; restricted mana pays for the creature's ability; untap a valuable permanent; use {T} ability the turn the creature arrives,1.0
+Formidable Speaker,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Formidable Speaker,Snap,re-trigger ETB (flicker/bounce),1.0
+Formidable Speaker,Sol Ring,untap a valuable permanent,1.0
+Formidable Speaker,Spellseeker,finds a creature,1.0
+Formidable Speaker,Springleaf Drum,scales with / uses creatures; untap a valuable permanent,1.0
+Formidable Speaker,Step Through,re-trigger ETB (flicker/bounce),1.0
+Formidable Speaker,Storm-Kiln Artist,finds a creature,1.0
+Formidable Speaker,Summoner's Pact,finds a green creature,1.0
+Formidable Speaker,Tavern Scoundrel,finds a creature; untap a valuable permanent,1.0
+Formidable Speaker,The Unbeatable Squirrel Girl,finds a creature,1.0
+Formidable Speaker,Trinket Mage,finds a creature,1.0
+Formidable Speaker,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Formidable Speaker,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Formidable Speaker,Urza's Saga,untap a valuable permanent,1.0
+Formidable Speaker,"Veyran, Voice of Duality",finds a creature,1.0
+Formidable Speaker,Vibrance,finds a creature,1.0
+Formidable Speaker,Worldly Tutor,finds a creature,1.0
+Gaea's Cradle,Gamble,tutor any card,1.0
+Gaea's Cradle,Gene Pollinator,scales with / uses creatures,1.0
+Gaea's Cradle,Goblin Anarchomancer,scales with / uses creatures,1.0
+Gaea's Cradle,Harmonic Prodigy,scales with / uses creatures,1.0
+Gaea's Cradle,"Irma, Part-Time Mutant",scales with / uses creatures,1.0
+Gaea's Cradle,"Kinnan, Bonder Prodigy",mana source feeds a mana sink; scales with / uses creatures,1.0
+Gaea's Cradle,"Krark, the Thumbless",scales with / uses creatures,1.0
+Gaea's Cradle,"Minamo, School at Water's Edge",untaps a legendary permanent,1.0
+Gaea's Cradle,Molt Tender,scales with / uses creatures,1.0
+Gaea's Cradle,"Pia, Aether Ascetic",scales with / uses creatures,1.0
+Gaea's Cradle,Seedborn Muse,scales with / uses creatures; untap a valuable permanent,1.0
+Gaea's Cradle,"Shang-Chi, Master of Kung Fu",scales with / uses creatures,1.0
+Gaea's Cradle,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Gaea's Cradle,Snap,untap a valuable land,1.0
+Gaea's Cradle,Spellseeker,scales with / uses creatures,1.0
+Gaea's Cradle,Storm-Kiln Artist,scales with / uses creatures,1.0
+Gaea's Cradle,Tavern Scoundrel,scales with / uses creatures,1.0
+Gaea's Cradle,The Unbeatable Squirrel Girl,creature tokens feed creature-count payoffs; mana source feeds a mana sink; scales with / uses creatures,1.0
+Gaea's Cradle,"Thrasios, Triton Hero",mana source feeds a mana sink; scales with / uses creatures,1.0
+Gaea's Cradle,Trinket Mage,scales with / uses creatures,1.0
+Gaea's Cradle,"Veyran, Voice of Duality",scales with / uses creatures,1.0
+Gaea's Cradle,Vibrance,finds a utility land; scales with / uses creatures,1.0
+Gamble,Grapeshot,storm count / spell chaining; tutor any card,1.0
+Gamble,Jeska's Will,tutor any card,1.0
+Gamble,"Kinnan, Bonder Prodigy",tutor any card,1.0
+Gamble,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Gamble,Mana Vault,tutor any card,1.0
+Gamble,Mystic Remora,tutor any card,1.0
+Gamble,Mystical Tutor,finds any instant/sorcery,1.0
+Gamble,Noxious Revival,recover the random discard,1.0
+Gamble,Rhystic Study,tutor any card,1.0
+Gamble,Seedborn Muse,tutor any card,1.0
+Gamble,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Gamble,Sol Ring,tutor any card,1.0
+Gamble,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Gamble,Storm-Kiln Artist,triggers on casting an instant/sorcery; tutor any card,1.0
+Gamble,Tavern Scoundrel,tutor any card,1.0
+Gamble,Twinflame,tutor any card,1.0
+Gamble,Underworld Breach,cheap card to escape / graveyard fuel; recover the random discard; tutor any card,1.0
+Gamble,Urza's Saga,tutor any card,1.0
+Gamble,"Veyran, Voice of Duality",triggers on casting an instant/sorcery; tutor any card,1.0
+Gene Pollinator,Goblin Anarchomancer,scales with / uses creatures,1.0
+Gene Pollinator,Grapeshot,storm count / spell chaining,1.0
+Gene Pollinator,Harmonic Prodigy,scales with / uses creatures,1.0
+Gene Pollinator,"Irma, Part-Time Mutant",scales with / uses creatures,1.0
+Gene Pollinator,"Kinnan, Bonder Prodigy",mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana; scales with / uses creatures,1.0
+Gene Pollinator,"Krark, the Thumbless",scales with / uses creatures,1.0
+Gene Pollinator,Molt Tender,scales with / uses creatures,1.0
+Gene Pollinator,"Pia, Aether Ascetic",scales with / uses creatures,1.0
+Gene Pollinator,Seedborn Muse,scales with / uses creatures; untap a valuable permanent,1.0
+Gene Pollinator,"Shang-Chi, Master of Kung Fu",scales with / uses creatures; use {T} ability the turn the creature arrives,1.0
+Gene Pollinator,Spellseeker,scales with / uses creatures,1.0
+Gene Pollinator,Springleaf Drum,scales with / uses creatures,1.0
+Gene Pollinator,Storm-Kiln Artist,scales with / uses creatures,1.0
+Gene Pollinator,Summoner's Pact,finds a green creature,1.0
+Gene Pollinator,Tavern Scoundrel,scales with / uses creatures,1.0
+Gene Pollinator,The Unbeatable Squirrel Girl,creature tokens feed creature-count payoffs; mana source feeds a mana sink; scales with / uses creatures,1.0
+Gene Pollinator,"Thrasios, Triton Hero",mana source feeds a mana sink; scales with / uses creatures,1.0
+Gene Pollinator,Trinket Mage,finds an artifact with MV<=1; scales with / uses creatures,1.0
+Gene Pollinator,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Gene Pollinator,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Gene Pollinator,Urza's Saga,artifact count grows Constructs,1.0
+Gene Pollinator,"Veyran, Voice of Duality",scales with / uses creatures,1.0
+Gene Pollinator,Vibrance,scales with / uses creatures,1.0
+Gene Pollinator,Worldly Tutor,finds a creature,1.0
+Gitaxian Probe,Grapeshot,storm count / spell chaining,1.0
+Gitaxian Probe,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Gitaxian Probe,Mystical Tutor,"finds any instant/sorcery; put a card on top, then draw it",1.0
+Gitaxian Probe,Noxious Revival,"put a card on top, then draw it",1.0
+Gitaxian Probe,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Gitaxian Probe,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Gitaxian Probe,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Gitaxian Probe,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Gitaxian Probe,Worldly Tutor,"put a card on top, then draw it",1.0
+Goblin Anarchomancer,Grapeshot,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Harmonic Prodigy,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,"Irma, Part-Time Mutant",Irma copies a strong creature; extra copies stack the static effect,1.0
+Goblin Anarchomancer,Jeska's Will,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Land Grant,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Manamorphose,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Mogg Salvage,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,"Pia, Aether Ascetic",red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Seedborn Muse,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,"Shang-Chi, Master of Kung Fu",red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Springleaf Drum,scales with / uses creatures,1.0
+Goblin Anarchomancer,Storm-Kiln Artist,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Summoner's Pact,finds a green creature,1.0
+Goblin Anarchomancer,Tavern Scoundrel,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,The Unbeatable Squirrel Girl,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Twinflame,extra copies stack the static effect; hasty token copies of nonlegendary creatures; red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Underworld Breach,cheap card to escape / graveyard fuel; red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,"Veyran, Voice of Duality",red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Vibrance,red/green spell with generic cost -> costs {1} less,1.0
+Goblin Anarchomancer,Worldly Tutor,finds a creature,1.0
+Grapeshot,Gut Shot,storm count / spell chaining,1.0
+Grapeshot,Jeska's Will,storm count / spell chaining,1.0
+Grapeshot,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Grapeshot,Land Grant,storm count / spell chaining,1.0
+Grapeshot,Lotus Petal,storm count / spell chaining,1.0
+Grapeshot,Mana Vault,storm count / spell chaining,1.0
+Grapeshot,Manamorphose,storm count / spell chaining,1.0
+Grapeshot,Mental Misstep,storm count / spell chaining,1.0
+Grapeshot,Mindbreak Trap,storm count / spell chaining,1.0
+Grapeshot,Mogg Salvage,storm count / spell chaining,1.0
+Grapeshot,Molt Tender,storm count / spell chaining,1.0
+Grapeshot,Mox Amber,storm count / spell chaining,1.0
+Grapeshot,Mox Diamond,storm count / spell chaining,1.0
+Grapeshot,Mystic Remora,storm count / spell chaining,1.0
+Grapeshot,Mystical Tutor,finds any instant/sorcery; storm count / spell chaining,1.0
+Grapeshot,Noxious Revival,storm count / spell chaining,1.0
+Grapeshot,Pact of Negation,storm count / spell chaining,1.0
+Grapeshot,Rite of Flame,storm count / spell chaining,1.0
+Grapeshot,Snap,storm count / spell chaining,1.0
+Grapeshot,Sol Ring,storm count / spell chaining,1.0
+Grapeshot,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Grapeshot,Springleaf Drum,storm count / spell chaining,1.0
+Grapeshot,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Grapeshot,Submerge,storm count / spell chaining,1.0
+Grapeshot,Summoner's Pact,storm count / spell chaining,1.0
+Grapeshot,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Grapeshot,Utopia Sprawl,storm count / spell chaining,0.847
+Grapeshot,Veil of Summer,storm count / spell chaining,1.0
+Grapeshot,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Grapeshot,Worldly Tutor,storm count / spell chaining,1.0
+Gut Shot,"Krark, the Thumbless",copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Gut Shot,Mystical Tutor,finds any instant/sorcery,1.0
+Gut Shot,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Gut Shot,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Gut Shot,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Gut Shot,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Harmonic Prodigy,"Irma, Part-Time Mutant",Irma copies a strong creature,1.0
+Harmonic Prodigy,"Krark, the Thumbless",doubles Wizard/Shaman triggers,1.0
+Harmonic Prodigy,Spellseeker,doubles Wizard/Shaman triggers,1.0
+Harmonic Prodigy,Springleaf Drum,scales with / uses creatures,1.0
+Harmonic Prodigy,Step Through,wizardcycling finds a Wizard,1.0
+Harmonic Prodigy,Storm-Kiln Artist,doubles Wizard/Shaman triggers,1.0
+Harmonic Prodigy,Trinket Mage,doubles Wizard/Shaman triggers,1.0
+Harmonic Prodigy,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Harmonic Prodigy,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Harmonic Prodigy,"Veyran, Voice of Duality",doubles Wizard/Shaman triggers; doubles cast/copy-caused triggers; trigger doublers stack,1.0
+Harmonic Prodigy,Worldly Tutor,finds a creature,1.0
+"Irma, Part-Time Mutant","Kinnan, Bonder Prodigy",Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant","Krark, the Thumbless",Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant",Mox Amber,cares about legendary creatures,1.0
+"Irma, Part-Time Mutant","Otawara, Soaring City",cares about legendary creatures,1.0
+"Irma, Part-Time Mutant",Seedborn Muse,Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant","Shang-Chi, Master of Kung Fu",Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant",Springleaf Drum,scales with / uses creatures,1.0
+"Irma, Part-Time Mutant",Storm-Kiln Artist,Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant",Tavern Scoundrel,Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant",The Unbeatable Squirrel Girl,Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant","Thrasios, Triton Hero",Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant","Veyran, Voice of Duality",Irma copies a strong creature,1.0
+"Irma, Part-Time Mutant",Worldly Tutor,finds a creature,1.0
+Jeska's Will,"Kinnan, Bonder Prodigy",mana source feeds a mana sink,1.0
+Jeska's Will,"Krark, the Thumbless",copies instants/sorceries; needs/cares about a commander; triggers on casting an instant/sorcery,1.0
+Jeska's Will,Mystical Tutor,finds any instant/sorcery,1.0
+Jeska's Will,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Jeska's Will,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Jeska's Will,"Thrasios, Triton Hero",mana source feeds a mana sink; needs/cares about a commander,1.0
+Jeska's Will,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Jeska's Will,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+"Kinnan, Bonder Prodigy",Lotus Petal,nonland permanent tapped for mana -> extra mana,1.0
+"Kinnan, Bonder Prodigy",Mana Vault,mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+"Kinnan, Bonder Prodigy",Molt Tender,mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+"Kinnan, Bonder Prodigy",Mox Amber,cares about legendary creatures; mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+"Kinnan, Bonder Prodigy",Mox Diamond,mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+"Kinnan, Bonder Prodigy","Otawara, Soaring City",cares about legendary creatures,1.0
+"Kinnan, Bonder Prodigy",Rite of Flame,mana source feeds a mana sink,1.0
+"Kinnan, Bonder Prodigy",Seedborn Muse,mana source feeds a mana sink; untap every turn cycle / act on others' turns,1.0
+"Kinnan, Bonder Prodigy","Shang-Chi, Master of Kung Fu",mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana; restricted mana pays for the creature's ability,1.0
+"Kinnan, Bonder Prodigy",Sol Ring,mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+"Kinnan, Bonder Prodigy",Springleaf Drum,mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana; scales with / uses creatures,1.0
+"Kinnan, Bonder Prodigy",Storm-Kiln Artist,mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+"Kinnan, Bonder Prodigy",Summoner's Pact,finds a green creature,1.0
+"Kinnan, Bonder Prodigy",Tavern Scoundrel,mana source feeds a mana sink; nonland permanent tapped for mana -> extra mana,1.0
+"Kinnan, Bonder Prodigy",The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+"Kinnan, Bonder Prodigy","Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+"Kinnan, Bonder Prodigy",Underworld Breach,cheap card to escape / graveyard fuel,1.0
+"Kinnan, Bonder Prodigy",Worldly Tutor,finds a creature,1.0
+"Krark, the Thumbless",Land Grant,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Manamorphose,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Mental Misstep,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Mindbreak Trap,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Mogg Salvage,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Mox Amber,cares about legendary creatures,1.0
+"Krark, the Thumbless",Mystical Tutor,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Noxious Revival,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless","Otawara, Soaring City",cares about legendary creatures,1.0
+"Krark, the Thumbless",Pact of Negation,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Rite of Flame,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Snap,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Springleaf Drum,scales with / uses creatures,1.0
+"Krark, the Thumbless",Step Through,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Storm-Kiln Artist,magecraft also triggers on copies; returned spell gets recast -> more cast triggers,1.0
+"Krark, the Thumbless",Submerge,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Summoner's Pact,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Tavern Scoundrel,coin flips -> Treasures,1.0
+"Krark, the Thumbless",Twinflame,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless",Underworld Breach,cheap card to escape / graveyard fuel,1.0
+"Krark, the Thumbless",Veil of Summer,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+"Krark, the Thumbless","Veyran, Voice of Duality",doubles cast/copy-caused triggers; magecraft also triggers on copies,1.0
+"Krark, the Thumbless",Worldly Tutor,copies instants/sorceries; triggers on casting an instant/sorcery,1.0
+Land Grant,Mox Diamond,land card in hand to discard,1.0
+Land Grant,Mystical Tutor,finds any instant/sorcery,1.0
+Land Grant,Snow-Covered Forest,finds a Forest card,1.0
+Land Grant,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Land Grant,Stomping Ground,finds a Forest card,1.0
+Land Grant,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Land Grant,Taiga,finds a Forest card,1.0
+Land Grant,Tropical Island,finds a Forest card,1.0
+Land Grant,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Land Grant,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Lotus Petal,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Lotus Petal,Trinket Mage,finds an artifact with MV<=1,1.0
+Lotus Petal,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Lotus Petal,Urza's Saga,artifact count grows Constructs; chapter III finds a {0}/{1} artifact,1.0
+Mana Vault,Seedborn Muse,untap a valuable permanent,1.0
+Mana Vault,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Mana Vault,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Mana Vault,Trinket Mage,finds an artifact with MV<=1,1.0
+Mana Vault,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Mana Vault,Urza's Saga,artifact count grows Constructs; chapter III finds a {0}/{1} artifact,1.0
+Manamorphose,Mystical Tutor,"finds any instant/sorcery; put a card on top, then draw it",1.0
+Manamorphose,Noxious Revival,"put a card on top, then draw it",1.0
+Manamorphose,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Manamorphose,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Manamorphose,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Manamorphose,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Manamorphose,Worldly Tutor,"put a card on top, then draw it",1.0
+Mental Misstep,Mystical Tutor,finds any instant/sorcery,1.0
+Mental Misstep,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Mental Misstep,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Mental Misstep,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Mental Misstep,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+"Minamo, School at Water's Edge",Mox Amber,untaps a legendary permanent,1.0
+"Minamo, School at Water's Edge",Seedborn Muse,untap a valuable permanent,1.0
+"Minamo, School at Water's Edge",Snap,untap a valuable land,1.0
+"Minamo, School at Water's Edge",Vibrance,finds a utility land,1.0
+Mindbreak Trap,Mystical Tutor,finds any instant/sorcery,1.0
+Mindbreak Trap,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Mindbreak Trap,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Misty Rainforest,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Misty Rainforest,Snow-Covered Forest,fetchable land type,1.0
+Misty Rainforest,Steam Vents,fetchable land type,1.0
+Misty Rainforest,Stomping Ground,fetchable land type,1.0
+Misty Rainforest,Taiga,fetchable land type,1.0
+Misty Rainforest,Tropical Island,fetchable land type,1.0
+Misty Rainforest,Volcanic Island,fetchable land type,1.0
+Mogg Salvage,Mystical Tutor,finds any instant/sorcery,1.0
+Mogg Salvage,Steam Vents,control a Mountain -> free,1.0
+Mogg Salvage,Stomping Ground,control a Mountain -> free,1.0
+Mogg Salvage,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Mogg Salvage,Taiga,control a Mountain -> free,1.0
+Mogg Salvage,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Mogg Salvage,Volcanic Island,control a Mountain -> free,1.0
+Molt Tender,Seedborn Muse,untap a valuable permanent,1.0
+Molt Tender,"Shang-Chi, Master of Kung Fu",use {T} ability the turn the creature arrives,1.0
+Molt Tender,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Molt Tender,Springleaf Drum,scales with / uses creatures,1.0
+Molt Tender,Summoner's Pact,finds a green creature,1.0
+Molt Tender,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Molt Tender,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Molt Tender,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Molt Tender,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Molt Tender,Worldly Tutor,finds a creature,1.0
+Mox Amber,"Pia, Aether Ascetic",cares about legendary creatures,1.0
+Mox Amber,Seedborn Muse,untap a valuable permanent,1.0
+Mox Amber,"Shang-Chi, Master of Kung Fu",cares about legendary creatures,1.0
+Mox Amber,The Unbeatable Squirrel Girl,cares about legendary creatures; mana source feeds a mana sink,1.0
+Mox Amber,"Thrasios, Triton Hero",cares about legendary creatures; mana source feeds a mana sink,1.0
+Mox Amber,Trinket Mage,finds an artifact with MV<=1,1.0
+Mox Amber,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Mox Amber,Urza's Saga,artifact count grows Constructs; chapter III finds a {0}/{1} artifact,1.0
+Mox Amber,"Veyran, Voice of Duality",cares about legendary creatures,1.0
+Mox Diamond,Seedborn Muse,untap a valuable permanent,1.0
+Mox Diamond,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Mox Diamond,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Mox Diamond,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Mox Diamond,Trinket Mage,finds an artifact with MV<=1,1.0
+Mox Diamond,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Mox Diamond,Urza's Saga,artifact count grows Constructs; chapter III finds a {0}/{1} artifact,1.0
+Mox Diamond,Vibrance,land card in hand to discard,1.0
+Mystic Remora,"Pia, Aether Ascetic",finds an enchantment card,1.0
+Mystic Remora,Tavern Scoundrel,sacrifice a permanent you no longer need,1.0
+Mystic Remora,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Mystical Tutor,Noxious Revival,finds any instant/sorcery,1.0
+Mystical Tutor,Pact of Negation,finds any instant/sorcery,1.0
+Mystical Tutor,Rite of Flame,finds any instant/sorcery,1.0
+Mystical Tutor,Snap,finds any instant/sorcery,1.0
+Mystical Tutor,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Mystical Tutor,Step Through,finds any instant/sorcery,1.0
+Mystical Tutor,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Mystical Tutor,Submerge,finds any instant/sorcery,1.0
+Mystical Tutor,Summoner's Pact,finds any instant/sorcery,1.0
+Mystical Tutor,"Thrasios, Triton Hero","put a card on top, then draw it",1.0
+Mystical Tutor,Twinflame,finds any instant/sorcery,1.0
+Mystical Tutor,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Mystical Tutor,Veil of Summer,finds any instant/sorcery,1.0
+Mystical Tutor,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Mystical Tutor,Worldly Tutor,finds any instant/sorcery,1.0
+Noxious Revival,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Noxious Revival,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Noxious Revival,"Thrasios, Triton Hero","put a card on top, then draw it",1.0
+Noxious Revival,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Noxious Revival,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+"Otawara, Soaring City","Pia, Aether Ascetic",cares about legendary creatures; re-trigger ETB (flicker/bounce),1.0
+"Otawara, Soaring City","Shang-Chi, Master of Kung Fu",cares about legendary creatures,1.0
+"Otawara, Soaring City",Spellseeker,re-trigger ETB (flicker/bounce),1.0
+"Otawara, Soaring City",The Unbeatable Squirrel Girl,cares about legendary creatures; re-trigger ETB (flicker/bounce),1.0
+"Otawara, Soaring City","Thrasios, Triton Hero",cares about legendary creatures,1.0
+"Otawara, Soaring City",Trinket Mage,re-trigger ETB (flicker/bounce),1.0
+"Otawara, Soaring City","Veyran, Voice of Duality",cares about legendary creatures,1.0
+"Otawara, Soaring City",Vibrance,finds a utility land,1.0
+Pact of Negation,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Pact of Negation,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Pact of Negation,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Pact of Negation,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+"Pia, Aether Ascetic",Rhystic Study,finds an enchantment card,1.0
+"Pia, Aether Ascetic",Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+"Pia, Aether Ascetic",Snap,re-trigger ETB (flicker/bounce),1.0
+"Pia, Aether Ascetic",Springleaf Drum,scales with / uses creatures,1.0
+"Pia, Aether Ascetic",Step Through,re-trigger ETB (flicker/bounce),1.0
+"Pia, Aether Ascetic",Summoner's Pact,finds a green creature,1.0
+"Pia, Aether Ascetic",Underworld Breach,cheap card to escape / graveyard fuel; finds an enchantment card,1.0
+"Pia, Aether Ascetic",Urza's Saga,finds an enchantment card,1.0
+"Pia, Aether Ascetic",Utopia Sprawl,finds an enchantment card,0.847
+"Pia, Aether Ascetic",Worldly Tutor,finds a creature,1.0
+Polluted Delta,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Polluted Delta,Steam Vents,fetchable land type,1.0
+Polluted Delta,Tropical Island,fetchable land type,1.0
+Polluted Delta,Volcanic Island,fetchable land type,1.0
+Rite of Flame,Spellseeker,finds an instant/sorcery with MV<=2,1.0
+Rite of Flame,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Rite of Flame,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Rite of Flame,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Rite of Flame,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Rite of Flame,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Scalding Tarn,Shifting Woodland,copies a permanent in the graveyard / delirium,1.0
+Scalding Tarn,Steam Vents,fetchable land type,1.0
+Scalding Tarn,Stomping Ground,fetchable land type,1.0
+Scalding Tarn,Taiga,fetchable land type,1.0
+Scalding Tarn,Tropical Island,fetchable land type,1.0
+Scalding Tarn,Volcanic Island,fetchable land type,1.0
+Seedborn Muse,"Shang-Chi, Master of Kung Fu",untap a valuable permanent,1.0
+Seedborn Muse,Sol Ring,untap a valuable permanent,1.0
+Seedborn Muse,Springleaf Drum,scales with / uses creatures; untap a valuable permanent,1.0
+Seedborn Muse,Summoner's Pact,finds a green creature,1.0
+Seedborn Muse,Tavern Scoundrel,untap a valuable permanent,1.0
+Seedborn Muse,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Seedborn Muse,"Thrasios, Triton Hero",mana source feeds a mana sink; untap every turn cycle / act on others' turns,1.0
+Seedborn Muse,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Seedborn Muse,Urza's Saga,untap a valuable permanent,1.0
+Seedborn Muse,Worldly Tutor,finds a creature,1.0
+"Shang-Chi, Master of Kung Fu",Springleaf Drum,scales with / uses creatures,1.0
+"Shang-Chi, Master of Kung Fu",Summoner's Pact,finds a green creature,1.0
+"Shang-Chi, Master of Kung Fu",Tavern Scoundrel,restricted mana pays for the creature's ability; use {T} ability the turn the creature arrives,1.0
+"Shang-Chi, Master of Kung Fu",The Unbeatable Squirrel Girl,mana source feeds a mana sink; restricted mana pays for the creature's ability,1.0
+"Shang-Chi, Master of Kung Fu","Thrasios, Triton Hero",mana source feeds a mana sink; restricted mana pays for the creature's ability,1.0
+"Shang-Chi, Master of Kung Fu",Underworld Breach,cheap card to escape / graveyard fuel,1.0
+"Shang-Chi, Master of Kung Fu",Worldly Tutor,finds a creature,1.0
+Shifting Woodland,Snow-Covered Forest,enters untapped with a Forest,1.0
+Shifting Woodland,Stomping Ground,enters untapped with a Forest,1.0
+Shifting Woodland,Taiga,enters untapped with a Forest,1.0
+Shifting Woodland,Tropical Island,enters untapped with a Forest,1.0
+Shifting Woodland,Urza's Saga,copies a permanent in the graveyard / delirium,1.0
+Shifting Woodland,Verdant Catacombs,copies a permanent in the graveyard / delirium,1.0
+Shifting Woodland,Vibrance,finds a utility land,1.0
+Shifting Woodland,Windswept Heath,copies a permanent in the graveyard / delirium,1.0
+Shifting Woodland,Wooded Foothills,copies a permanent in the graveyard / delirium,1.0
+Shifting Woodland,"Yavimaya, Cradle of Growth",enters untapped with a Forest,1.0
+Snap,Spellseeker,finds an instant/sorcery with MV<=2; re-trigger ETB (flicker/bounce),1.0
+Snap,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Snap,The Unbeatable Squirrel Girl,re-trigger ETB (flicker/bounce),1.0
+Snap,Trinket Mage,re-trigger ETB (flicker/bounce),1.0
+Snap,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Snap,Urza's Saga,untap a valuable land,1.0
+Snap,Utopia Sprawl,untap the enchanted land for the bonus mana again,0.847
+Snap,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Snow-Covered Forest,Utopia Sprawl,needs a Forest to enchant,1.0
+Snow-Covered Forest,Verdant Catacombs,fetchable land type,1.0
+Snow-Covered Forest,Windswept Heath,fetchable land type,1.0
+Snow-Covered Forest,Wooded Foothills,fetchable land type,1.0
+Sol Ring,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Sol Ring,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Sol Ring,Trinket Mage,finds an artifact with MV<=1,1.0
+Sol Ring,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Sol Ring,Urza's Saga,artifact count grows Constructs; chapter III finds a {0}/{1} artifact,1.0
+Spellseeker,Springleaf Drum,scales with / uses creatures,1.0
+Spellseeker,Step Through,re-trigger ETB (flicker/bounce); wizardcycling finds a Wizard,1.0
+Spellseeker,Summoner's Pact,finds an instant/sorcery with MV<=2,1.0
+Spellseeker,Twinflame,finds an instant/sorcery with MV<=2; hasty token copies of nonlegendary creatures,1.0
+Spellseeker,Veil of Summer,finds an instant/sorcery with MV<=2,1.0
+Spellseeker,Worldly Tutor,finds a creature; finds an instant/sorcery with MV<=2,1.0
+Springleaf Drum,Storm-Kiln Artist,scales with / uses creatures,1.0
+Springleaf Drum,Tavern Scoundrel,scales with / uses creatures,1.0
+Springleaf Drum,The Unbeatable Squirrel Girl,creature tokens feed creature-count payoffs; mana source feeds a mana sink; scales with / uses creatures,1.0
+Springleaf Drum,"Thrasios, Triton Hero",mana source feeds a mana sink; scales with / uses creatures,1.0
+Springleaf Drum,Trinket Mage,finds an artifact with MV<=1; scales with / uses creatures,1.0
+Springleaf Drum,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Springleaf Drum,Urza's Saga,artifact count grows Constructs; chapter III finds a {0}/{1} artifact,1.0
+Springleaf Drum,"Veyran, Voice of Duality",scales with / uses creatures,1.0
+Springleaf Drum,Vibrance,scales with / uses creatures,1.0
+Steam Vents,Submerge,control an Island -> free,1.0
+Steam Vents,Wooded Foothills,fetchable land type,1.0
+Step Through,Storm-Kiln Artist,triggers on casting an instant/sorcery,1.0
+Step Through,The Unbeatable Squirrel Girl,re-trigger ETB (flicker/bounce),1.0
+Step Through,Trinket Mage,re-trigger ETB (flicker/bounce); wizardcycling finds a Wizard,1.0
+Step Through,"Veyran, Voice of Duality",triggers on casting an instant/sorcery; wizardcycling finds a Wizard,1.0
+Stomping Ground,Utopia Sprawl,needs a Forest to enchant,1.0
+Stomping Ground,Verdant Catacombs,fetchable land type,1.0
+Stomping Ground,Windswept Heath,fetchable land type,1.0
+Stomping Ground,Wooded Foothills,fetchable land type,1.0
+Storm-Kiln Artist,Submerge,triggers on casting an instant/sorcery,1.0
+Storm-Kiln Artist,Summoner's Pact,triggers on casting an instant/sorcery,1.0
+Storm-Kiln Artist,Tavern Scoundrel,Treasure/artifact synergy,1.0
+Storm-Kiln Artist,The Unbeatable Squirrel Girl,mana source feeds a mana sink,1.0
+Storm-Kiln Artist,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Storm-Kiln Artist,Twinflame,hasty token copies of nonlegendary creatures; triggers on casting an instant/sorcery,1.0
+Storm-Kiln Artist,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Storm-Kiln Artist,Urza's Saga,Treasure/artifact synergy,1.0
+Storm-Kiln Artist,Veil of Summer,triggers on casting an instant/sorcery,1.0
+Storm-Kiln Artist,"Veyran, Voice of Duality",doubles cast/copy-caused triggers,1.0
+Storm-Kiln Artist,Worldly Tutor,finds a creature; triggers on casting an instant/sorcery,1.0
+Submerge,Tropical Island,control an Island -> free,1.0
+Submerge,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Submerge,Volcanic Island,control an Island -> free,1.0
+Submerge,"Yavimaya, Cradle of Growth",every land is a Forest -> free,1.0
+Summoner's Pact,The Unbeatable Squirrel Girl,finds a green creature,1.0
+Summoner's Pact,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Summoner's Pact,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Summoner's Pact,Vibrance,finds a green creature,1.0
+Taiga,Utopia Sprawl,needs a Forest to enchant,1.0
+Taiga,Verdant Catacombs,fetchable land type,1.0
+Taiga,Windswept Heath,fetchable land type,1.0
+Taiga,Wooded Foothills,fetchable land type,1.0
+Tavern Scoundrel,The Unbeatable Squirrel Girl,mana source feeds a mana sink; tokens are sac fodder,1.0
+Tavern Scoundrel,"Thrasios, Triton Hero",mana source feeds a mana sink,1.0
+Tavern Scoundrel,Twinflame,hasty token copies of nonlegendary creatures; tokens are sac fodder,1.0
+Tavern Scoundrel,Underworld Breach,cheap card to escape / graveyard fuel; sacrifice a permanent you no longer need,1.0
+Tavern Scoundrel,Urza's Saga,Treasure/artifact synergy,1.0
+Tavern Scoundrel,Worldly Tutor,finds a creature,1.0
+The Unbeatable Squirrel Girl,Worldly Tutor,finds a creature,1.0
+"Thrasios, Triton Hero",Underworld Breach,cheap card to escape / graveyard fuel,1.0
+"Thrasios, Triton Hero",Worldly Tutor,"put a card on top, then draw it",1.0
+Trinket Mage,Twinflame,hasty token copies of nonlegendary creatures,1.0
+Trinket Mage,Worldly Tutor,finds a creature,1.0
+Tropical Island,Utopia Sprawl,needs a Forest to enchant,1.0
+Tropical Island,Verdant Catacombs,fetchable land type,1.0
+Tropical Island,Windswept Heath,fetchable land type,1.0
+Tropical Island,Wooded Foothills,fetchable land type,1.0
+Twinflame,Underworld Breach,cheap card to escape / graveyard fuel,1.0
+Twinflame,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+Twinflame,Vibrance,hasty token copies of nonlegendary creatures,1.0
+Underworld Breach,Utopia Sprawl,cheap card to escape / graveyard fuel,0.847
+Underworld Breach,Veil of Summer,cheap card to escape / graveyard fuel,1.0
+Underworld Breach,Worldly Tutor,cheap card to escape / graveyard fuel,1.0
+Urza's Saga,Vibrance,finds a utility land,1.0
+Utopia Sprawl,"Yavimaya, Cradle of Growth",needs a Forest to enchant,1.0
+Veil of Summer,"Veyran, Voice of Duality",triggers on casting an instant/sorcery,1.0
+"Veyran, Voice of Duality",Worldly Tutor,finds a creature; triggers on casting an instant/sorcery,1.0
+Vibrance,Worldly Tutor,finds a creature,1.0
+Vibrance,"Yavimaya, Cradle of Growth",finds a utility land,1.0
+Volcanic Island,Wooded Foothills,fetchable land type,1.0

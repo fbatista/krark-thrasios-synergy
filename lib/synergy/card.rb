@@ -88,6 +88,7 @@ module Synergy
       r << "power_le_2" if creature? && power_le_2?
       if land?
         BASIC_TYPES.each { |t| r << "#{t.downcase}_land" if type?(t) }
+        r << "basic_land" if type?("Basic")
         if fetchland?
           r << "fetchland"
           fetched_types.each { |t| r << "fetches_#{t.downcase}" }
@@ -107,7 +108,7 @@ module Synergy
     DERIVED_ROLE_NAMES = (
       %w[land nonland creature noncreature_spell instant sorcery instant_sorcery artifact enchantment legendary
          legendary_creature nonlegendary_creature legendary_noncreature_spell commander wizard shaman fetchland
-         mv_le_1 mv_le_2 mana_cost_0_or_1 generic_in_cost red_or_green power_le_2 sticker] +
+         mv_le_1 mv_le_2 mana_cost_0_or_1 generic_in_cost red_or_green power_le_2 sticker basic_land] +
       BASIC_TYPES.map { |t| "#{t.downcase}_land" } + BASIC_TYPES.map { |t| "fetches_#{t.downcase}" } +
       COLOR_NAMES.values
     ).freeze

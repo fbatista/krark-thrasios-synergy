@@ -110,6 +110,9 @@ landfall: triggers whenever a land enters under your control
 puts_land_onto_battlefield: puts a land onto the battlefield outside the normal land drop
 extra_land_drop: lets you play additional lands
 land_mana_enhancer: enchanted land makes extra mana when tapped
+enchants_forest: Aura that must go on a Forest
+enchants_any_land: Aura that can go on any land (Wild Growth)
+untaps_basic_land: untaps a basic land repeatedly (Earthcraft)
 
 # --- graveyard, tutors, card flow --------------------------------------------------------
 recasts_from_graveyard: lets you cast cards from your graveyard (Underworld Breach)
@@ -157,6 +160,7 @@ island_land: { description: land with the Island type, derived: true }
 swamp_land: { description: land with the Swamp type, derived: true }
 mountain_land: { description: land with the Mountain type, derived: true }
 forest_land: { description: land with the Forest type, derived: true }
+basic_land: { description: land with the Basic supertype, derived: true }
 fetchland: { description: sacrifices itself to search for a typed land, derived: true }
 fetches_plains: { description: fetchland that finds Plains, derived: true }
 fetches_island: { description: fetchland that finds Island, derived: true }

@@ -1,0 +1,6 @@
+# Assumptions behind the "narrow penalty" (see README, "Narrow cards").
+narrow:
+  cards_seen: 12       # cards you have seen by the time the deck is doing its thing (opening 7 + ~5 draws)
+  finder_weight: 0.75  # a tutor for the needed card counts this much compared to the card itself
+  players: 4           # used by the not_first_player condition
+  opening_hand: 7      # used by the in_opening_hand condition

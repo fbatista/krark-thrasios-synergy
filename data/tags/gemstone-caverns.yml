@@ -1,4 +1,8 @@
----
 name: Gemstone Caverns
 roles: []
-notes: Plain mana land, no special roles.
+notes: Mana land. Its luck-counter mode needs the opening hand and not going first (see narrow).
+narrow:
+  conditions:
+  - in_opening_hand
+  - not_first_player
+  note: Only special in the opening hand of a player who is not going first; otherwise a colourless land.

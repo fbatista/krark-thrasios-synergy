@@ -1,0 +1,14 @@
+name: Utopia Sprawl
+roles:
+- enchants_forest
+- land_mana_enhancer
+notes: 'Enchant Forest: one extra mana of a chosen colour whenever it is tapped. Put it on the basic Forest
+  for Earthcraft, or on any Forest dual that gets untapped.'
+narrow:
+  needs:
+  - match:
+      any:
+      - forest_land
+      - makes_lands_forests
+    strength: 1.0
+  note: 'Enchant Forest: needs a Forest on the battlefield (any Forest dual, the basic, or Yavimaya).'

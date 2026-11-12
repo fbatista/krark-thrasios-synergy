@@ -20,6 +20,13 @@ RSpec.describe Synergy::Attributes do
     expect(attrs.value(col["mana"], card("Draw a card."), Set.new)).to eq 0
   end
 
+  it "flags 'adds an additional' mana wording as mana, but not other uses of 'additional'" do
+    expect(attrs.value(col["mana"], card("Whenever you tap a creature for mana, add an additional {G}."), Set.new)).to eq 1
+    expect(attrs.value(col["mana"], card("Whenever enchanted Forest is tapped for mana, its controller adds an additional one mana of the chosen color."), Set.new)).to eq 1
+    expect(attrs.value(col["mana"], card("If a triggered ability of equipped creature triggers, that ability triggers an additional time."), Set.new)).to eq 0
+    expect(attrs.value(col["mana"], card("You may play an additional land on each of your turns."), Set.new)).to eq 0
+  end
+
   it "flags free casts from the mana cost" do
     expect(attrs.value(col["free_cast"], card("", mana_cost: "{0}"), Set.new)).to eq 1
     expect(attrs.value(col["free_cast"], card("", mana_cost: "{U/P}"), Set.new)).to eq 1

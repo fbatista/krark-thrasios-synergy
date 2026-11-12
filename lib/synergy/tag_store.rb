@@ -6,7 +6,7 @@ module Synergy
   # Curated roles: one YAML file per card in data/tags, plus the role registry
   # in data/roles.yml that documents every role a tag file or rule may use.
   class TagStore
-    Tag = Struct.new(:name, :roles, :notes, :path)
+    Tag = Struct.new(:name, :roles, :notes, :path, :narrow)
 
     attr_reader :tags_dir, :roles_path
 
@@ -21,7 +21,7 @@ module Synergy
         y = YAML.safe_load_file(path) || {}
         raise Error, "#{path}: missing 'name'" unless y["name"]
 
-        h[y["name"]] = Tag.new(y["name"], Array(y["roles"]).map(&:to_s), y["notes"], path)
+        h[y["name"]] = Tag.new(y["name"], Array(y["roles"]).map(&:to_s), y["notes"], path, y["narrow"])
       end
     end
 
@@ -35,6 +35,9 @@ module Synergy
     def role?(name) = registry.key?(name) || Card::DERIVED_ROLE_NAMES.include?(name)
 
     def roles_for(card_name) = tags[card_name]&.roles || []
+
+    # Raw `narrow:` block of the card's tag file (see Synergy::Narrow), or nil.
+    def narrow_for(card_name) = tags[card_name]&.narrow
     def tagged?(card_name) = tags.key?(card_name)
 
     # Problems a contributor should fix before building. Returns [errors, warnings].
@@ -48,6 +51,7 @@ module Synergy
       tags.each_value do |tag|
         tag.roles.each { |r| errors << "#{File.basename(tag.path)}: unknown role #{r.inspect}" unless role?(r) }
         tag.roles.each { |r| errors << "#{File.basename(tag.path)}: #{r.inspect} is a derived role, remove it" if Card::DERIVED_ROLE_NAMES.include?(r) }
+        errors.concat(lint_narrow(tag))
         expected = "#{Card.slug(tag.name)}.yml"
         warnings << "#{File.basename(tag.path)} should be named #{expected}" if File.basename(tag.path) != expected
         warnings << "#{tag.name} is tagged but not in this deck" unless names.include?(tag.name)
@@ -55,13 +59,30 @@ module Synergy
       rules.each do |rule|
         rule.roles.each { |r| errors << "rule #{rule.reason.inspect}: unknown role #{r.inspect}" unless role?(r) }
       end
-      used = (tags.values.flat_map(&:roles) + rules.flat_map(&:roles)).uniq
+      used = (tags.values.flat_map(&:roles) + rules.flat_map(&:roles) + tags.values.flat_map { |t| narrow_roles(t) }).uniq
       registry.each do |r, info|
         next if info["derived"] || used.include?(r)
 
         warnings << "role #{r.inspect} is in roles.yml but never used"
       end
       [errors, warnings]
+    end
+
+    def narrow_roles(tag)
+      return [] unless tag.narrow
+
+      Narrow.parse(tag.narrow).needs.flat_map { |n| n.selector.roles }
+    rescue Error
+      []
+    end
+
+    def lint_narrow(tag)
+      return [] unless tag.narrow
+
+      Narrow.parse(tag.narrow).needs.flat_map { |n| n.selector.roles }.reject { |r| role?(r) }
+            .map { |r| "#{File.basename(tag.path)}: narrow: unknown role #{r.inspect}" }
+    rescue Error => e
+      ["#{File.basename(tag.path)}: #{e.message}"]
     end
 
     def write_stub(card)

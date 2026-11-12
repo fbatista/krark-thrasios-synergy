@@ -28,6 +28,15 @@ RSpec.describe Synergy::Comparison do
     expect(cmp.report).to include("v1 -> v2", "synergy score (pairs): 2 -> 3 (+1)", "+1  A  (1 -> 2)")
   end
 
+  it "reports an effective score from pair weights and falls back to 1 without them" do
+    expect(old.effective_score).to eq 2.0
+    weighted = described_class::Side.new(%w[A B D], new.degree, new.pairs, "v2", { %w[A D] => 0.5, %w[B D] => 0.5 }, { "D" => 0.5 })
+    expect(weighted.effective_score).to eq 2.0
+    expect(weighted.effective_degree["D"]).to eq 1.0
+    report = described_class.new(old, weighted).report
+    expect(report).to include("effective score (narrow-adjusted): 2.0 -> 2.0 (+0.0)", "D  (narrow x0.50)")
+  end
+
   it "round-trips through a matrix CSV" do
     Dir.mktmpdir do |dir|
       path = File.join(dir, "synergy_matrix.csv")
